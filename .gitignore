@@ -1,0 +1,7 @@
+/meta/*
+/northeuralex.egg-info/*
+
+/.eggs/*
+
+*.pyc
+*.swp
