@@ -1,0 +1,1279 @@
+Language_ID	Glottocode	Concept_ID	Word_Form	rawIPA	IPA	ASJP	List	Dolgo	Next_Step
+gle	iris1253	Auge::N	súil	sˠuːlʲ	sˠ u u lʲ	sul	SYL	SVR	validate
+gle	iris1253	Ohr::N	cluas	kl̪ˠʊəsˠ	k lˠ ʊ ə sˠ	klu3s	KLYES	KRVS	validate
+gle	iris1253	Nase::N	soc	sˠɔk	sˠ ɔ k	sok	SUK	SVK	validate
+gle	iris1253	Mund::N	béal	bʲeːl̪ˠ	bʲ e e lˠ	bel	PEL	PVR	validate
+gle	iris1253	Zahn::N	fiacail	fʲɪəkəlʲ	fʲ ɪ ə k ə lʲ	fi3k3l	BIEKEL	PVKVR	validate
+gle	iris1253	Zunge::N	teanga	tʲaŋɡə	tʲ a ŋ ɡ ə	taNg3	TANKE	TVNKV	validate
+gle	iris1253	Lippe::N	liopa	lʲɪpˠə	lʲ ɪ pˠ ə	lip3	LIPE	RVPV	validate
+gle	iris1253	Wange::N	grua	ɡɾˠʊə	ɡ ɾˠ ʊ ə	gru3	KRYE	KRV	validate
+gle	iris1253	Wange::N	leiceann	lʲɛcən̪ˠ	lʲ ɛ c ə nˠ	lET3n	LECEN	RVKVN	validate
+gle	iris1253	Gesicht::N	éadan	eːd̪ˠən̪ˠ	e e dˠ ə nˠ	ed3n	ETEN	VTVN	validate
+gle	iris1253	Gesicht::N	aghaidh	aɪɟ	a ɪ ɟ	aiC	AIC	VK	validate
+gle	iris1253	Stirn::N	baithis	bˠahəʃ	bˠ a h ə ʃ	bah3S	PAHES	PVHVS	validate
+gle	iris1253	Stirn::N	clár éadain	kl̪ˠaːɾˠeːd̪ˠənʲ	k lˠ a a ɾˠ e e dˠ ə nʲ	klared3n	KLARETEN	KRVRVTVN	validate
+gle	iris1253	Haar::N	gruaig	ɡɾˠʊəɟ	ɡ ɾˠ ʊ ə ɟ	gru3C	KRYEC	KRVK	validate
+gle	iris1253	Schnurrbart::N	croiméal	kɾˠɔmʲeːl̪ˠ	k ɾˠ ɔ mʲ e e lˠ	kromel	KRUMEL	KRVMVR	validate
+gle	iris1253	Bart::N	féasóg	fʲeːsˠoːɡ	fʲ e e sˠ o o ɡ	fesog	BESUK	PVSVK	validate
+gle	iris1253	Kinn::N	smig	sˠmʲɪɟ	sˠ mʲ ɪ ɟ	smiC	SMIC	SMVK	validate
+gle	iris1253	Kiefer[Anatomie]::N	giall	ɟɪəl̪ˠ	ɟ ɪ ə lˠ	Ci3l	CIEL	KVR	validate
+gle	iris1253	Kehle::N	scornach	sˠkoːɾˠn̪ˠəx	sˠ k o o ɾˠ nˠ ə x	skorn3x	SKURNEG	SKVRNVK	validate
+gle	iris1253	Hals::N	muinéal	mˠɪnʲaːl̪ˠ	mˠ ɪ nʲ a a lˠ	minal	MINAL	MVNVR	validate
+gle	iris1253	Genick::N	baic	bˠac	bˠ a c	baT	PAC	PVK	validate
+gle	iris1253	Kopf::N	ceann	can̪ˠ	c a nˠ	Tan	CAN	KVN	validate
+gle	iris1253	Rücken::N	droim	d̪ˠɾˠɔmʲ	dˠ ɾˠ ɔ mʲ	drom	TRUM	TRVM	validate
+gle	iris1253	Bauch::N	bolg	bˠɔl̪ˠəɡ	bˠ ɔ lˠ ə ɡ	bol3g	PULEK	PVRVK	validate
+gle	iris1253	Nabel::N	imleacán	ɪmʲlʲəkaːn̪ˠ	ɪ mʲ lʲ ə k a a nˠ	iml3kan	IMLEKAN	VMRVKVN	validate
+gle	iris1253	Busen::N	cíoch	ciːx	c i i x	Tix	CIG	KVK	validate
+gle	iris1253	Brust::N	brollach	bˠɾˠɔl̪ˠəx	bˠ ɾˠ ɔ lˠ ə x	brol3x	PRULEG	PRVRVK	validate
+gle	iris1253	Schulter::N	gualainn	ɡʊəl̪ˠənʲ	ɡ ʊ ə lˠ ə nʲ	gu3l3n	KYELEN	KVRVN	validate
+gle	iris1253	Arm::N	lámh	l̪ˠaːvˠ	lˠ a a vˠ	lav	LAB	RVW	validate
+gle	iris1253	Ellenbogen::N	uillinn	ɪlʲənʲ	ɪ lʲ ə nʲ	il3n	ILEN	VRVN	validate
+gle	iris1253	Hand::N	lámh	l̪ˠaːvˠ	lˠ a a vˠ	lav	LAB	RVW	validate
+gle	iris1253	Handfläche::N	bos	bˠɔsˠ	bˠ ɔ sˠ	bos	PUS	PVS	validate
+gle	iris1253	Finger::N	méar	mʲeːɾˠ	mʲ e e ɾˠ	mer	MER	MVR	validate
+gle	iris1253	Fingernagel::N	ionga	ɪŋɡə	ɪ ŋ ɡ ə	iNg3	INKE	VNKV	validate
+gle	iris1253	Nagel[Anatomie]::N	ionga	ɪŋɡə	ɪ ŋ ɡ ə	iNg3	INKE	VNKV	validate
+gle	iris1253	Zeh::N	ladhar	l̪ˠaɪɾˠ	lˠ a ɪ ɾˠ	lair	LAIR	RVR	validate
+gle	iris1253	Fuß::N	cos	kɔsˠ	k ɔ sˠ	kos	KUS	KVS	validate
+gle	iris1253	Fuß::N	troigh	t̪ˠɾˠɔɟ	tˠ ɾˠ ɔ ɟ	troC	TRUC	TRVK	validate
+gle	iris1253	Ferse::N	sáil	sˠaːlʲ	sˠ a a lʲ	sal	SAL	SVR	validate
+gle	iris1253	Knie::N	glúin	ɡl̪ˠuːnʲ	ɡ lˠ u u nʲ	glun	KLYN	KRVN	validate
+gle	iris1253	Oberschenkel::N	ceathrú	cahɾˠuː	c a h ɾˠ u u	Tahru	CAHRY	KVHRV	validate
+gle	iris1253	Bein::N	cos	kɔsˠ	k ɔ sˠ	kos	KUS	KVS	validate
+gle	iris1253	Körper::N	corp	kɔɾˠpˠ	k ɔ ɾˠ pˠ	korp	KURP	KVRP	validate
+gle	iris1253	Körper::N	colainn	kɔl̪ˠənʲ	k ɔ lˠ ə nʲ	kol3n	KULEN	KVRVN	validate
+gle	iris1253	Haut::N	cneas	cnʲasˠ	c nʲ a sˠ	Tnas	CNAS	KNVS	validate
+gle	iris1253	Haut::N	craiceann	kɾˠacən̪ˠ	k ɾˠ a c ə nˠ	kraT3n	KRACEN	KRVKVN	validate
+gle	iris1253	Blut::N	fuil	fˠɪlʲ	fˠ ɪ lʲ	fil	BIL	PVR	validate
+gle	iris1253	Ader::N	féith	fʲeː	fʲ e e	fe	BE	PV	process
+gle	iris1253	Sehne::N	teannán	tʲan̪ˠaːn̪ˠ	tʲ a nˠ a a nˠ	tanan	TANAN	TVNVN	validate
+gle	iris1253	Sehne::N	féitheog	fʲeːhoːɡ	fʲ e e h o o ɡ	fehog	BEHUK	PVHVK	validate
+gle	iris1253	Knochen::N	cnámh	kn̪ˠaːvˠ	k nˠ a a vˠ	knav	KNAB	KNVW	validate
+gle	iris1253	Gehirn::N	inchinn	ɪnʲçənʲ	ɪ nʲ ç ə nʲ	inS3n	INSEN	VNSVN	validate
+gle	iris1253	Herz::N	croí	kɾˠiː	k ɾˠ i i	kri	KRI	KRV	validate
+gle	iris1253	Magen::N	bolg	bˠɔl̪ˠəɡ	bˠ ɔ lˠ ə ɡ	bol3g	PULEK	PVRVK	validate
+gle	iris1253	Magen::N	goile	ɡɔlʲə	ɡ ɔ lʲ ə	gol3	KULE	KVRV	validate
+gle	iris1253	Leber::N	ae	eː	e e	e	E	V	validate
+gle	iris1253	Atem::N	anáil	an̪ˠaːlʲ	a nˠ a a lʲ	anal	ANAL	VNVR	validate
+gle	iris1253	Hunger::N	ocras	ɔkɾˠəsˠ	ɔ k ɾˠ ə sˠ	okr3s	UKRES	VKRVS	validate
+gle	iris1253	Träne::N	deoir	dʲoːɾʲ	dʲ o o ɾʲ	dor	TUR	TVR	validate
+gle	iris1253	Geschmack::N	blas	bˠl̪ˠasˠ	bˠ lˠ a sˠ	blas	PLAS	PRVS	validate
+gle	iris1253	Geruch::N	boladh	bˠɔl̪ˠə	bˠ ɔ lˠ ə	bol3	PULE	PVRV	validate
+gle	iris1253	Schlaf::N	suan	sˠʊən̪ˠ	sˠ ʊ ə nˠ	su3n	SYEN	SVN	validate
+gle	iris1253	Schlaf::N	codladh	kɔl̪ˠə	k ɔ lˠ ə	kol3	KULE	KVRV	validate
+gle	iris1253	Traum::N	taibhreamh	t̪ˠavʲɾʲəvˠ	tˠ a vʲ ɾʲ ə vˠ	tavr3v	TABREB	TVWRVW	validate
+gle	iris1253	Himmel::N	spéir	sˠpʲeːɾʲ	sˠ pʲ e e ɾʲ	sper	SPER	SPVR	validate
+gle	iris1253	Sonne::N	grian	ɟɾʲɪən̪ˠ	ɟ ɾʲ ɪ ə nˠ	Cri3n	CRIEN	KRVN	validate
+gle	iris1253	Mond::N	ré	ɾˠeː	ɾˠ e e	re	RE	RV	validate
+gle	iris1253	Mond::N	gealach	ɟal̪ˠax	ɟ a lˠ a x	Calax	CALAG	KVRVK	validate
+gle	iris1253	Stern::N	rinn	ɾˠɪnʲ	ɾˠ ɪ nʲ	rin	RIN	RVN	validate
+gle	iris1253	Stern::N	réalta	ɾˠeːl̪ˠt̪ˠə	ɾˠ e e lˠ tˠ ə	relt3	RELTE	RVRTV	validate
+gle	iris1253	Luft::N	aer	eːɾˠ	e e ɾˠ	er	ER	VR	validate
+gle	iris1253	Wind::N	gaoth	ɡiː	ɡ i i	gi	KI	KV	validate
+gle	iris1253	Welle::N	tonn	t̪ˠɔn̪ˠ	tˠ ɔ nˠ	ton	TUN	TVN	validate
+gle	iris1253	Wasser::N	uisce	ɪʃcə	ɪ ʃ c ə	iST3	ISCE	VSKV	validate
+gle	iris1253	Stein::N	cloch	kl̪ˠɔx	k lˠ ɔ x	klox	KLUG	KRVK	validate
+gle	iris1253	Boden::N	talamh	t̪ˠal̪ˠəvˠ	tˠ a lˠ ə vˠ	tal3v	TALEB	TVRVW	validate
+gle	iris1253	Erde::N	cré	cɾʲeː	c ɾʲ e e	Tre	CRE	KRV	validate
+gle	iris1253	Erde::N	ithir	ɪhəɾʲ	ɪ h ə ɾʲ	ih3r	IHER	VHVR	validate
+gle	iris1253	Staub::N	dusta	d̪ˠɔsˠt̪ˠə	dˠ ɔ sˠ tˠ ə	dost3	TUSTE	TVSTV	validate
+gle	iris1253	Staub::N	deannach	dʲan̪ˠəx	dʲ a nˠ ə x	dan3x	TANEG	TVNVK	validate
+gle	iris1253	Rauch::N	toit	t̪ˠɔtʲ	tˠ ɔ tʲ	tot	TUT	TVT	validate
+gle	iris1253	Rauch::N	deatach	dʲat̪ˠəx	dʲ a tˠ ə x	dat3x	TATEG	TVTVK	validate
+gle	iris1253	Funke::N	drithle	dʲɾʲɪhlʲə	dʲ ɾʲ ɪ h lʲ ə	drihl3	TRIHLE	TRVHRV	validate
+gle	iris1253	Feuer::N	tine	tʲɪnʲə	tʲ ɪ nʲ ə	tin3	TINE	TVNV	validate
+gle	iris1253	Licht::N	solas	sˠɔl̪ˠəsˠ	sˠ ɔ lˠ ə sˠ	sol3s	SULES	SVRVS	validate
+gle	iris1253	Schatten::N	scáth	sˠkaː	sˠ k a a	ska	SKA	SKV	validate
+gle	iris1253	Wetter::N	aimsir	amʲʃəɾʲ	a mʲ ʃ ə ɾʲ	amS3r	AMSER	VMSVR	validate
+gle	iris1253	Nebel::N	ceo	coː	c o o	To	CU	KV	validate
+gle	iris1253	Wolke::N	néal	nʲeːl̪ˠ	nʲ e e lˠ	nel	NEL	NVR	validate
+gle	iris1253	Wolke::N	scamall	sˠkamˠəl̪ˠ	sˠ k a mˠ ə lˠ	skam3l	SKAMEL	SKVMVR	validate
+gle	iris1253	Regen::N	báisteach	bˠaːʃtʲəx	bˠ a a ʃ tʲ ə x	baSt3x	PASTEG	PVSTVK	validate
+gle	iris1253	Regen::N	fearthainn	fʲaɾˠhənʲ	fʲ a ɾˠ h ə nʲ	farh3n	BARHEN	PVRHVN	validate
+gle	iris1253	Schnee::N	sneachta	ʃnʲaxt̪ˠə	ʃ nʲ a x tˠ ə	Snaxt3	SNAGTE	SNVKTV	validate
+gle	iris1253	Eis::N	oighear	aɪɾˠ	a ɪ ɾˠ	air	AIR	VR	validate
+gle	iris1253	Frost::N	sioc	ʃɪk	ʃ ɪ k	Sik	SIK	SVK	validate
+gle	iris1253	Kälte::N	fuacht	fˠʊəxt̪ˠ	fˠ ʊ ə x tˠ	fu3xt	BYEGT	PVKT	validate
+gle	iris1253	Hitze::N	teas	tʲasˠ	tʲ a sˠ	tas	TAS	TVS	validate
+gle	iris1253	Hitze::N	teocht	tʲoːxt̪ˠ	tʲ o o x tˠ	toxt	TUGT	TVKT	validate
+gle	iris1253	Raureif::N	sioc bán	ʃɪkbˠaːn̪ˠ	ʃ ɪ k bˠ a a nˠ	Sikban	SIKPAN	SVKPVN	validate
+gle	iris1253	Regenbogen::N	stua ceatha	sˠt̪ˠʊəcahə	sˠ tˠ ʊ ə c a h ə	stu3Tah3	STYECAHE	STVKVHV	validate
+gle	iris1253	Regenbogen::N	bogha báistí	bˠaʊbˠaːʃtʲiː	bˠ a ʊ bˠ a a ʃ tʲ i i	baubaSti	PAYPASTI	PVPVSTV	validate
+gle	iris1253	Donner::N	toirneach	t̪ˠoːɾˠnʲəx	tˠ o o ɾˠ nʲ ə x	torn3x	TURNEG	TVRNVK	validate
+gle	iris1253	Strömung::N	sruth	sˠɾˠʊh	sˠ ɾˠ ʊ h	sruh	SRYH	SRVH	validate
+gle	iris1253	Tropfen::N	braon	bˠɾˠiːn̪ˠ	bˠ ɾˠ i i nˠ	brin	PRIN	PRVN	validate
+gle	iris1253	Schaum::N	cúr	kuːɾˠ	k u u ɾˠ	kur	KYR	KVR	validate
+gle	iris1253	Schmutz::N	salachar	sˠal̪ˠəxəɾˠ	sˠ a lˠ ə x ə ɾˠ	sal3x3r	SALEGER	SVRVKVR	validate
+gle	iris1253	See::N	loch	l̪ˠɔx	lˠ ɔ x	lox	LUG	RVK	validate
+gle	iris1253	Sumpf::N	portach	pˠɔɾˠt̪ˠəx	pˠ ɔ ɾˠ tˠ ə x	port3x	PURTEG	PVRTVK	validate
+gle	iris1253	Moor::N	caorán	kiːɾˠaːn̪ˠ	k i i ɾˠ a a nˠ	kiran	KIRAN	KVRVN	validate
+gle	iris1253	Moor::N	móinteán	mˠoːnʲtʲaːn̪ˠ	mˠ o o nʲ tʲ a a nˠ	montan	MUNTAN	MVNTVN	validate
+gle	iris1253	Wiese::N	cluain	kl̪ˠʊənʲ	k lˠ ʊ ə nʲ	klu3n	KLYEN	KRVN	validate
+gle	iris1253	Wiese::N	móinéar	mˠoːnʲeːɾˠ	mˠ o o nʲ e e ɾˠ	moner	MUNER	MVNVR	validate
+gle	iris1253	Wald::N	coill	kɔlʲ	k ɔ lʲ	kol	KUL	KVR	validate
+gle	iris1253	Wald::N	foraois	fˠɔɾˠiːʃ	fˠ ɔ ɾˠ i i ʃ	foriS	BURIS	PVRVS	validate
+gle	iris1253	Hügel::N	ard	aːɾˠd̪ˠ	a a ɾˠ dˠ	ard	ART	VRT	validate
+gle	iris1253	Anhöhe::N	ard	aːɾˠd̪ˠ	a a ɾˠ dˠ	ard	ART	VRT	validate
+gle	iris1253	Anhöhe::N	ardán	aːɾˠd̪ˠaːn̪ˠ	a a ɾˠ dˠ a a nˠ	ardan	ARTAN	VRTVN	validate
+gle	iris1253	Berg::N	sliabh	ʃlʲɪəvˠ	ʃ lʲ ɪ ə vˠ	Sli3v	SLIEB	SRVW	validate
+gle	iris1253	Gipfel::N	barr	bˠaːɾˠ	bˠ a a ɾˠ	bar	PAR	PVR	validate
+gle	iris1253	Gipfel::N	mullach	mˠʊl̪ˠəx	mˠ ʊ lˠ ə x	mul3x	MYLEG	MVRVK	validate
+gle	iris1253	Höhle::N	uaimh	ʊəvʲ	ʊ ə vʲ	u3v	YEB	VW	validate
+gle	iris1253	Höhle::N	pluais	pˠl̪ˠʊəʃ	pˠ lˠ ʊ ə ʃ	plu3S	PLYES	PRVS	validate
+gle	iris1253	Abhang::N	fána	fˠaːn̪ˠə	fˠ a a nˠ ə	fan3	BANE	PVNV	validate
+gle	iris1253	Quelle::N	foinse	fˠɔnʲʃə	fˠ ɔ nʲ ʃ ə	fonS3	BUNSE	PVNSV	validate
+gle	iris1253	Bach::N	sruthán	sˠɾˠʊhaːn̪ˠ	sˠ ɾˠ ʊ h a a nˠ	sruhan	SRYHAN	SRVHVN	validate
+gle	iris1253	Fluss::N	abhainn	aʊnʲ	a ʊ nʲ	aun	AYN	VN	validate
+gle	iris1253	Ufer::N	bruach	bˠɾˠʊəx	bˠ ɾˠ ʊ ə x	bru3x	PRYEG	PRVK	validate
+gle	iris1253	Küste::N	cósta	koːsˠt̪ˠə	k o o sˠ tˠ ə	kost3	KUSTE	KVSTV	validate
+gle	iris1253	Küste::N	cladach	kl̪ˠad̪ˠəx	k lˠ a dˠ ə x	klad3x	KLATEG	KRVTVK	validate
+gle	iris1253	Festland::N	míntír	ˈmʲiːnʲtʲiːɾʲ	mʲ i i nʲ tʲ i i ɾʲ	mintir	MINTIR	MVNTVR	validate
+gle	iris1253	Meer::N	muir	mˠɪɾʲ	mˠ ɪ ɾʲ	mir	MIR	MVR	validate
+gle	iris1253	Meer::N	farraige	fˠaɾˠəɟə	fˠ a ɾˠ ə ɟ ə	far3C3	BARECE	PVRVKV	validate
+gle	iris1253	Bucht::N	bá	bˠaː	bˠ a a	ba	PA	PV	validate
+gle	iris1253	Bucht::N	cuan	kʊən̪ˠ	k ʊ ə nˠ	ku3n	KYEN	KVN	validate
+gle	iris1253	Insel::N	inis	ɪnʲəʃ	ɪ nʲ ə ʃ	in3S	INES	VNVS	validate
+gle	iris1253	Insel::N	oileán	ɔlʲaːn̪ˠ	ɔ lʲ a a nˠ	olan	ULAN	VRVN	validate
+gle	iris1253	Blume::N	bláth	bˠl̪ˠaː	bˠ lˠ a a	bla	PLA	PRV	validate
+gle	iris1253	Gras::N	féar	fʲeːɾˠ	fʲ e e ɾˠ	fer	BER	PVR	validate
+gle	iris1253	Wurzel::N	rúta	ɾˠuːt̪ˠə	ɾˠ u u tˠ ə	rut3	RYTE	RVTV	validate
+gle	iris1253	Wurzel::N	fréamh	fʲɾʲeːvˠ	fʲ ɾʲ e e vˠ	frev	BREB	PRVW	validate
+gle	iris1253	Baum::N	crann	kɾˠan̪ˠ	k ɾˠ a nˠ	kran	KRAN	KRVN	validate
+gle	iris1253	Stamm::N	stoc	sˠt̪ˠɔk	sˠ tˠ ɔ k	stok	STUK	STVK	validate
+gle	iris1253	Stamm::N	tamhan	t̪ˠaʊn̪ˠ	tˠ a ʊ nˠ	taun	TAYN	TVN	validate
+gle	iris1253	Rinde::N	coirt	kɔɾˠtʲ	k ɔ ɾˠ tʲ	kort	KURT	KVRT	validate
+gle	iris1253	Rinde::N	craiceann	kɾˠacən̪ˠ	k ɾˠ a c ə nˠ	kraT3n	KRACEN	KRVKVN	validate
+gle	iris1253	Ast::N	géag	ɟeːɡ	ɟ e e ɡ	Ceg	CEK	KVK	validate
+gle	iris1253	Zweig::N	géag	ɟeːɡ	ɟ e e ɡ	Ceg	CEK	KVK	validate
+gle	iris1253	Zweig::N	craobh	kɾˠiːvˠ	k ɾˠ i i vˠ	kriv	KRIB	KRVW	validate
+gle	iris1253	Blatt::N	duille	d̪ˠɪlʲə	dˠ ɪ lʲ ə	dil3	TILE	TVRV	validate
+gle	iris1253	Blatt::N	duilleog	d̪ˠɪlʲoːɡ	dˠ ɪ lʲ o o ɡ	dilog	TILUK	TVRVK	validate
+gle	iris1253	Birke::N	beith	bʲɛh	bʲ ɛ h	bEh	PEH	PVH	validate
+gle	iris1253	Birke::N	crann beithe	kɾˠan̪ˠbʲɛhə	k ɾˠ a nˠ bʲ ɛ h ə	kranbEh3	KRANPEHE	KRVNPVHV	validate
+gle	iris1253	Kiefer[Baum]::N	péine	pʲeːnʲə	pʲ e e nʲ ə	pen3	PENE	PVNV	validate
+gle	iris1253	Weide[Baum]::N	saileach	sˠalʲəx	sˠ a lʲ ə x	sal3x	SALEG	SVRVK	validate
+gle	iris1253	Tanne::N	giúis	ɟuːʃ	ɟ u u ʃ	CuS	CYS	KVS	validate
+gle	iris1253	Horn::N	adharc	aɪɾˠk	a ɪ ɾˠ k	airk	AIRK	VRK	validate
+gle	iris1253	Feder::N	cleite	clʲɛtʲə	c lʲ ɛ tʲ ə	TlEt3	CLETE	KRVTV	validate
+gle	iris1253	Fell::N	clúmh	kl̪ˠuːvˠ	k lˠ u u vˠ	kluv	KLYB	KRVW	validate
+gle	iris1253	Flügel::N	eite	ɛtʲə	ɛ tʲ ə	Et3	ETE	VTV	validate
+gle	iris1253	Flügel::N	sciathán	ʃcɪəhaːn̪ˠ	ʃ c ɪ ə h a a nˠ	STi3han	SCIEHAN	SKVHVN	validate
+gle	iris1253	Klaue::N	crúb	kɾˠuːbˠ	k ɾˠ u u bˠ	krub	KRYP	KRVP	validate
+gle	iris1253	Klaue::N	crobh	kɾˠɔvˠ	k ɾˠ ɔ vˠ	krov	KRUB	KRVW	validate
+gle	iris1253	Kralle::N	crobh	kɾˠɔvˠ	k ɾˠ ɔ vˠ	krov	KRUB	KRVW	validate
+gle	iris1253	Schwanz::N	eireaball	ɛɾʲəbˠəl̪ˠ	ɛ ɾʲ ə bˠ ə lˠ	Er3b3l	EREPEL	VRVPVR	validate
+gle	iris1253	Ei::N	ubh	ʊvˠ	ʊ vˠ	uv	YB	VW	validate
+gle	iris1253	Nest::N	nead	nʲad̪ˠ	nʲ a dˠ	nad	NAT	NVT	validate
+gle	iris1253	Bau::N	brocais	bˠɾˠɔkəʃ	bˠ ɾˠ ɔ k ə ʃ	brok3S	PRUKES	PRVKVS	validate
+gle	iris1253	Tier::N	ainmhí	anʲəvʲɪ	a nʲ ə vʲ ɪ	an3vi	ANEBI	VNVWV	validate
+gle	iris1253	Tier::N	beithíoch	bʲɛhiːəx	bʲ ɛ h i i ə x	bEhi3x	PEHIEG	PVHVK	validate
+gle	iris1253	Herde::N	tréad	tʲɾʲeːd̪ˠ	tʲ ɾʲ e e dˠ	tred	TRET	TRVT	validate
+gle	iris1253	Kuh::N	bó	bˠoː	bˠ o o	bo	PU	PV	validate
+gle	iris1253	Bulle::N	tarbh	t̪ˠaɾˠəvˠ	tˠ a ɾˠ ə vˠ	tar3v	TAREB	TVRVW	validate
+gle	iris1253	Pferd::N	each	ax	a x	ax	AG	VK	validate
+gle	iris1253	Pferd::N	capall	kapˠəl̪ˠ	k a pˠ ə lˠ	kap3l	KAPEL	KVPVR	validate
+gle	iris1253	Schaf::N	caora	kiːɾˠə	k i i ɾˠ ə	kir3	KIRE	KVRV	validate
+gle	iris1253	Schwein::N	muc	mˠʊl̪ˠ	mˠ ʊ lˠ	mul	MYL	MVR	validate
+gle	iris1253	Hund::N	madra	mˠad̪ˠɾˠə	mˠ a dˠ ɾˠ ə	madr3	MATRE	MVTRV	validate
+gle	iris1253	Katze::N	cat	kat̪ˠ	k a tˠ	kat	KAT	KVT	validate
+gle	iris1253	Bär::N	béar	bʲeːɾˠ	bʲ e e ɾˠ	ber	PER	PVR	validate
+gle	iris1253	Eichhörnchen::N	iora	ɪɾˠə	ɪ ɾˠ ə	ir3	IRE	VRV	validate
+gle	iris1253	Elch::N	eilc	ɛlʲc	ɛ lʲ c	ElT	ELC	VRK	validate
+gle	iris1253	Fuchs::N	sionnach	ʃɪɔn̪ˠn̪ˠəx	ʃ ɪ ɔ nˠ nˠ ə x	Sion3x	SIUNNEG	SVNNVK	validate
+gle	iris1253	Fuchs::N	madra rua	mˠad̪ˠɾˠəɾˠʊə	mˠ a dˠ ɾˠ ə ɾˠ ʊ ə	madr3ru3	MATRERYE	MVTRVRV	validate
+gle	iris1253	Hase::N	giorria	ɟɪɾˠɪə	ɟ ɪ ɾˠ ɪ ə	Ciri3	CIRIE	KVRV	validate
+gle	iris1253	Maus::N	luch	l̪ˠʊx	lˠ ʊ x	lux	LYG	RVK	validate
+gle	iris1253	Wolf::N	mac tíre	mˠaktʲiːɾʲə	mˠ a k tʲ i i ɾʲ ə	maktir3	MAKTIRE	MVKTVRV	validate
+gle	iris1253	Vogel::N	éan	eːn̪ˠ	e e nˠ	en	EN	VN	validate
+gle	iris1253	Schwarm::N	scaoth	sˠkiː	sˠ k i i	ski	SKI	SKV	validate
+gle	iris1253	Huhn::N	cearc	caɾˠk	c a ɾˠ k	Tark	CARK	KVRK	validate
+gle	iris1253	Hahn::N	coileach	kɔlʲəx	k ɔ lʲ ə x	kol3x	KULEG	KVRVK	validate
+gle	iris1253	Gans::N	gé	ɟeː	ɟ e e	Ce	CE	KV	validate
+gle	iris1253	Adler::N	iolar	ɪl̪ˠəɾˠ	ɪ lˠ ə ɾˠ	il3r	ILER	VRVR	validate
+gle	iris1253	Ente::N	lacha	l̪ˠaxə	lˠ a x ə	lax3	LAGE	RVKV	validate
+gle	iris1253	Eule::N	ulchabhán	ʊl̪ˠəxəvˠaːn̪ˠ	ʊ lˠ ə x ə vˠ a a nˠ	ul3x3van	YLEGEBAN	VRVKVWVN	validate
+gle	iris1253	Kranich::N	corr	kɔɾˠ	k ɔ ɾˠ	kor	KUR	KVR	validate
+gle	iris1253	Krähe::N	caróg	kaɾˠoːɡ	k a ɾˠ o o ɡ	karog	KARUK	KVRVK	validate
+gle	iris1253	Krähe::N	préachán	pʲɾʲeːxaːn̪ˠ	pʲ ɾʲ e e x a a nˠ	prexan	PREGAN	PRVKVN	validate
+gle	iris1253	Kuckuck::N	cuach	kʊəx	k ʊ ə x	ku3x	KYEG	KVK	validate
+gle	iris1253	Schwan::N	eala	al̪ˠə	a lˠ ə	al3	ALE	VRV	validate
+gle	iris1253	Fisch::N	iasc	ɪəsˠk	ɪ ə sˠ k	i3sk	IESK	VSK	validate
+gle	iris1253	Barsch::N	péirse	pʲeːɾʲʃə	pʲ e e ɾʲ ʃ ə	perS3	PERSE	PVRSV	validate
+gle	iris1253	Hecht::N	liús	lʲuːsˠ	lʲ u u sˠ	lus	LYS	RVS	validate
+gle	iris1253	Schlange[Tier]::N	nathair	n̪ˠahəɾʲ	nˠ a h ə ɾʲ	nah3r	NAHER	NVHVR	validate
+gle	iris1253	Wurm::N	péist	pʲeːʃtʲ	pʲ e e ʃ tʲ	peSt	PEST	PVST	validate
+gle	iris1253	Spinne::N	damhán alla	d̪ˠuːaːn̪ˠal̪ˠə	dˠ u u a a nˠ a lˠ ə	duanal3	TYANALE	TVNVRV	validate
+gle	iris1253	Ameise::N	seangán	ʃaŋɡaːn̪ˠ	ʃ a ŋ ɡ a a nˠ	SaNgan	SANKAN	SVNKVN	validate
+gle	iris1253	Laus::N	míol	mʲiːl̪ˠ	mʲ i i lˠ	mil	MIL	MVR	validate
+gle	iris1253	Mücke::N	muiscít	mˠɪʃciːtʲ	mˠ ɪ ʃ c i i tʲ	miSTit	MISCIT	MVSKVT	validate
+gle	iris1253	Mücke::N	corrmhíol	ˈkɔɾˠvʲiːl̪ˠ	k ɔ ɾˠ vʲ i i lˠ	korvil	KURBIL	KVRWVR	validate
+gle	iris1253	Fliege::N	cuil	kɪlʲ	k ɪ lʲ	kil	KIL	KVR	validate
+gle	iris1253	Fliege::N	cuileog	kɪlʲoːɡ	k ɪ lʲ o o ɡ	kilog	KILUK	KVRVK	validate
+gle	iris1253	Schmetterling::N	féileacán	fʲeːlʲəkaːn̪ˠ	fʲ e e lʲ ə k a a nˠ	fel3kan	BELEKAN	PVRVKVN	validate
+gle	iris1253	Beere::N	caor	kiːɾˠ	k i i ɾˠ	kir	KIR	KVR	validate
+gle	iris1253	Apfel::N	úll	uːl̪ˠ	u u lˠ	ul	YL	VR	validate
+gle	iris1253	Pilz::N	beacán	bʲakaːn̪ˠ	bʲ a k a a nˠ	bakan	PAKAN	PVKVN	validate
+gle	iris1253	Pilz::N	muisiriún	mˠɪʃəɾʲuːn̪ˠ	mˠ ɪ ʃ ə ɾʲ u u nˠ	miS3run	MISERYN	MVSVRVN	validate
+gle	iris1253	Zwiebel::N	oinniún	ɔnʲuːn̪ˠ	ɔ nʲ u u nˠ	onun	UNYN	VNVN	validate
+gle	iris1253	Saat::N	síol	ʃiːl̪ˠ	ʃ i i lˠ	Sil	SIL	SVR	validate
+gle	iris1253	Korn::N	gráinne	ɡɾˠaːnʲə	ɡ ɾˠ a a nʲ ə	gran3	KRANE	KRVNV	validate
+gle	iris1253	Heu::N	féar	fʲeːɾˠ	fʲ e e ɾˠ	fer	BER	PVR	validate
+gle	iris1253	Schale::N	blaosc	bˠl̪ˠiːsˠk	bˠ lˠ i i sˠ k	blisk	PLISK	PRVSK	validate
+gle	iris1253	Grube::N	poll	pˠɔl̪ˠ	pˠ ɔ lˠ	pol	PUL	PVR	validate
+gle	iris1253	Falle::N	gaiste	ɡaʃtʲə	ɡ a ʃ tʲ ə	gaSt3	KASTE	KVSTV	validate
+gle	iris1253	Schlinge::N	sealán	ʃal̪ˠaːn̪ˠ	ʃ a lˠ a a nˠ	Salan	SALAN	SVRVN	validate
+gle	iris1253	Spur::N	rian	ɾˠɪən̪ˠ	ɾˠ ɪ ə nˠ	ri3n	RIEN	RVN	validate
+gle	iris1253	Asche::N	luaith	l̪ˠʊə	lˠ ʊ ə	lu3	LYE	RV	validate
+gle	iris1253	Dreck::N	salachar	sˠal̪ˠəxəɾˠ	sˠ a lˠ ə x ə ɾˠ	sal3x3r	SALEGER	SVRVKVR	validate
+gle	iris1253	Eisen::N	iarann	ɪəɾˠən̪ˠ	ɪ ə ɾˠ ə nˠ	i3r3n	IEREN	VRVN	validate
+gle	iris1253	Gold::N	ór	oːɾˠ	o o ɾˠ	or	UR	VR	validate
+gle	iris1253	Silber::N	airgead	aɾʲəɟəd̪ˠ	a ɾʲ ə ɟ ə dˠ	ar3C3d	ARECET	VRVKVT	validate
+gle	iris1253	Kohle::N	gual	ɡʊəl̪ˠ	ɡ ʊ ə lˠ	gu3l	KYEL	KVR	validate
+gle	iris1253	Glas::N	gloine	ɡl̪ˠɔnʲə	ɡ lˠ ɔ nʲ ə	glon3	KLUNE	KRVNV	validate
+gle	iris1253	Lehm::N	cré	cɾʲeː	c ɾʲ e e	Tre	CRE	KRV	validate
+gle	iris1253	Sand::N	gaineamh	ɡanʲəvˠ	ɡ a nʲ ə vˠ	gan3v	KANEB	KVNVW	validate
+gle	iris1253	Mensch::N	duine	d̪ˠɪnʲə	dˠ ɪ nʲ ə	din3	TINE	TVNV	validate
+gle	iris1253	Mann::N	fear	fʲaɾˠ	fʲ a ɾˠ	far	BAR	PVR	validate
+gle	iris1253	Frau::N	bean	bʲan̪ˠ	bʲ a nˠ	ban	PAN	PVN	validate
+gle	iris1253	Kind::N	gasúr	ɡasˠuːɾˠ	ɡ a sˠ u u ɾˠ	gasur	KASYR	KVSVR	validate
+gle	iris1253	Kind::N	páiste	pˠaːʃtʲə	pˠ a a ʃ tʲ ə	paSt3	PASTE	PVSTV	validate
+gle	iris1253	Junge::N	buachaill	bˠʊəxəlʲ	bˠ ʊ ə x ə lʲ	bu3x3l	PYEGEL	PVKVR	validate
+gle	iris1253	Mädchen::N	cailín	kalʲiːnʲ	k a lʲ i i nʲ	kalin	KALIN	KVRVN	validate
+gle	iris1253	Familie::N	teaghlach	tʲaɪl̪ˠəx	tʲ a ɪ lˠ ə x	tail3x	TAILEG	TVRVK	validate
+gle	iris1253	Familie::N	comhluadar	ˈkoːˈl̪ˠʊəd̪ˠəɾˠ	k o o lˠ ʊ ə dˠ ə ɾˠ	kolu3d3r	KULYETER	KVRVTVR	validate
+gle	iris1253	Großvater::N	seanathair	ˈʃan̪ˠahəɾʲ	ʃ a nˠ a h ə ɾʲ	Sanah3r	SANAHER	SVNVHVR	validate
+gle	iris1253	Großmutter::N	seanmháthair	ˈʃan̪ˠvˠaːhəɾʲ	ʃ a nˠ vˠ a a h ə ɾʲ	Sanvah3r	SANBAHER	SVNWVHVR	validate
+gle	iris1253	Eltern::N	tuismitheoirí	t̪ˠɪʃmʲɪhoːɾʲiː	tˠ ɪ ʃ mʲ ɪ h o o ɾʲ i i	tiSmihori	TISMIHURI	TVSMVHVRV	validate
+gle	iris1253	Vater::N	athair	ahəɾʲ	a h ə ɾʲ	ah3r	AHER	VHVR	validate
+gle	iris1253	Mutter::N	máthair	mˠaːhəɾʲ	mˠ a a h ə ɾʲ	mah3r	MAHER	MVHVR	validate
+gle	iris1253	Sohn::N	mac	mˠak	mˠ a k	mak	MAK	MVK	validate
+gle	iris1253	Tochter::N	iníon	ɪnʲiːn̪ˠ	ɪ nʲ i i nˠ	inin	ININ	VNVN	validate
+gle	iris1253	Bruder::N	deartháir	dʲaɾˠhaːɾʲ	dʲ a ɾˠ h a a ɾʲ	darhar	TARHAR	TVRHVR	validate
+gle	iris1253	Schwester::N	deirfiúr	dʲɛɾʲəfʲuːɾˠ	dʲ ɛ ɾʲ ə fʲ u u ɾˠ	dEr3fur	TEREBYR	TVRVPVR	validate
+gle	iris1253	Onkel::N	uncail	ʊŋkəlʲ	ʊ ŋ k ə lʲ	uNk3l	YNKEL	VNKVR	validate
+gle	iris1253	Tante::N	aintín	anʲtʲiːnʲ	a nʲ tʲ i i nʲ	antin	ANTIN	VNTVN	validate
+gle	iris1253	Ehemann::N	fear céile	fʲeːɾˠceːlʲə	fʲ e e ɾˠ c e e lʲ ə	ferTel3	BERCELE	PVRKVRV	validate
+gle	iris1253	Ehefrau::N	bean chéile	bʲan̪ˠˈçeːlʲə	bʲ a nˠ ç e e lʲ ə	banSel3	PANSELE	PVNSVRV	validate
+gle	iris1253	Freude::N	áthas	aːhəsˠ	a a h ə sˠ	ah3s	AHES	VHVS	validate
+gle	iris1253	Gelächter::N	gáire	ɡaːɾʲə	ɡ a a ɾʲ ə	gar3	KARE	KVRV	validate
+gle	iris1253	Glück::N	séan	ʃeːn̪ˠ	ʃ e e nˠ	Sen	SEN	SVN	validate
+gle	iris1253	Glück::N	sonas	sˠɔn̪ˠəsˠ	sˠ ɔ nˠ ə sˠ	son3s	SUNES	SVNVS	validate
+gle	iris1253	Kummer::N	brón	bˠɾˠoːn̪ˠ	bˠ ɾˠ o o nˠ	bron	PRUN	PRVN	validate
+gle	iris1253	Kummer::N	buairt	bˠʊəɾˠtʲ	bˠ ʊ ə ɾˠ tʲ	bu3rt	PYERT	PVRT	validate
+gle	iris1253	Wunsch::N	guí	ɡiː	ɡ i i	gi	KI	KV	validate
+gle	iris1253	Wunsch::N	achainí	axənʲiː	a x ə nʲ i i	ax3ni	AGENI	VKVNV	validate
+gle	iris1253	Lust::N	fonn	fˠɔn̪ˠ	fˠ ɔ nˠ	fon	BUN	PVN	validate
+gle	iris1253	Geist::N	meon	mʲoːn̪ˠ	mʲ o o nˠ	mon	MUN	MVN	validate
+gle	iris1253	Geist::N	spiorad	sˠpʲɪɾˠəd̪ˠ	sˠ pʲ ɪ ɾˠ ə dˠ	spir3d	SPIRET	SPVRVT	validate
+gle	iris1253	Gedanke::N	smaoineamh	sˠmˠiːnʲəvˠ	sˠ mˠ i i nʲ ə vˠ	smin3v	SMINEB	SMVNVW	validate
+gle	iris1253	Gedächtnis::N	cuimhne	kɪvʲnʲə	k ɪ vʲ nʲ ə	kivn3	KIBNE	KVWNV	validate
+gle	iris1253	Verstand::N	ciall	cɪəl̪ˠ	c ɪ ə lˠ	Ti3l	CIEL	KVR	validate
+gle	iris1253	Verstand::N	intinn	ɪnʲtʲənʲ	ɪ nʲ tʲ ə nʲ	int3n	INTEN	VNTVN	validate
+gle	iris1253	Sinn::N	brí	bʲɾʲiː	bʲ ɾʲ i i	bri	PRI	PRV	validate
+gle	iris1253	Sinn::N	ciall	cɪəl̪ˠ	c ɪ ə lˠ	Ti3l	CIEL	KVR	validate
+gle	iris1253	Grund::N	cúis	kuːʃ	k u u ʃ	kuS	KYS	KVS	validate
+gle	iris1253	Wahrheit::N	fírinne	fʲiːɾʲənʲə	fʲ i i ɾʲ ə nʲ ə	fir3n3	BIRENE	PVRVNV	validate
+gle	iris1253	Gespräch::N	comhrá	koːɾˠaː	k o o ɾˠ a a	kora	KURA	KVRV	validate
+gle	iris1253	Märchen::N	scéal	ʃceːl̪ˠ	ʃ c e e lˠ	STel	SCEL	SKVR	validate
+gle	iris1253	Erzählung::N	scéal	ʃceːl̪ˠ	ʃ c e e lˠ	STel	SCEL	SKVR	validate
+gle	iris1253	Nachricht::N	teachtaireacht	tʲaxt̪ˠəɾʲəxt̪ˠ	tʲ a x tˠ ə ɾʲ ə x tˠ	taxt3r3xt	TAGTEREGT	TVKTVRVKT	validate
+gle	iris1253	Neuigkeit::N	scéala	ʃceːl̪ˠə	ʃ c e e lˠ ə	STel3	SCELE	SKVRV	validate
+gle	iris1253	Name::N	ainm	anʲəmʲ	a nʲ ə mʲ	an3m	ANEM	VNVM	validate
+gle	iris1253	Rätsel::N	tomhas	t̪ˠoːsˠ	tˠ o o sˠ	tos	TUS	TVS	validate
+gle	iris1253	Rede::N	óráid	oːɾˠaːdʲ	o o ɾˠ a a dʲ	orad	URAT	VRVT	validate
+gle	iris1253	Rede::N	aitheasc	ahəsˠk	a h ə sˠ k	ah3sk	AHESK	VHVSK	validate
+gle	iris1253	Sprache::N	teanga	tʲaŋɡə	tʲ a ŋ ɡ ə	taNg3	TANKE	TVNKV	validate
+gle	iris1253	Stimme::N	guth	ɡʊh	ɡ ʊ h	guh	KYH	KVH	validate
+gle	iris1253	Wort::N	focal	fˠɔkəl̪ˠ	fˠ ɔ k ə lˠ	fok3l	BUKEL	PVKVR	validate
+gle	iris1253	Zeichen::N	comhartha	koːɾˠhə	k o o ɾˠ h ə	korh3	KURHE	KVRHV	validate
+gle	iris1253	Ruf::N	glaoch	ɡl̪ˠiːx	ɡ lˠ i i x	glix	KLIG	KRVK	validate
+gle	iris1253	Lärm::N	torann	t̪ˠɔɾˠən̪ˠ	tˠ ɔ ɾˠ ə nˠ	tor3n	TUREN	TVRVN	validate
+gle	iris1253	Laut::N	fuaim	fˠʊəmʲ	fˠ ʊ ə mʲ	fu3m	BYEM	PVM	validate
+gle	iris1253	Ton::N	ton	t̪ˠɔn̪ˠ	tˠ ɔ nˠ	ton	TUN	TVN	validate
+gle	iris1253	Lied::N	amhrán	aʊɾˠaːn̪ˠ	a ʊ ɾˠ a a nˠ	auran	AYRAN	VRVN	validate
+gle	iris1253	Ruhe::N	suaimhneas	sˠʊəvʲnʲəsˠ	sˠ ʊ ə vʲ nʲ ə sˠ	su3vn3s	SYEBNES	SVWNVS	validate
+gle	iris1253	Leute::N	muintir	mˠɪnʲtʲəɾʲ	mˠ ɪ nʲ tʲ ə ɾʲ	mint3r	MINTER	MVNTVR	validate
+gle	iris1253	Volk::N	pobal	pˠɔbˠəl̪ˠ	pˠ ɔ bˠ ə lˠ	pob3l	PUPEL	PVPVR	validate
+gle	iris1253	Arbeit::N	obair	ɔbˠəɾʲ	ɔ bˠ ə ɾʲ	ob3r	UPER	VPVR	validate
+gle	iris1253	Gast::N	aoi	iː	i i	i	I	V	validate
+gle	iris1253	Geschenk::N	féirín	fʲeːɾʲiːnʲ	fʲ e e ɾʲ i i nʲ	ferin	BERIN	PVRVN	validate
+gle	iris1253	Geschenk::N	bronntanas	bˠɾˠɔn̪ˠt̪ˠən̪ˠəsˠ	bˠ ɾˠ ɔ nˠ tˠ ə nˠ ə sˠ	bront3n3s	PRUNTENES	PRVNTVNVS	validate
+gle	iris1253	Spiel::N	cluiche	kl̪ˠɪçə	k lˠ ɪ ç ə	kliS3	KLISE	KRVSV	validate
+gle	iris1253	Gesellschaft::N	cuideachta	kɪdʲəxt̪ˠə	k ɪ dʲ ə x tˠ ə	kid3xt3	KITEGTE	KVTVKTV	validate
+gle	iris1253	Hilfe::N	cúnamh	kuːn̪ˠəvˠ	k u u nˠ ə vˠ	kun3v	KYNEB	KVNVW	validate
+gle	iris1253	Hilfe::N	cabhair	kaʊɾʲ	k a ʊ ɾʲ	kaur	KAYR	KVR	validate
+gle	iris1253	Freund::N	cara	kaɾˠə	k a ɾˠ ə	kar3	KARE	KVRV	validate
+gle	iris1253	Kamerad::N	comrádaí	kɔmˠɾˠaːd̪ˠiː	k ɔ mˠ ɾˠ a a dˠ i i	komradi	KUMRATI	KVMRVTV	validate
+gle	iris1253	Angelegenheit::N	ceist	cɛʃtʲ	c ɛ ʃ tʲ	TESt	CEST	KVST	validate
+gle	iris1253	Anzahl::N	líon	lʲiːn̪ˠ	lʲ i i nˠ	lin	LIN	RVN	validate
+gle	iris1253	Art::N	sórt	sˠoːɾˠt̪ˠ	sˠ o o ɾˠ tˠ	sort	SURT	SVRT	validate
+gle	iris1253	Art::N	saghas	sˠaɪsˠ	sˠ a ɪ sˠ	sais	SAIS	SVS	validate
+gle	iris1253	Stück::N	píosa	pʲiːsˠə	pʲ i i sˠ ə	pis3	PISE	PVSV	validate
+gle	iris1253	Teil::N	cuid	kɪdʲ	k ɪ dʲ	kid	KIT	KVT	validate
+gle	iris1253	Teil::N	páirt	pˠaːɾˠtʲ	pˠ a a ɾˠ tʲ	part	PART	PVRT	validate
+gle	iris1253	Hälfte::N	leath	lʲah	lʲ a h	lah	LAH	RVH	validate
+gle	iris1253	Kreis::N	ciorcal	cɪɾˠkəl̪ˠ	c ɪ ɾˠ k ə lˠ	Tirk3l	CIRKEL	KVRKVR	validate
+gle	iris1253	Kreuz::N	cros	kɾˠɔsˠ	k ɾˠ ɔ sˠ	kros	KRUS	KRVS	validate
+gle	iris1253	Linie::N	líne	lʲiːnʲə	lʲ i i nʲ ə	lin3	LINE	RVNV	validate
+gle	iris1253	Strich::N	stríoc	ʃtʲɾʲiːk	ʃ tʲ ɾʲ i i k	Strik	STRIK	STRVK	validate
+gle	iris1253	Abstand::N	achar	axəɾˠ	a x ə ɾˠ	ax3r	AGER	VKVR	validate
+gle	iris1253	Entfernung::N	fad	fˠad̪ˠ	fˠ a dˠ	fad	BAT	PVT	validate
+gle	iris1253	Gegend::N	ceantar	can̪ˠt̪ˠəɾˠ	c a nˠ tˠ ə ɾˠ	Tant3r	CANTER	KVNTVR	validate
+gle	iris1253	Platz::N	áit	aːtʲ	a a tʲ	at	AT	VT	validate
+gle	iris1253	Platz::N	spás	sˠpˠaːsˠ	sˠ pˠ a a sˠ	spas	SPAS	SPVS	validate
+gle	iris1253	Ort::N	áit	aːtʲ	a a tʲ	at	AT	VT	validate
+gle	iris1253	Seite::N	slios	ʃlʲɪsˠ	ʃ lʲ ɪ sˠ	Slis	SLIS	SRVS	validate
+gle	iris1253	Mitte::N	lár	l̪ˠaːɾˠ	lˠ a a ɾˠ	lar	LAR	RVR	validate
+gle	iris1253	Gegenstand::N	ball	bˠal̪ˠ	bˠ a lˠ	bal	PAL	PVR	validate
+gle	iris1253	Gegenstand::N	ábhar	aːvˠəɾˠ	a a vˠ ə ɾˠ	av3r	ABER	VWVR	validate
+gle	iris1253	Sache::N	ní	nʲiː	nʲ i i	ni	NI	NV	validate
+gle	iris1253	Sache::N	rud	ɾˠʊd̪ˠ	ɾˠ ʊ dˠ	rud	RYT	RVT	validate
+gle	iris1253	Rand::N	imeall	ɪmʲəl̪ˠ	ɪ mʲ ə lˠ	im3l	IMEL	VMVR	validate
+gle	iris1253	Rand::N	ciumhais	cuːʃ	c u u ʃ	TuS	CYS	KVS	validate
+gle	iris1253	Kante::N	corr	kɔɾˠ	k ɔ ɾˠ	kor	KUR	KVR	validate
+gle	iris1253	Kante::N	colbha	kɔl̪ˠəvˠə	k ɔ lˠ ə vˠ ə	kol3v3	KULEBE	KVRVWV	validate
+gle	iris1253	Ecke::N	coirnéal	koːɾˠnʲeːl̪ˠ	k o o ɾˠ nʲ e e lˠ	kornel	KURNEL	KVRNVR	validate
+gle	iris1253	Spitze::N	gob	ɡɔbˠ	ɡ ɔ bˠ	gob	KUP	KVP	validate
+gle	iris1253	Spitze::N	barr	bˠaːɾˠ	bˠ a a ɾˠ	bar	PAR	PVR	validate
+gle	iris1253	Ende::N	ceann	can̪ˠ	c a nˠ	Tan	CAN	KVN	validate
+gle	iris1253	Ende::N	foirceann	fˠɔɾʲcən̪ˠ	fˠ ɔ ɾʲ c ə nˠ	forT3n	BURCEN	PVRKVN	validate
+gle	iris1253	Loch::N	poll	pˠɔl̪ˠ	pˠ ɔ lˠ	pol	PUL	PVR	validate
+gle	iris1253	Winkel::N	cúinne	kuːnʲə	k u u nʲ ə	kun3	KYNE	KVNV	validate
+gle	iris1253	Winkel::N	uillinn	ɪlʲənʲ	ɪ lʲ ə nʲ	il3n	ILEN	VRVN	validate
+gle	iris1253	Muster::N	patrún	pˠat̪ˠɾˠuːn̪ˠ	pˠ a tˠ ɾˠ u u nˠ	patrun	PATRYN	PVTRVN	validate
+gle	iris1253	Größe::N	méid	mʲeːdʲ	mʲ e e dʲ	med	MET	MVT	validate
+gle	iris1253	Größe::N	toise	t̪ˠɔʃə	tˠ ɔ ʃ ə	toS3	TUSE	TVSV	validate
+gle	iris1253	Länge::N	fad	fˠad̪ˠ	fˠ a dˠ	fad	BAT	PVT	validate
+gle	iris1253	Höhe::N	airde	aːɾˠdʲə	a a ɾˠ dʲ ə	ard3	ARTE	VRTV	validate
+gle	iris1253	Gewicht::N	meáchan	mʲaːxən̪ˠ	mʲ a a x ə nˠ	max3n	MAGEN	MVKVN	validate
+gle	iris1253	Menge::N	méid	mʲeːdʲ	mʲ e e dʲ	med	MET	MVT	validate
+gle	iris1253	Haufen::N	cnap	kn̪ˠapˠ	k nˠ a pˠ	knap	KNAP	KNVP	validate
+gle	iris1253	Reihe::N	líne	lʲiːnʲə	lʲ i i nʲ ə	lin3	LINE	RVNV	validate
+gle	iris1253	Reihe::N	sraith	sˠɾˠah	sˠ ɾˠ a h	srah	SRAH	SRVH	validate
+gle	iris1253	Boot::N	bád	bˠaːd̪ˠ	bˠ a a dˠ	bad	PAT	PVT	validate
+gle	iris1253	Ruder::N	rámh	ɾˠaːvˠ	ɾˠ a a vˠ	rav	RAB	RVW	validate
+gle	iris1253	Ruder::N	maide rámha	mˠadʲəɾˠaːvˠə	mˠ a dʲ ə ɾˠ a a vˠ ə	mad3rav3	MATERABE	MVTVRVWV	validate
+gle	iris1253	Schlitten::N	carr sleamhnáin	kaːɾˠʃlʲaʊn̪ˠaːnʲ	k a a ɾˠ ʃ lʲ a ʊ nˠ a a nʲ	karSlaunan	KARSLAYNAN	KVRSRVNVN	validate
+gle	iris1253	Ski::N	scí	ʃciː	ʃ c i i	STi	SCI	SKV	validate
+gle	iris1253	Lagerfeuer::N	tine champa	tʲɪnʲəxamˠpˠə	tʲ ɪ nʲ ə x a mˠ pˠ ə	tin3xamp3	TINEGAMPE	TVNVKVMPV	validate
+gle	iris1253	Last::N	ualach	ʊəl̪ˠəx	ʊ ə lˠ ə x	u3l3x	YELEG	VRVK	validate
+gle	iris1253	Gang::N	siúlóid	ʃuːl̪ˠoːdʲ	ʃ u u lˠ o o dʲ	Sulod	SYLUT	SVRVT	validate
+gle	iris1253	Schritt::N	céim	ceːmʲ	c e e mʲ	Tem	CEM	KVM	validate
+gle	iris1253	Schritt::N	coiscéim	kɔʃceːmʲ	k ɔ ʃ c e e mʲ	koSTem	KUSCEM	KVSKVM	validate
+gle	iris1253	Norden::N	tuaisceart	t̪ˠʊəʃcəɾˠt̪ˠ	tˠ ʊ ə ʃ c ə ɾˠ tˠ	tu3ST3rt	TYESCERT	TVSKVRT	validate
+gle	iris1253	Süden::N	deisceart	dʲɛʃcəɾˠt̪ˠ	dʲ ɛ ʃ c ə ɾˠ tˠ	dEST3rt	TESCERT	TVSKVRT	validate
+gle	iris1253	Westen::N	iarthar	ɪəɾˠhəɾˠ	ɪ ə ɾˠ h ə ɾˠ	i3rh3r	IERHER	VRHVR	validate
+gle	iris1253	Osten::N	oirthear	ɔɾˠhəɾˠ	ɔ ɾˠ h ə ɾˠ	orh3r	URHER	VRHVR	validate
+gle	iris1253	Holz::N	adhmad	aɪmˠəd̪ˠ	a ɪ mˠ ə dˠ	aim3d	AIMET	VMVT	validate
+gle	iris1253	Brett::N	clár	kl̪ˠaːɾˠ	k lˠ a a ɾˠ	klar	KLAR	KRVR	validate
+gle	iris1253	Platte::N	leac	lʲak	lʲ a k	lak	LAK	RVK	validate
+gle	iris1253	Stütze::N	taca	t̪ˠakə	tˠ a k ə	tak3	TAKE	TVKV	validate
+gle	iris1253	Stange::N	polla	pˠɔl̪ˠə	pˠ ɔ lˠ ə	pol3	PULE	PVRV	validate
+gle	iris1253	Stange::N	cuaille	kʊəlʲə	k ʊ ə lʲ ə	ku3l3	KYELE	KVRV	validate
+gle	iris1253	Stock::N	bata	bˠat̪ˠə	bˠ a tˠ ə	bat3	PATE	PVTV	validate
+gle	iris1253	Stock::N	maide	mˠadʲə	mˠ a dʲ ə	mad3	MATE	MVTV	validate
+gle	iris1253	Stab::N	maide	mˠadʲə	mˠ a dʲ ə	mad3	MATE	MVTV	validate
+gle	iris1253	Stab::N	bachall	bˠaxəl̪ˠ	bˠ a x ə lˠ	bax3l	PAGEL	PVKVR	validate
+gle	iris1253	Rohr::N	píopa	pʲiːpˠə	pʲ i i pˠ ə	pip3	PIPE	PVPV	validate
+gle	iris1253	Haus::N	teach	tʲax	tʲ a x	tax	TAG	TVK	validate
+gle	iris1253	Heim::N	baile	bˠalʲə	bˠ a lʲ ə	bal3	PALE	PVRV	validate
+gle	iris1253	Ofen::N	sornóg	sˠoːɾˠn̪ˠoːɡ	sˠ o o ɾˠ nˠ o o ɡ	sornog	SURNUK	SVRNVK	validate
+gle	iris1253	Fußboden::N	urlár	uːɾˠl̪ˠaːɾˠ	u u ɾˠ lˠ a a ɾˠ	urlar	YRLAR	VRRVR	validate
+gle	iris1253	Tisch::N	bord	bˠoːɾˠd̪ˠ	bˠ o o ɾˠ dˠ	bord	PURT	PVRT	validate
+gle	iris1253	Tisch::N	tábla	t̪ˠaːbˠl̪ˠə	tˠ a a bˠ lˠ ə	tabl3	TAPLE	TVPRV	validate
+gle	iris1253	Stuhl::N	cathaoir	kahiːɾʲ	k a h i i ɾʲ	kahir	KAHIR	KVHVR	validate
+gle	iris1253	Wiege::N	cliabhán	clʲɪəvˠaːn̪ˠ	c lʲ ɪ ə vˠ a a nˠ	Tli3van	CLIEBAN	KRVWVN	validate
+gle	iris1253	Bett::N	leaba	lʲabˠə	lʲ a bˠ ə	lab3	LAPE	RVPV	validate
+gle	iris1253	Regal::N	seilf	ʃɛlʲfˠ	ʃ ɛ lʲ fˠ	SElf	SELB	SVRP	validate
+gle	iris1253	Kiste::N	bosca	bˠɔsˠkə	bˠ ɔ sˠ k ə	bosk3	PUSKE	PVSKV	validate
+gle	iris1253	Fenster::N	fuinneoig	fˠɪnʲoːɡ	fˠ ɪ nʲ o o ɡ	finog	BINUK	PVNVK	validate
+gle	iris1253	Tür::N	doras	d̪ˠɔɾˠəsˠ	dˠ ɔ ɾˠ ə sˠ	dor3s	TURES	TVRVS	validate
+gle	iris1253	Tor::N	geata	ɟat̪ˠə	ɟ a tˠ ə	Cat3	CATE	KVTV	validate
+gle	iris1253	Zaun::N	fál	fˠaːl̪ˠ	fˠ a a lˠ	fal	BAL	PVR	validate
+gle	iris1253	Zaun::N	claí	kl̪ˠiː	k lˠ i i	kli	KLI	KRV	validate
+gle	iris1253	Dach::N	díon	dʲiːn̪ˠ	dʲ i i nˠ	din	TIN	TVN	validate
+gle	iris1253	Leiter::N	dréimire	dʲɾʲeːmʲəɾʲə	dʲ ɾʲ e e mʲ ə ɾʲ ə	drem3r3	TREMERE	TRVMVRV	validate
+gle	iris1253	Besen::N	scuab	sˠkʊəbˠ	sˠ k ʊ ə bˠ	sku3b	SKYEP	SKVP	validate
+gle	iris1253	Spaten::N	spád	sˠpˠaːd̪ˠ	sˠ pˠ a a dˠ	spad	SPAT	SPVT	validate
+gle	iris1253	Spaten::N	rámhainn	ɾˠaːvˠənʲ	ɾˠ a a vˠ ə nʲ	rav3n	RABEN	RVWVN	validate
+gle	iris1253	Schaufel::N	sluasaid	sˠl̪ˠʊəsˠədʲ	sˠ lˠ ʊ ə sˠ ə dʲ	slu3s3d	SLYESET	SRVSVT	validate
+gle	iris1253	Gabel::N	forc	fˠɔɾˠk	fˠ ɔ ɾˠ k	fork	BURK	PVRK	validate
+gle	iris1253	Gabel::N	gabhlóg	ɡaʊl̪ˠoːɡ	ɡ a ʊ lˠ o o ɡ	gaulog	KAYLUK	KVRVK	validate
+gle	iris1253	Löffel::N	spúnóg	sˠpˠuːn̪ˠoːɡ	sˠ pˠ u u nˠ o o ɡ	spunog	SPYNUK	SPVNVK	validate
+gle	iris1253	Messer::N	scian	ʃcɪən̪ˠ	ʃ c ɪ ə nˠ	STi3n	SCIEN	SKVN	validate
+gle	iris1253	Nagel::N	tairne	t̪ˠaːɾˠnʲə	tˠ a a ɾˠ nʲ ə	tarn3	TARNE	TVRNV	validate
+gle	iris1253	Netz::N	líon	lʲiːn̪ˠ	lʲ i i nˠ	lin	LIN	RVN	validate
+gle	iris1253	Netz::N	eangach	aŋɡəx	a ŋ ɡ ə x	aNg3x	ANKEG	VNKVK	validate
+gle	iris1253	Haken::N	crúca	kɾˠuːkə	k ɾˠ u u k ə	kruk3	KRYKE	KRVKV	validate
+gle	iris1253	Griff::N	cos	kɔsˠ	k ɔ sˠ	kos	KUS	KVS	validate
+gle	iris1253	Griff::N	hanla	han̪ˠl̪ˠə	h a nˠ lˠ ə	hanl3	HANLE	HVNRV	validate
+gle	iris1253	Schloss::N	glas	ɡl̪ˠasˠ	ɡ lˠ a sˠ	glas	KLAS	KRVS	validate
+gle	iris1253	Bild::N	pictiúr	pʲɪctʲuːɾˠ	pʲ ɪ c tʲ u u ɾˠ	piTtur	PICTYR	PVKTVR	validate
+gle	iris1253	Figur::N	fíor	fʲiːɾˠ	fʲ i i ɾˠ	fir	BIR	PVR	validate
+gle	iris1253	Puppe::N	bábóg	bˠaːbˠoːɡ	bˠ a a bˠ o o ɡ	babog	PAPUK	PVPVK	validate
+gle	iris1253	Beutel::N	mála	mˠaːl̪ˠə	mˠ a a lˠ ə	mal3	MALE	MVRV	validate
+gle	iris1253	Beutel::N	mealbhóg	mʲal̪ˠəvˠoːɡ	mʲ a lˠ ə vˠ o o ɡ	mal3vog	MALEBUK	MVRVWVK	validate
+gle	iris1253	Bündel::N	beart	bʲaɾˠt̪ˠ	bʲ a ɾˠ tˠ	bart	PART	PVRT	validate
+gle	iris1253	Tasche::N	mála	mˠaːl̪ˠə	mˠ a a lˠ ə	mal3	MALE	MVRV	validate
+gle	iris1253	Eimer::N	buicéad	bˠɪceːd̪ˠ	bˠ ɪ c e e dˠ	biTed	PICET	PVKVT	validate
+gle	iris1253	Deckel::N	clár	kl̪ˠaːɾˠ	k lˠ a a ɾˠ	klar	KLAR	KRVR	validate
+gle	iris1253	Deckel::N	claibín	kl̪ˠabʲiːnʲ	k lˠ a bʲ i i nʲ	klabin	KLAPIN	KRVPVN	validate
+gle	iris1253	Geschirr::N	soithí	sˠɔhiː	sˠ ɔ h i i	sohi	SUHI	SVHV	validate
+gle	iris1253	Geschirr::N	gréithe	ɟɾʲeːhə	ɟ ɾʲ e e h ə	Creh3	CREHE	KRVHV	validate
+gle	iris1253	Sack::N	sac	sˠak	sˠ a k	sak	SAK	SVK	validate
+gle	iris1253	Sack::N	mála	mˠaːl̪ˠə	mˠ a a lˠ ə	mal3	MALE	MVRV	validate
+gle	iris1253	Tasse::N	cupán	kɔpˠaːn̪ˠ	k ɔ pˠ a a nˠ	kopan	KUPAN	KVPVN	validate
+gle	iris1253	Topf::N	pota	pˠɔt̪ˠə	pˠ ɔ tˠ ə	pot3	PUTE	PVTV	validate
+gle	iris1253	Kessel::N	citeal	cɪtʲəl̪ˠ	c ɪ tʲ ə lˠ	Tit3l	CITEL	KVTVR	validate
+gle	iris1253	Essen::N	béile	bʲeːlʲə	bʲ e e lʲ ə	bel3	PELE	PVRV	validate
+gle	iris1253	Nahrung::N	bia	bʲɪə	bʲ ɪ ə	bi3	PIE	PV	validate
+gle	iris1253	Speise::N	mias	mʲɪəsˠ	mʲ ɪ ə sˠ	mi3s	MIES	MVS	validate
+gle	iris1253	Fleisch::N	feoil	fʲoːlʲ	fʲ o o lʲ	fol	BUL	PVR	validate
+gle	iris1253	Getreide::N	grán	ɡɾˠaːn̪ˠ	ɡ ɾˠ a a nˠ	gran	KRAN	KRVN	validate
+gle	iris1253	Getreide::N	arbhar	aɾˠəvˠəɾˠ	a ɾˠ ə vˠ ə ɾˠ	ar3v3r	AREBER	VRVWVR	validate
+gle	iris1253	Brei::N	brúitín	bˠɾˠuːtʲiːnʲ	bˠ ɾˠ u u tʲ i i nʲ	brutin	PRYTIN	PRVTVN	validate
+gle	iris1253	Brot::N	arán	aɾˠaːn̪ˠ	a ɾˠ a a nˠ	aran	ARAN	VRVN	validate
+gle	iris1253	Scheibe::N	píosa	pʲiːsˠə	pʲ i i sˠ ə	pis3	PISE	PVSV	validate
+gle	iris1253	Scheibe::N	slisne	ʃlʲɪʃnʲə	ʃ lʲ ɪ ʃ nʲ ə	SliSn3	SLISNE	SRVSNV	validate
+gle	iris1253	Fett::N	saill	sˠalʲ	sˠ a lʲ	sal	SAL	SVR	validate
+gle	iris1253	Fett::N	méathras	mʲeːhɾˠəsˠ	mʲ e e h ɾˠ ə sˠ	mehr3s	MEHRES	MVHRVS	validate
+gle	iris1253	Butter::N	im	ɪmʲ	ɪ mʲ	im	IM	VM	validate
+gle	iris1253	Öl::N	ola	ɔl̪ˠə	ɔ lˠ ə	ol3	ULE	VRV	validate
+gle	iris1253	Salz::N	salann	sˠal̪ˠən̪ˠ	sˠ a lˠ ə nˠ	sal3n	SALEN	SVRVN	validate
+gle	iris1253	Suppe::N	sú	sˠuː	sˠ u u	su	SY	SV	validate
+gle	iris1253	Suppe::N	anraith	an̪ˠɾˠəh	a nˠ ɾˠ ə h	anr3h	ANREH	VNRVH	validate
+gle	iris1253	Honig::N	mil	mʲɪlʲ	mʲ ɪ lʲ	mil	MIL	MVR	validate
+gle	iris1253	Milch::N	bainne	bˠanʲə	bˠ a nʲ ə	ban3	PANE	PVNV	validate
+gle	iris1253	Tee::N	tae	t̪ˠeː	tˠ e e	te	TE	TV	validate
+gle	iris1253	Leder::N	leathar	lʲahəɾˠ	lʲ a h ə ɾˠ	lah3r	LAHER	RVHVR	validate
+gle	iris1253	Wolle::N	olann	ɔl̪ˠən̪ˠ	ɔ lˠ ə nˠ	ol3n	ULEN	VRVN	validate
+gle	iris1253	Stoff::N	éadach	eːd̪ˠəx	e e dˠ ə x	ed3x	ETEG	VTVK	validate
+gle	iris1253	Nadel::N	snáthaid	sˠn̪ˠaːhədʲ	sˠ nˠ a a h ə dʲ	snah3d	SNAHET	SNVHVT	validate
+gle	iris1253	Faden::N	snáth	sˠn̪ˠaː	sˠ nˠ a a	sna	SNA	SNV	validate
+gle	iris1253	Knopf::N	cnaipe	kn̪ˠapʲə	k nˠ a pʲ ə	knap3	KNAPE	KNVPV	validate
+gle	iris1253	Knoten::N	snaidhm	sˠn̪ˠaɪmʲ	sˠ nˠ a ɪ mʲ	snaim	SNAIM	SNVM	validate
+gle	iris1253	Farbe::N	péint	pʲeːnʲtʲ	pʲ e e nʲ tʲ	pent	PENT	PVNT	validate
+gle	iris1253	Kleidung::N	éadaí	eːd̪ˠiː	e e dˠ i i	edi	ETI	VTV	validate
+gle	iris1253	Hemd::N	léine	lʲeːnʲə	lʲ e e nʲ ə	len3	LENE	RVNV	validate
+gle	iris1253	Kragen::N	bóna	bˠoːn̪ˠə	bˠ o o nˠ ə	bon3	PUNE	PVNV	validate
+gle	iris1253	Ärmel::N	muinchille	mˠɪnʲçəlʲə	mˠ ɪ nʲ ç ə lʲ ə	minS3l3	MINSELE	MVNSVRV	validate
+gle	iris1253	Hose::N	bríste	bʲɾʲiːʃtʲə	bʲ ɾʲ i i ʃ tʲ ə	briSt3	PRISTE	PRVSTV	validate
+gle	iris1253	Hose::N	treabhsar	tʲɾʲaʊsˠəɾˠ	tʲ ɾʲ a ʊ sˠ ə ɾˠ	traus3r	TRAYSER	TRVSVR	validate
+gle	iris1253	Gürtel::N	beilt	bʲɛlʲtʲ	bʲ ɛ lʲ tʲ	bElt	PELT	PVRT	validate
+gle	iris1253	Mütze::N	caipín	kapʲiːnʲ	k a pʲ i i nʲ	kapin	KAPIN	KVPVN	validate
+gle	iris1253	Schuh::N	bróg	bˠɾˠoːɡ	bˠ ɾˠ o o ɡ	brog	PRUK	PRVK	validate
+gle	iris1253	Stiefel::N	buatais	bˠʊət̪ˠəʃ	bˠ ʊ ə tˠ ə ʃ	bu3t3S	PYETES	PVTVS	validate
+gle	iris1253	Ring::N	fáinne	fˠaːnʲə	fˠ a a nʲ ə	fan3	BANE	PVNV	validate
+gle	iris1253	Band::N	ribín	ɾˠɪbʲiːnʲ	ɾˠ ɪ bʲ i i nʲ	ribin	RIPIN	RVPVN	validate
+gle	iris1253	Kamm::N	cíor	ciːɾˠ	c i i ɾˠ	Tir	CIR	KVR	validate
+gle	iris1253	Spiegel::N	scáthán	sˠkaːhaːn̪ˠ	sˠ k a a h a a nˠ	skahan	SKAHAN	SKVHVN	validate
+gle	iris1253	Riemen::N	iall	ɪəl̪ˠ	ɪ ə lˠ	i3l	IEL	VR	validate
+gle	iris1253	Riemen::N	strapa	sˠt̪ˠɾˠapˠə	sˠ tˠ ɾˠ a pˠ ə	strap3	STRAPE	STRVPV	validate
+gle	iris1253	Schnur::N	téad	tʲeːd̪ˠ	tʲ e e dˠ	ted	TET	TVT	validate
+gle	iris1253	Schnur::N	sreangán	sˠɾˠaŋɡaːn̪ˠ	sˠ ɾˠ a ŋ ɡ a a nˠ	sraNgan	SRANKAN	SRVNKVN	validate
+gle	iris1253	Leine::N	iall	ɪəl̪ˠ	ɪ ə lˠ	i3l	IEL	VR	validate
+gle	iris1253	Decke::N	pluid	pˠl̪ˠɪdʲ	pˠ lˠ ɪ dʲ	plid	PLIT	PRVT	validate
+gle	iris1253	Decke::N	blaincéad	bˠl̪ˠanʲceːd̪ˠ	bˠ lˠ a nʲ c e e dˠ	blanTed	PLANCET	PRVNKVT	validate
+gle	iris1253	Kissen::N	piliúr	pʲɪlʲuːɾˠ	pʲ ɪ lʲ u u ɾˠ	pilur	PILYR	PVRVR	validate
+gle	iris1253	Kissen::N	adhartán	aɪɾˠt̪ˠaːn̪ˠ	a ɪ ɾˠ tˠ a a nˠ	airtan	AIRTAN	VRTVN	validate
+gle	iris1253	Tuch::N	scaif	sˠkafʲ	sˠ k a fʲ	skaf	SKAB	SKVP	validate
+gle	iris1253	Handtuch::N	tuáille	t̪ˠuːaːlʲə	tˠ u u a a lʲ ə	tual3	TYALE	TVRV	validate
+gle	iris1253	Kraft::N	fórsa	fˠoːɾˠsˠə	fˠ o o ɾˠ sˠ ə	fors3	BURSE	PVRSV	validate
+gle	iris1253	Stärke::N	neart	nʲaɾˠt̪ˠ	nʲ a ɾˠ tˠ	nart	NART	NVRT	validate
+gle	iris1253	Gesundheit::N	sláinte	sˠl̪ˠaːnʲtʲə	sˠ lˠ a a nʲ tʲ ə	slant3	SLANTE	SRVNTV	validate
+gle	iris1253	Krankheit::N	tinneas	tʲɪnʲəsˠ	tʲ ɪ nʲ ə sˠ	tin3s	TINES	TVNVS	validate
+gle	iris1253	Krankheit::N	breoiteacht	bʲɾʲoːtʲəxt̪ˠ	bʲ ɾʲ o o tʲ ə x tˠ	brot3xt	PRUTEGT	PRVTVKT	validate
+gle	iris1253	Schmerz::N	pian	pʲɪən̪ˠ	pʲ ɪ ə nˠ	pi3n	PIEN	PVN	validate
+gle	iris1253	Wunde::N	goin	ɡɔnʲ	ɡ ɔ nʲ	gon	KUN	KVN	validate
+gle	iris1253	Fieber::N	fiabhras	fʲɪəvˠɾˠəsˠ	fʲ ɪ ə vˠ ɾˠ ə sˠ	fi3vr3s	BIEBRES	PVWRVS	validate
+gle	iris1253	Arznei::N	cógas	koːɡəsˠ	k o o ɡ ə sˠ	kog3s	KUKES	KVKVS	validate
+gle	iris1253	Brücke::N	droichead	d̪ˠɾˠɔçəd̪ˠ	dˠ ɾˠ ɔ ç ə dˠ	droS3d	TRUSET	TRVSVT	validate
+gle	iris1253	Brunnen::N	tobar	t̪ˠɔbˠəɾˠ	tˠ ɔ bˠ ə ɾˠ	tob3r	TUPER	TVPVR	validate
+gle	iris1253	Weide::N	féarach	fʲeːɾˠəx	fʲ e e ɾˠ ə x	fer3x	BEREG	PVRVK	validate
+gle	iris1253	Pfad::N	cosán	kɔsˠaːn̪ˠ	k ɔ sˠ a a nˠ	kosan	KUSAN	KVSVN	validate
+gle	iris1253	Pfad::N	conair	kɔn̪ˠəɾʲ	k ɔ nˠ ə ɾʲ	kon3r	KUNER	KVNVR	validate
+gle	iris1253	Weg::N	slí	ʃlʲiː	ʃ lʲ i i	Sli	SLI	SRV	validate
+gle	iris1253	Weg::N	bealach	bʲal̪ˠəx	bʲ a lˠ ə x	bal3x	PALEG	PVRVK	validate
+gle	iris1253	Straße::N	bóthar	bˠoːhəɾˠ	bˠ o o h ə ɾˠ	boh3r	PUHER	PVHVR	validate
+gle	iris1253	Dorf::N	sráidbhaile	ˈsˠɾˠaːdʲvˠalʲə	sˠ ɾˠ a a dʲ vˠ a lʲ ə	sradval3	SRATBALE	SRVTWVRV	validate
+gle	iris1253	Stadt::N	baile	bˠalʲə	bˠ a lʲ ə	bal3	PALE	PVRV	validate
+gle	iris1253	Stadt::N	cathair	kahəɾʲ	k a h ə ɾʲ	kah3r	KAHER	KVHVR	validate
+gle	iris1253	Brief::N	litir	lʲɪtʲəɾʲ	lʲ ɪ tʲ ə ɾʲ	lit3r	LITER	RVTVR	validate
+gle	iris1253	Buch::N	cín	ciːnʲ	c i i nʲ	Tin	CIN	KVN	validate
+gle	iris1253	Buch::N	leabhar	lʲaʊɾˠ	lʲ a ʊ ɾˠ	laur	LAYR	RVR	validate
+gle	iris1253	Buchstabe::N	litir	lʲɪtʲəɾʲ	lʲ ɪ tʲ ə ɾʲ	lit3r	LITER	RVTVR	validate
+gle	iris1253	Zeitung::N	nuachtán	n̪ˠʊəxt̪ˠaːn̪ˠ	nˠ ʊ ə x tˠ a a nˠ	nu3xtan	NYEGTAN	NVKTVN	validate
+gle	iris1253	Leben::N	saol	sˠiːl̪ˠ	sˠ i i lˠ	sil	SIL	SVR	validate
+gle	iris1253	Leben::N	beatha	bʲahə	bʲ a h ə	bah3	PAHE	PVHV	validate
+gle	iris1253	Tod::N	bás	bˠaːsˠ	bˠ a a sˠ	bas	PAS	PVS	validate
+gle	iris1253	Grab::N	uaigh	ʊəɟ	ʊ ə ɟ	u3C	YEC	VK	validate
+gle	iris1253	Kirche::N	eaglais	aɡl̪ˠəʃ	a ɡ lˠ ə ʃ	agl3S	AKLES	VKRVS	validate
+gle	iris1253	Sünde::N	peaca	pʲakə	pʲ a k ə	pak3	PAKE	PVKV	validate
+gle	iris1253	Gott::N	dia	dʲɪə	dʲ ɪ ə	di3	TIE	TV	validate
+gle	iris1253	Arbeiter::N	oibrí	ɔbʲɾʲiː	ɔ bʲ ɾʲ i i	obri	UPRI	VPRV	validate
+gle	iris1253	Chef::N	saoiste	sˠiːʃtʲə	sˠ i i ʃ tʲ ə	siSt3	SISTE	SVSTV	validate
+gle	iris1253	Chef::N	ceannasaí	can̪ˠəsˠiː	c a nˠ ə sˠ i i	Tan3si	CANESI	KVNVSV	validate
+gle	iris1253	Meister::N	máistir	mˠaːʃtʲəɾʲ	mˠ a a ʃ tʲ ə ɾʲ	maSt3r	MASTER	MVSTVR	validate
+gle	iris1253	Arzt::N	lia	lʲɪə	lʲ ɪ ə	li3	LIE	RV	validate
+gle	iris1253	Arzt::N	dochtúir	d̪ˠɔxt̪ˠuːɾʲ	dˠ ɔ x tˠ u u ɾʲ	doxtur	TUGTYR	TVKTVR	validate
+gle	iris1253	Lehrer::N	oide	ɔdʲə	ɔ dʲ ə	od3	UTE	VTV	validate
+gle	iris1253	Lehrer::N	múinteoir	mˠuːnʲtʲoːɾʲ	mˠ u u nʲ tʲ o o ɾʲ	muntor	MYNTUR	MVNTVR	validate
+gle	iris1253	Geld::N	airgead	aɾʲəɟəd̪ˠ	a ɾʲ ə ɟ ə dˠ	ar3C3d	ARECET	VRVKVT	validate
+gle	iris1253	Geschäft::N	gnó	ɡn̪ˠoː	ɡ nˠ o o	gno	KNU	KNV	validate
+gle	iris1253	Laden::N	siopa	ʃɪpˠə	ʃ ɪ pˠ ə	Sip3	SIPE	SVPV	validate
+gle	iris1253	Preis::N	praghas	pˠɾˠaɪsˠ	pˠ ɾˠ a ɪ sˠ	prais	PRAIS	PRVS	validate
+gle	iris1253	Ware::N	earra	aɾˠə	a ɾˠ ə	ar3	ARE	VRV	validate
+gle	iris1253	Nutzen::N	tairbhe	t̪ˠaɾʲəvʲə	tˠ a ɾʲ ə vʲ ə	tar3v3	TAREBE	TVRVWV	validate
+gle	iris1253	Reichtum::N	rachmas	ɾˠaxmˠəsˠ	ɾˠ a x mˠ ə sˠ	raxm3s	RAGMES	RVKMVS	validate
+gle	iris1253	Reichtum::N	saibhreas	sˠəvʲɾʲəsˠ	sˠ ə vʲ ɾʲ ə sˠ	s3vr3s	SEBRES	SVWRVS	validate
+gle	iris1253	Welt::N	domhan	d̪ˠaʊn̪ˠ	dˠ a ʊ nˠ	daun	TAYN	TVN	validate
+gle	iris1253	Land::N	tír	tʲiːɾʲ	tʲ i i ɾʲ	tir	TIR	TVR	validate
+gle	iris1253	Staat::N	stát	sˠt̪ˠaːt̪ˠ	sˠ tˠ a a tˠ	stat	STAT	STVT	validate
+gle	iris1253	König::N	rí	ɾˠiː	ɾˠ i i	ri	RI	RV	validate
+gle	iris1253	Macht::N	cumhacht	kuːəxt̪ˠ	k u u ə x tˠ	ku3xt	KYEGT	KVKT	validate
+gle	iris1253	Grenze::N	críoch	cɾʲiːx	c ɾʲ i i x	Trix	CRIG	KRVK	validate
+gle	iris1253	Grenze::N	teorainn	tʲoːɾˠənʲ	tʲ o o ɾˠ ə nʲ	tor3n	TUREN	TVRVN	validate
+gle	iris1253	Krieg::N	cogadh	kɔɡə	k ɔ ɡ ə	kog3	KUKE	KVKV	validate
+gle	iris1253	Feind::N	namhaid	n̪ˠaʊdʲ	nˠ a ʊ dʲ	naud	NAYT	NVT	validate
+gle	iris1253	Gewalt::N	foréigean	ˈfˠɔɾˠeːɟən̪ˠ	fˠ ɔ ɾˠ e e ɟ ə nˠ	foreC3n	BURECEN	PVRVKVN	validate
+gle	iris1253	Kampf::N	troid	t̪ˠɾˠɔdʲ	tˠ ɾˠ ɔ dʲ	trod	TRUT	TRVT	validate
+gle	iris1253	Bogen[Waffe]::N	bogha	bˠaʊ	bˠ a ʊ	bau	PAY	PV	validate
+gle	iris1253	Pfeil::N	saighead	sˠaɪd̪ˠ	sˠ a ɪ dˠ	said	SAIT	SVT	validate
+gle	iris1253	Gewehr::N	gunna	ɡɔn̪ˠə	ɡ ɔ nˠ ə	gon3	KUNE	KVNV	validate
+gle	iris1253	Fehler::N	botún	bˠɔt̪ˠuːn̪ˠ	bˠ ɔ tˠ u u nˠ	botun	PUTYN	PVTVN	validate
+gle	iris1253	Fehler::N	meancóg	mʲaŋkoːɡ	mʲ a ŋ k o o ɡ	maNkog	MANKUK	MVNKVK	validate
+gle	iris1253	Lüge::N	bréag	bʲɾʲeːɡ	bʲ ɾʲ e e ɡ	breg	PREK	PRVK	validate
+gle	iris1253	Lüge::N	éitheach	eːhəx	e e h ə x	eh3x	EHEG	VHVK	validate
+gle	iris1253	Schaden::N	dochar	d̪ˠɔxəɾˠ	dˠ ɔ x ə ɾˠ	dox3r	TUGER	TVKVR	validate
+gle	iris1253	Schaden::N	damáiste	d̪ˠamˠaːʃtʲə	dˠ a mˠ a a ʃ tʲ ə	damaSt3	TAMASTE	TVMVSTV	validate
+gle	iris1253	Unglück::N	drochrath	ˈd̪ˠɾˠɔxˈɾˠah	dˠ ɾˠ ɔ x ɾˠ a h	droxrah	TRUGRAH	TRVKRVH	validate
+gle	iris1253	Schuld::N	locht	l̪ˠɔxt̪ˠ	lˠ ɔ x tˠ	loxt	LUGT	RVKT	validate
+gle	iris1253	Schuld::N	milleán	mʲɪlʲaːn̪ˠ	mʲ ɪ lʲ a a nˠ	milan	MILAN	MVRVN	validate
+gle	iris1253	Alter::N	aois	iːʃ	i i ʃ	iS	IS	VS	validate
+gle	iris1253	Schluss::N	deireadh	dʲɛɾʲə	dʲ ɛ ɾʲ ə	dEr3	TERE	TVRV	validate
+gle	iris1253	Zeit::N	am	aːmˠ	a a mˠ	am	AM	VM	validate
+gle	iris1253	Zeit::N	aimsir	amʲʃəɾʲ	a mʲ ʃ ə ɾʲ	amS3r	AMSER	VMSVR	validate
+gle	iris1253	Tag::N	lá	l̪ˠaː	lˠ a a	la	LA	RV	validate
+gle	iris1253	Morgen::N	maidin	mˠadʲənʲ	mˠ a dʲ ə nʲ	mad3n	MATEN	MVTVN	validate
+gle	iris1253	Mittag::N	nóin	n̪ˠoːnʲ	nˠ o o nʲ	non	NUN	NVN	validate
+gle	iris1253	Abend::N	tráthnóna	t̪ˠɾˠaːˈn̪ˠoːn̪ˠə	tˠ ɾˠ a a nˠ o o nˠ ə	tranon3	TRANUNE	TRVNVNV	validate
+gle	iris1253	Nacht::N	oíche	iːçə	i i ç ə	iS3	ISE	VSV	validate
+gle	iris1253	Woche::N	seachtain	ʃaxt̪ˠənʲ	ʃ a x tˠ ə nʲ	Saxt3n	SAGTEN	SVKTVN	validate
+gle	iris1253	Monat::N	mí	mʲiː	mʲ i i	mi	MI	MV	validate
+gle	iris1253	Jahr::N	bliain	bʲlʲɪənʲ	bʲ lʲ ɪ ə nʲ	bli3n	PLIEN	PRVN	validate
+gle	iris1253	Frühling::N	earrach	aɾˠəx	a ɾˠ ə x	ar3x	AREG	VRVK	validate
+gle	iris1253	Sommer::N	samhradh	sˠaʊɾˠə	sˠ a ʊ ɾˠ ə	saur3	SAYRE	SVRV	validate
+gle	iris1253	Herbst::N	fómhar	fˠoːvˠəɾˠ	fˠ o o vˠ ə ɾˠ	fov3r	BUBER	PVWVR	validate
+gle	iris1253	Winter::N	geimhreadh	ɟɛvʲɾʲə	ɟ ɛ vʲ ɾʲ ə	CEvr3	CEBRE	KVWRV	validate
+gle	iris1253	Januar::N	Eanáir	an̪ˠaːɾʲ	a nˠ a a ɾʲ	anar	ANAR	VNVR	validate
+gle	iris1253	Februar::N	Feabhra	fʲaʊɾˠə	fʲ a ʊ ɾˠ ə	faur3	BAYRE	PVRV	validate
+gle	iris1253	März::N	Márta	mˠaːɾˠt̪ˠə	mˠ a a ɾˠ tˠ ə	mart3	MARTE	MVRTV	validate
+gle	iris1253	April::N	Aibreán	abʲɾʲaːn̪ˠ	a bʲ ɾʲ a a nˠ	abran	APRAN	VPRVN	validate
+gle	iris1253	Mai::N	Bealtaine	bʲal̪ˠt̪ˠənʲə	bʲ a lˠ tˠ ə nʲ ə	balt3n3	PALTENE	PVRTVNV	validate
+gle	iris1253	Juni::N	Meitheamh	mʲɛhəvˠ	mʲ ɛ h ə vˠ	mEh3v	MEHEB	MVHVW	validate
+gle	iris1253	Juli::N	Iúil	uːlʲ	u u lʲ	ul	YL	VR	validate
+gle	iris1253	August::N	Lúnasa	l̪ˠuːn̪ˠəsˠə	lˠ u u nˠ ə sˠ ə	lun3s3	LYNESE	RVNVSV	validate
+gle	iris1253	September::N	Meán Fómhair	mʲaːn̪ˠfˠoːvˠəɾʲ	mʲ a a nˠ fˠ o o vˠ ə ɾʲ	manfov3r	MANBUBER	MVNPVWVR	validate
+gle	iris1253	Oktober::N	Deireadh Fómhair	dʲɛɾʲəfˠoːvˠəɾʲ	dʲ ɛ ɾʲ ə fˠ o o vˠ ə ɾʲ	dEr3fov3r	TEREBUBER	TVRVPVWVR	validate
+gle	iris1253	November::N	Samhain	sˠaʊnʲ	sˠ a ʊ nʲ	saun	SAYN	SVN	validate
+gle	iris1253	November::N	Mí na Samhna	mʲiːn̪ˠəsˠaʊn̪ˠə	mʲ i i nˠ ə sˠ a ʊ nˠ ə	min3saun3	MINESAYNE	MVNVSVNV	validate
+gle	iris1253	Dezember::N	Mí na Nollag	mʲiːn̪ˠən̪ˠɔl̪ˠəɡ	mʲ i i nˠ ə nˠ ɔ lˠ ə ɡ	min3nol3g	MINENULEK	MVNVNVRVK	validate
+gle	iris1253	Montag::N	Luan	l̪ˠʊən̪ˠ	lˠ ʊ ə nˠ	lu3n	LYEN	RVN	validate
+gle	iris1253	Montag::N	Dé Luain	dʲeːl̪ˠʊənʲ	dʲ e e lˠ ʊ ə nʲ	delu3n	TELYEN	TVRVN	validate
+gle	iris1253	Dienstag::N	Máirt	mˠaːɾˠtʲ	mˠ a a ɾˠ tʲ	mart	MART	MVRT	validate
+gle	iris1253	Dienstag::N	Dé Máirt	dʲeːmˠaːɾˠtʲ	dʲ e e mˠ a a ɾˠ tʲ	demart	TEMART	TVMVRT	validate
+gle	iris1253	Mittwoch::N	Céadaoin	ceːd̪ˠiːnʲ	c e e dˠ i i nʲ	Tedin	CETIN	KVTVN	validate
+gle	iris1253	Mittwoch::N	Dé Céadaoin	dʲeːceːd̪ˠiːnʲ	dʲ e e c e e dˠ i i nʲ	deTedin	TECETIN	TVKVTVN	validate
+gle	iris1253	Donnerstag::N	Déardaoin	dʲeːɾˠˈd̪ˠiːnʲ	dʲ e e ɾˠ dˠ i i nʲ	derdin	TERTIN	TVRTVN	validate
+gle	iris1253	Freitag::N	Aoine	iːnʲə	i i nʲ ə	in3	INE	VNV	validate
+gle	iris1253	Freitag::N	Dé hAoine	dʲeːhiːnʲə	dʲ e e h i i nʲ ə	dehin3	TEHINE	TVHVNV	validate
+gle	iris1253	Samstag::N	Satharn	sˠahəɾˠn̪ˠ	sˠ a h ə ɾˠ nˠ	sah3rn	SAHERN	SVHVRN	validate
+gle	iris1253	Samstag::N	Dé Sathairn	dʲeːsˠahəɾˠn̪ˠ	dʲ e e sˠ a h ə ɾˠ nˠ	desah3rn	TESAHERN	TVSVHVRN	validate
+gle	iris1253	Sonntag::N	Domhnach	d̪ˠaʊn̪ˠəx	dˠ a ʊ nˠ ə x	daun3x	TAYNEG	TVNVK	validate
+gle	iris1253	Sonntag::N	Dé Domhnaigh	dʲeːd̪ˠaʊn̪ˠiː	dʲ e e dˠ a ʊ nˠ i i	dedauni	TETAYNI	TVTVNV	validate
+gle	iris1253	groß::A	mór	mˠoːɾˠ	mˠ o o ɾˠ	mor	MUR	MVR	validate
+gle	iris1253	klein::A	beag	bʲɛɡ	bʲ ɛ ɡ	bEg	PEK	PVK	validate
+gle	iris1253	lang::A	fada	fˠad̪ˠə	fˠ a dˠ ə	fad3	BATE	PVTV	validate
+gle	iris1253	kurz::A	gearr	ɟaːɾˠ	ɟ a a ɾˠ	Car	CAR	KVR	validate
+gle	iris1253	kurz::A	gairid	ɡaɾʲədʲ	ɡ a ɾʲ ə dʲ	gar3d	KARET	KVRVT	validate
+gle	iris1253	breit::A	leathan	lʲahən̪ˠ	lʲ a h ə nˠ	lah3n	LAHEN	RVHVN	validate
+gle	iris1253	breit::A	fairsing	fˠaɾˠʃəɲ	fˠ a ɾˠ ʃ ə ɲ	farS35	BARSEN	PVRSVN	validate
+gle	iris1253	schmal::A	cúng	kuːŋ	k u u ŋ	kuN	KYN	KVN	validate
+gle	iris1253	dicht::A	tiubh	tʲʊvˠ	tʲ ʊ vˠ	tuv	TYB	TVW	validate
+gle	iris1253	dick[Gegenstand]::A	tiubh	tʲʊvˠ	tʲ ʊ vˠ	tuv	TYB	TVW	validate
+gle	iris1253	dünn::A	caol	kiːl̪ˠ	k i i lˠ	kil	KIL	KVR	validate
+gle	iris1253	dünn::A	tanaí	t̪ˠan̪ˠiː	tˠ a nˠ i i	tani	TANI	TVNV	validate
+gle	iris1253	fein::A	scáinte	sˠkaːnʲtʲə	sˠ k a a nʲ tʲ ə	skant3	SKANTE	SKVNTV	validate
+gle	iris1253	fein::A	fíneálta	fʲiːnʲaːl̪ˠt̪ˠə	fʲ i i nʲ a a lˠ tˠ ə	finalt3	BINALTE	PVNVRTV	validate
+gle	iris1253	fest::A	daingean	d̪ˠaɲɟən̪ˠ	dˠ a ɲ ɟ ə nˠ	da5C3n	TANCEN	TVNKVN	validate
+gle	iris1253	flach::A	cothrom	kɔhɾˠəmˠ	k ɔ h ɾˠ ə mˠ	kohr3m	KUHREM	KVHRVM	validate
+gle	iris1253	glatt::A	mín	mʲiːnʲ	mʲ i i nʲ	min	MIN	MVN	validate
+gle	iris1253	glatt::A	sleamhain	ʃlʲaʊnʲ	ʃ lʲ a ʊ nʲ	Slaun	SLAYN	SRVN	validate
+gle	iris1253	hart::A	crua	kɾˠʊə	k ɾˠ ʊ ə	kru3	KRYE	KRV	validate
+gle	iris1253	weich::A	bog	bˠɔɡ	bˠ ɔ ɡ	bog	PUK	PVK	validate
+gle	iris1253	rund::A	cruinn	kɾˠɪnʲ	k ɾˠ ɪ nʲ	krin	KRIN	KRVN	validate
+gle	iris1253	spitz::A	gobach	ɡɔbˠəx	ɡ ɔ bˠ ə x	gob3x	KUPEG	KVPVK	validate
+gle	iris1253	spitz::A	biorach	bʲɪɾˠəx	bʲ ɪ ɾˠ ə x	bir3x	PIREG	PVRVK	validate
+gle	iris1253	scharf::A	géar	ɟeːɾˠ	ɟ e e ɾˠ	Cer	CER	KVR	validate
+gle	iris1253	scharf::A	faobhrach	fˠiːvˠɾˠəx	fˠ i i vˠ ɾˠ ə x	fivr3x	BIBREG	PVWRVK	validate
+gle	iris1253	stumpf::A	maol	mˠiːl̪ˠ	mˠ i i lˠ	mil	MIL	MVR	validate
+gle	iris1253	schwer::A	trom	t̪ˠɾˠɔmˠ	tˠ ɾˠ ɔ mˠ	trom	TRUM	TRVM	validate
+gle	iris1253	schön::A	álainn	aːl̪ˠənʲ	a a lˠ ə nʲ	al3n	ALEN	VRVN	validate
+gle	iris1253	heiß::A	te	tʲɛ	tʲ ɛ	tE	TE	TV	validate
+gle	iris1253	warm::A	te	tʲɛ	tʲ ɛ	tE	TE	TV	validate
+gle	iris1253	kalt::A	fuar	fˠʊəɾˠ	fˠ ʊ ə ɾˠ	fu3r	BYER	PVR	validate
+gle	iris1253	kühl::A	fionnuar	ˈfʲɪn̪ˠʊəɾˠ	fʲ ɪ nˠ ʊ ə ɾˠ	finu3r	BINYER	PVNVR	validate
+gle	iris1253	frisch::A	úr	uːɾˠ	u u ɾˠ	ur	YR	VR	validate
+gle	iris1253	frisch::A	friseáilte	fʲɾʲɪʃaːlʲtʲə	fʲ ɾʲ ɪ ʃ a a lʲ tʲ ə	friSalt3	BRISALTE	PRVSVRTV	validate
+gle	iris1253	feucht::A	tais	t̪ˠaʃ	tˠ a ʃ	taS	TAS	TVS	validate
+gle	iris1253	nass::A	fliuch	fʲlʲʊx	fʲ lʲ ʊ x	flux	BLYG	PRVK	validate
+gle	iris1253	trocken::A	tirim	tʲɪɾʲəmʲ	tʲ ɪ ɾʲ ə mʲ	tir3m	TIREM	TVRVM	validate
+gle	iris1253	voll::A	lán	l̪ˠaːn̪ˠ	lˠ a a nˠ	lan	LAN	RVN	validate
+gle	iris1253	leer::A	folamh	fˠɔl̪ˠəvˠ	fˠ ɔ lˠ ə vˠ	fol3v	BULEB	PVRVW	validate
+gle	iris1253	offen::A	oscailte	ɔsˠkəlʲtʲə	ɔ sˠ k ə lʲ tʲ ə	osk3lt3	USKELTE	VSKVRTV	validate
+gle	iris1253	geschlossen::A	dúnta	d̪ˠuːn̪ˠt̪ˠa	dˠ u u nˠ tˠ a	dunta	TYNTA	TVNTV	validate
+gle	iris1253	geschlossen::A	druidte	d̪ˠɾˠɪtʲə	dˠ ɾˠ ɪ tʲ ə	drit3	TRITE	TRVTV	validate
+gle	iris1253	sauber::A	glan	ɡl̪ˠan̪ˠ	ɡ lˠ a nˠ	glan	KLAN	KRVN	validate
+gle	iris1253	schmutzig::A	salach	sˠal̪ˠəx	sˠ a lˠ ə x	sal3x	SALEG	SVRVK	validate
+gle	iris1253	roh::A	amh	avˠ	a vˠ	av	AB	VW	validate
+gle	iris1253	reif::A	aibí	abʲiː	a bʲ i i	abi	API	VPV	validate
+gle	iris1253	lecker::A	blasta	bˠl̪ˠasˠt̪ˠə	bˠ lˠ a sˠ tˠ ə	blast3	PLASTE	PRVSTV	validate
+gle	iris1253	süß::A	milis	mʲɪlʲəʃ	mʲ ɪ lʲ ə ʃ	mil3S	MILES	MVRVS	validate
+gle	iris1253	bitter::A	searbh	ʃaɾˠəvˠ	ʃ a ɾˠ ə vˠ	Sar3v	SAREB	SVRVW	validate
+gle	iris1253	sauer::A	géar	ɟeːɾˠ	ɟ e e ɾˠ	Cer	CER	KVR	validate
+gle	iris1253	sauer::A	searbh	ʃaɾˠəvˠ	ʃ a ɾˠ ə vˠ	Sar3v	SAREB	SVRVW	validate
+gle	iris1253	hell::A	geal	ɟal̪ˠ	ɟ a lˠ	Cal	CAL	KVR	validate
+gle	iris1253	hell::A	soilseach	sˠɔlʲʃəx	sˠ ɔ lʲ ʃ ə x	solS3x	SULSEG	SVRSVK	validate
+gle	iris1253	dunkel::A	dorcha	d̪ˠɔɾˠəxə	dˠ ɔ ɾˠ ə x ə	dor3x3	TUREGE	TVRVKV	validate
+gle	iris1253	schwarz::A	dubh	d̪ˠʊvˠ	dˠ ʊ vˠ	duv	TYB	TVW	validate
+gle	iris1253	weiß::A	bán	bˠaːn̪ˠ	bˠ a a nˠ	ban	PAN	PVN	validate
+gle	iris1253	rot::A	dearg	dʲaɾˠəɡ	dʲ a ɾˠ ə ɡ	dar3g	TAREK	TVRVK	validate
+gle	iris1253	gelb::A	buí	bˠiː	bˠ i i	bi	PI	PV	validate
+gle	iris1253	blau::A	gorm	ɡɔɾˠəmˠ	ɡ ɔ ɾˠ ə mˠ	gor3m	KUREM	KVRVM	validate
+gle	iris1253	grün::A	glas	ɡl̪ˠasˠ	ɡ lˠ a sˠ	glas	KLAS	KRVS	validate
+gle	iris1253	grün::A	uaine	ʊənʲə	ʊ ə nʲ ə	u3n3	YENE	VNV	validate
+gle	iris1253	grau::A	liath	lʲɪə	lʲ ɪ ə	li3	LIE	RV	validate
+gle	iris1253	bunt::A	ildathach	ˈɪlʲd̪ˠahəx	ɪ lʲ dˠ a h ə x	ildah3x	ILTAHEG	VRTVHVK	validate
+gle	iris1253	bunt::A	dathannach	d̪ˠahən̪ˠəx	dˠ a h ə nˠ ə x	dah3n3x	TAHENEG	TVHVNVK	validate
+gle	iris1253	billig::A	saor	sˠiːɾˠ	sˠ i i ɾˠ	sir	SIR	SVR	validate
+gle	iris1253	teuer::A	daor	d̪ˠiːɾˠ	dˠ i i ɾˠ	dir	TIR	TVR	validate
+gle	iris1253	teuer::A	costasach	kɔsˠt̪ˠəsˠəx	k ɔ sˠ tˠ ə sˠ ə x	kost3s3x	KUSTESEG	KVSTVSVK	validate
+gle	iris1253	wertvoll::A	luachmhar	l̪ˠʊəxvˠəɾˠ	lˠ ʊ ə x vˠ ə ɾˠ	lu3xv3r	LYEGBER	RVKWVR	validate
+gle	iris1253	blind::A	dall	d̪ˠal̪ˠ	dˠ a lˠ	dal	TAL	TVR	validate
+gle	iris1253	blind::A	caoch	kiːx	k i i x	kix	KIG	KVK	validate
+gle	iris1253	taub::A	bodhar	bˠaʊɾˠ	bˠ a ʊ ɾˠ	baur	PAYR	PVR	validate
+gle	iris1253	kräftig::A	cumhachtach	kuːəxt̪ˠəx	k u u ə x tˠ ə x	ku3xt3x	KYEGTEG	KVKTVK	validate
+gle	iris1253	stark::A	tréan	tʲɾʲeːn̪ˠ	tʲ ɾʲ e e nˠ	tren	TREN	TRVN	validate
+gle	iris1253	stark::A	láidir	l̪ˠaːdʲəɾʲ	lˠ a a dʲ ə ɾʲ	lad3r	LATER	RVTVR	validate
+gle	iris1253	schwach::A	lag	l̪ˠaɡ	lˠ a ɡ	lag	LAK	RVK	validate
+gle	iris1253	schwach::A	fann	fˠan̪ˠ	fˠ a nˠ	fan	BAN	PVN	validate
+gle	iris1253	fett::A	ramhar	ɾˠaʊɾˠ	ɾˠ a ʊ ɾˠ	raur	RAYR	RVR	validate
+gle	iris1253	schlank::A	caol	kiːl̪ˠ	k i i lˠ	kil	KIL	KVR	validate
+gle	iris1253	schlank::A	seang	ʃaŋ	ʃ a ŋ	SaN	SAN	SVN	validate
+gle	iris1253	hübsch::A	álainn	aːl̪ˠənʲ	a a lˠ ə nʲ	al3n	ALEN	VRVN	validate
+gle	iris1253	hübsch::A	dathúil	d̪ˠahuːlʲ	dˠ a h u u lʲ	dahul	TAHYL	TVHVR	validate
+gle	iris1253	böse::A	olc	ɔl̪ˠc	ɔ lˠ c	olT	ULC	VRK	validate
+gle	iris1253	dumm::A	dúr	d̪ˠuːɾˠ	dˠ u u ɾˠ	dur	TYR	TVR	validate
+gle	iris1253	dumm::A	amaideach	amˠədʲəx	a mˠ ə dʲ ə x	am3d3x	AMETEG	VMVTVK	validate
+gle	iris1253	faul::A	falsa	fˠal̪ˠsˠə	fˠ a lˠ sˠ ə	fals3	BALSE	PVRSV	validate
+gle	iris1253	faul::A	leisciúil	lʲɛʃcuːlʲ	lʲ ɛ ʃ c u u lʲ	lESTul	LESCYL	RVSKVR	validate
+gle	iris1253	fleißig::A	dícheallach	dʲiːçəl̪ˠəx	dʲ i i ç ə lˠ ə x	diS3l3x	TISELEG	TVSVRVK	validate
+gle	iris1253	geizig::A	barainneach	bˠaɾˠənʲəx	bˠ a ɾˠ ə nʲ ə x	bar3n3x	PARENEG	PVRVNVK	validate
+gle	iris1253	geizig::A	sprionlaithe	sˠpʲɾʲɪn̪ˠl̪ˠɪhə	sˠ pʲ ɾʲ ɪ nˠ lˠ ɪ h ə	sprinlih3	SPRINLIHE	SPRVNRVHV	validate
+gle	iris1253	klug::A	cliste	clʲɪʃtʲə	c lʲ ɪ ʃ tʲ ə	TliSt3	CLISTE	KRVSTV	validate
+gle	iris1253	geschickt::A	oilte	ɔlʲtʲə	ɔ lʲ tʲ ə	olt3	ULTE	VRTV	validate
+gle	iris1253	geschickt::A	ealaíonta	al̪ˠiːn̪ˠt̪ˠə	a lˠ i i nˠ tˠ ə	alint3	ALINTE	VRVNTV	validate
+gle	iris1253	lieb::A	dil	dʲɪlʲ	dʲ ɪ lʲ	dil	TIL	TVR	validate
+gle	iris1253	lieb::A	dílis	dʲiːlʲəʃ	dʲ i i lʲ ə ʃ	dil3S	TILES	TVRVS	validate
+gle	iris1253	lustig::A	aerach	eːɾˠəx	e e ɾˠ ə x	er3x	EREG	VRVK	validate
+gle	iris1253	lustig::A	meidhreach	mʲaɪɾʲəx	mʲ a ɪ ɾʲ ə x	mair3x	MAIREG	MVRVK	validate
+gle	iris1253	sanft::A	bog	bˠɔɡ	bˠ ɔ ɡ	bog	PUK	PVK	validate
+gle	iris1253	sanft::A	séimh	ʃeːvʲ	ʃ e e vʲ	Sev	SEB	SVW	validate
+gle	iris1253	hungrig::A	ocrach	ɔkɾˠəx	ɔ k ɾˠ ə x	okr3x	UKREG	VKRVK	validate
+gle	iris1253	krank::A	tinn	tʲɪnʲ	tʲ ɪ nʲ	tin	TIN	TVN	validate
+gle	iris1253	krank::A	breoite	bʲɾʲoːtʲə	bʲ ɾʲ o o tʲ ə	brot3	PRUTE	PRVTV	validate
+gle	iris1253	nackt::A	nocht	n̪ˠɔxt̪ˠ	nˠ ɔ x tˠ	noxt	NUGT	NVKT	validate
+gle	iris1253	traurig::A	brónach	bˠɾˠoːn̪ˠəx	bˠ ɾˠ o o nˠ ə x	bron3x	PRUNEG	PRVNVK	validate
+gle	iris1253	lebendig::A	beo	bʲoː	bʲ o o	bo	PU	PV	validate
+gle	iris1253	gut::A	maith	mˠah	mˠ a h	mah	MAH	MVH	validate
+gle	iris1253	schlecht::A	dona	d̪ˠɔn̪ˠə	dˠ ɔ nˠ ə	don3	TUNE	TVNV	validate
+gle	iris1253	schlecht::A	droch-	d̪ˠɾˠɔx	dˠ ɾˠ ɔ x	drox	TRUG	TRVK	validate
+gle	iris1253	richtig::A	ceart	caɾˠt̪ˠ	c a ɾˠ tˠ	Tart	CART	KVRT	validate
+gle	iris1253	schlimm::A	gránna	ɡɾˠaːn̪ˠə	ɡ ɾˠ a a nˠ ə	gran3	KRANE	KRVNV	validate
+gle	iris1253	schlimm::A	tubaisteach	t̪ˠʊbˠaʃtʲəx	tˠ ʊ bˠ a ʃ tʲ ə x	tubaSt3x	TYPASTEG	TVPVSTVK	validate
+gle	iris1253	wahr::A	fíor	fʲiːɾˠ	fʲ i i ɾˠ	fir	BIR	PVR	validate
+gle	iris1253	alt::A	sean	ʃən̪ˠ	ʃ ə nˠ	S3n	SEN	SVN	validate
+gle	iris1253	neu::A	úr	uːɾˠ	u u ɾˠ	ur	YR	VR	validate
+gle	iris1253	neu::A	nua	n̪ˠʊə	nˠ ʊ ə	nu3	NYE	NV	validate
+gle	iris1253	ehemalig::A	iar-	ɪəɾˠ	ɪ ə ɾˠ	i3r	IER	VR	validate
+gle	iris1253	ehemalig::A	sean-	ʃən̪ˠ	ʃ ə nˠ	S3n	SEN	SVN	validate
+gle	iris1253	alt[Lebewesen]::A	sean	ʃən̪ˠ	ʃ ə nˠ	S3n	SEN	SVN	validate
+gle	iris1253	alt[Lebewesen]::A	aosta	iːsˠt̪ˠə	i i sˠ tˠ ə	ist3	ISTE	VSTV	validate
+gle	iris1253	jung::A	óg	oːɡ	o o ɡ	og	UK	VK	validate
+gle	iris1253	arm::A	bocht	bˠɔxt̪ˠ	bˠ ɔ x tˠ	boxt	PUGT	PVKT	validate
+gle	iris1253	reich::A	saibhir	sˠɛvʲəɾʲ	sˠ ɛ vʲ ə ɾʲ	sEv3r	SEBER	SVWVR	validate
+gle	iris1253	reich::A	rachmasach	ɾˠaxmˠəsˠəx	ɾˠ a x mˠ ə sˠ ə x	raxm3s3x	RAGMESEG	RVKMVSVK	validate
+gle	iris1253	bekannt::A	atá eolas air	ət̪ˠaːoːl̪ˠəsˠɛɾʲ	ə tˠ a a o o lˠ ə sˠ ɛ ɾʲ	3taol3sEr	ETAULESER	VTVRVSVR	validate
+gle	iris1253	berühmt::A	cailiúil	kaːlʲuːlʲ	k a a lʲ u u lʲ	kalul	KALYL	KVRVR	validate
+gle	iris1253	berühmt::A	clúiteach	kl̪ˠuːtʲəx	k lˠ u u tʲ ə x	klut3x	KLYTEG	KRVTVK	validate
+gle	iris1253	fremd::A	coimhthíoch	kɔvʲhiːəx	k ɔ vʲ h i i ə x	kovhi3x	KUBHIEG	KVWHVK	validate
+gle	iris1253	verschieden::A	éagsúil	eːɡsˠuːlʲ	e e ɡ sˠ u u lʲ	egsul	EKSYL	VKSVR	validate
+gle	iris1253	verschieden::A	difriúil	dʲɪfʲɾʲuːlʲ	dʲ ɪ fʲ ɾʲ u u lʲ	difrul	TIBRYL	TVPRVR	validate
+gle	iris1253	nah::A	gar	ɡaɾˠ	ɡ a ɾˠ	gar	KAR	KVR	validate
+gle	iris1253	nah::A	deas	dʲasˠ	dʲ a sˠ	das	TAS	TVS	validate
+gle	iris1253	fern::A	i bhfad uainn	ɪvˠad̪ˠʊənʲ	ɪ vˠ a dˠ ʊ ə nʲ	ivadu3n	IBATYEN	VWVTVN	validate
+gle	iris1253	fern::A	i bhfad i gcéin	ɪvˠad̪ˠɪceːn̪ˠ	ɪ vˠ a dˠ ɪ c e e nˠ	ivadiTen	IBATICEN	VWVTVKVN	validate
+gle	iris1253	linker::A	clé	clʲeː	c lʲ e e	Tle	CLE	KRV	validate
+gle	iris1253	rechter::A	deas	dʲasˠ	dʲ a sˠ	das	TAS	TVS	validate
+gle	iris1253	anderer::A	eile	ɛlʲə	ɛ lʲ ə	El3	ELE	VRV	validate
+gle	iris1253	erster::A	céad	ceːd̪ˠ	c e e dˠ	Ted	CET	KVT	validate
+gle	iris1253	zweiter::A	dóú	d̪ˠoːuː	dˠ o o u u	dou	TUY	TV	validate
+gle	iris1253	zweiter::A	dara	d̪ˠaɾˠə	dˠ a ɾˠ ə	dar3	TARE	TVRV	validate
+gle	iris1253	dritter::A	tríú	tʲɾʲiːuː	tʲ ɾʲ i i u u	triu	TRIY	TRV	validate
+gle	iris1253	dritter::A	treas	tʲɾʲasˠ	tʲ ɾʲ a sˠ	tras	TRAS	TRVS	validate
+gle	iris1253	letzter::A	déanach	dʲeːn̪ˠəx	dʲ e e nˠ ə x	den3x	TENEG	TVNVK	validate
+gle	iris1253	letzter::A	deireanach	dʲɛɾʲən̪ˠəx	dʲ ɛ ɾʲ ə nˠ ə x	dEr3n3x	TERENEG	TVRVNVK	validate
+gle	iris1253	allein::ADV	i d'aonar	ɪd̪ˠiːn̪ˠəɾˠ	ɪ dˠ i i nˠ ə ɾˠ	idin3r	ITINER	VTVNVR	validate
+gle	iris1253	auf einmal::ADV	ag an am céanna	ɛɟən̪ˠaːmˠceːn̪ˠə	ɛ ɟ ə nˠ a a mˠ c e e nˠ ə	EC3namTen3	ECENAMCENE	VKVNVMKVNV	validate
+gle	iris1253	zusammen::ADV	le chéile	lʲəçeːlʲə	lʲ ə ç e e lʲ ə	l3Sel3	LESELE	RVSVRV	validate
+gle	iris1253	zusammen::ADV	in eineacht	ɪnʲeːnʲəxt̪ˠ	ɪ nʲ e e nʲ ə x tˠ	inen3xt	INENEGT	VNVNVKT	validate
+gle	iris1253	lange::ADV	fada	fˠad̪ˠə	fˠ a dˠ ə	fad3	BATE	PVTV	validate
+gle	iris1253	plötzlich::ADV	go tobann	ɡət̪ˠɔbˠən̪ˠ	ɡ ə tˠ ɔ bˠ ə nˠ	g3tob3n	KETUPEN	KVTVPVN	validate
+gle	iris1253	plötzlich::ADV	i dtobainne	ɪd̪ˠɔbˠənʲə	ɪ dˠ ɔ bˠ ə nʲ ə	idob3n3	ITUPENE	VTVPVNV	validate
+gle	iris1253	sofort::ADV	ar an toirt	ɛɾʲən̪ˠt̪ˠɔɾˠtʲ	ɛ ɾʲ ə nˠ tˠ ɔ ɾˠ tʲ	Er3ntort	ERENTURT	VRVNTVRT	validate
+gle	iris1253	sofort::ADV	ar an bpointe	ɛɾʲən̪ˠbˠɔnʲtʲə	ɛ ɾʲ ə nˠ bˠ ɔ nʲ tʲ ə	Er3nbont3	ERENPUNTE	VRVNPVNTV	validate
+gle	iris1253	später::ADV	níos déanaí	nʲiːsˠdʲeːn̪ˠiː	nʲ i i sˠ dʲ e e nˠ i i	nisdeni	NISTENI	NVSTVNV	validate
+gle	iris1253	jetzt::ADV	anois	əˈn̪ˠɔʃ	ə nˠ ɔ ʃ	3noS	ENUS	VNVS	validate
+gle	iris1253	heute::ADV	inniu	əˈnʲʊ	ə nʲ ʊ	3nu	ENY	VNV	validate
+gle	iris1253	morgen::ADV	amárach	əˈmˠaːɾˠəx	ə mˠ a a ɾˠ ə x	3mar3x	EMAREG	VMVRVK	validate
+gle	iris1253	bald::ADV	go luath	ɡəl̪ˠʊə	ɡ ə lˠ ʊ ə	g3lu3	KELYE	KVRV	validate
+gle	iris1253	bald::ADV	gan mhoill	ɡan̪ˠvˠɔlʲ	ɡ a nˠ vˠ ɔ lʲ	ganvol	KANBUL	KVNWVR	validate
+gle	iris1253	dann::ADV	ansin	ənʲˈʃɪnʲ	ə nʲ ʃ ɪ nʲ	3nSin	ENSIN	VNSVN	validate
+gle	iris1253	gestern::ADV	inné	əˈnʲeː	ə nʲ e e	3ne	ENE	VNV	validate
+gle	iris1253	einst::ADV	tráth	t̪ˠɾˠaː	tˠ ɾˠ a a	tra	TRA	TRV	validate
+gle	iris1253	einst::ADV	uair amháin	ʊəɾʲəˈvˠaːnʲ	ʊ ə ɾʲ ə vˠ a a nʲ	u3r3van	YEREBAN	VRVWVN	validate
+gle	iris1253	damals::ADV	ag an am	ɛɟən̪ˠaːmˠ	ɛ ɟ ə nˠ a a mˠ	EC3nam	ECENAM	VKVNVM	validate
+gle	iris1253	damals::ADV	an t-am sin	ən̪ˠt̪ˠaːmˠʃɪnʲ	ə nˠ tˠ a a mˠ ʃ ɪ nʲ	3ntamSin	ENTAMSIN	VNTVMSVN	validate
+gle	iris1253	danach::ADV	ina dhiaidh sin	ɪnʲəɟɪəɟʃɪn̪ˠ	ɪ nʲ ə ɟ ɪ ə ɟ ʃ ɪ nˠ	in3Ci3CSin	INECIECSIN	VNVKVKSVN	validate
+gle	iris1253	vorher::ADV	cheana	han̪ˠə	h a nˠ ə	han3	HANE	HVNV	validate
+gle	iris1253	vorher::ADV	roimhe sin	ɾˠɪvʲəʃɪnʲ	ɾˠ ɪ vʲ ə ʃ ɪ nʲ	riv3Sin	RIBESIN	RVWVSVN	validate
+gle	iris1253	zuerst::ADV	ar dtús	ɛɾʲd̪ˠuːsˠ	ɛ ɾʲ dˠ u u sˠ	Erdus	ERTYS	VRTVS	validate
+gle	iris1253	einmal::ADV	uair amháin	ʊəɾʲəˈvˠaːnʲ	ʊ ə ɾʲ ə vˠ a a nʲ	u3r3van	YEREBAN	VRVWVN	validate
+gle	iris1253	manchmal::ADV	uaireanta	ʊəɾʲən̪ˠt̪ˠə	ʊ ə ɾʲ ə nˠ tˠ ə	u3r3nt3	YERENTE	VRVNTV	validate
+gle	iris1253	oft::ADV	minic	mʲɪnʲək	mʲ ɪ nʲ ə k	min3k	MINEK	MVNVK	validate
+gle	iris1253	immer::ADV	i gcónaí	ɪɡoːn̪ˠiː	ɪ ɡ o o nˠ i i	igoni	IKUNI	VKVNV	validate
+gle	iris1253	niemals::ADV	riamh	ɾˠɪəvˠ	ɾˠ ɪ ə vˠ	ri3v	RIEB	RVW	validate
+gle	iris1253	hier::ADV	anseo	ənʲˈʃɔ	ə nʲ ʃ ɔ	3nSo	ENSU	VNSV	validate
+gle	iris1253	hierhin::ADV	anseo	ənʲˈʃɔ	ə nʲ ʃ ɔ	3nSo	ENSU	VNSV	validate
+gle	iris1253	von hier::ADV	an áit seo	ən̪ˠaːtʲʃɔ	ə nˠ a a tʲ ʃ ɔ	3natSo	ENATSU	VNVTSV	validate
+gle	iris1253	dort::ADV	ann	an̪ˠ	a nˠ	an	AN	VN	validate
+gle	iris1253	dort::ADV	ansin	ənʲˈʃɪnʲ	ə nʲ ʃ ɪ nʲ	3nSin	ENSIN	VNSVN	validate
+gle	iris1253	dorthin::ADV	ann	an̪ˠ	a nˠ	an	AN	VN	validate
+gle	iris1253	dorthin::ADV	ansin	ənʲˈʃɪnʲ	ə nʲ ʃ ɪ nʲ	3nSin	ENSIN	VNSVN	validate
+gle	iris1253	geradeaus::ADV	ar aghaidh	ɛɾʲaɪɟ	ɛ ɾʲ a ɪ ɟ	EraiC	ERAIC	VRVK	validate
+gle	iris1253	vorwärts::ADV	chun cinn	xʊn̪ˠcɪnʲ	x ʊ nˠ c ɪ nʲ	xunTin	GYNCIN	KVNKVN	process
+gle	iris1253	vorwärts::ADV	chun tosaigh	xʊn̪ˠt̪ˠɔsˠiː	x ʊ nˠ tˠ ɔ sˠ i i	xuntosi	GYNTUSI	KVNTVSV	process
+gle	iris1253	rückwärts::ADV	siar	ʃɪəɾˠ	ʃ ɪ ə ɾˠ	Si3r	SIER	SVR	validate
+gle	iris1253	zurück::ADV	ar ais	ɛɾʲaʃ	ɛ ɾʲ a ʃ	EraS	ERAS	VRVS	validate
+gle	iris1253	unten::ADV	thíos	hiːsˠ	h i i sˠ	his	HIS	HVS	validate
+gle	iris1253	hinab::ADV	síos	ʃiːsˠ	ʃ i i sˠ	Sis	SIS	SVS	validate
+gle	iris1253	oben::ADV	thuas	hʊəsˠ	h ʊ ə sˠ	hu3s	HYES	HVS	validate
+gle	iris1253	hinauf::ADV	suas	sˠʊəsˠ	sˠ ʊ ə sˠ	su3s	SYES	SVS	validate
+gle	iris1253	überall::ADV	i ngach áit	ɪŋɡaxaːtʲ	ɪ ŋ ɡ a x a a tʲ	iNgaxat	INKAGAT	VNKVKVT	validate
+gle	iris1253	überall::ADV	ar fud na háite	ɛɾʲˈfˠʊd̪ˠn̪ˠəhaːtʲə	ɛ ɾʲ fˠ ʊ dˠ nˠ ə h a a tʲ ə	Erfudn3hat3	ERBYTNEHATE	VRPVTNVHVTV	validate
+gle	iris1253	nicht::ADV	ní	nʲiː	nʲ i i	ni	NI	NV	validate
+gle	iris1253	nicht::ADV	cha	xa	x a	xa	GA	KV	validate
+gle	iris1253	ein wenig::ADV	beagán	bʲɛɡaːn̪ˠ	bʲ ɛ ɡ a a nˠ	bEgan	PEKAN	PVKVN	validate
+gle	iris1253	kaum::ADV	ar éigean	ɛɾʲeːɟən̪ˠ	ɛ ɾʲ e e ɟ ə nˠ	EreC3n	ERECEN	VRVKVN	validate
+gle	iris1253	sehr::ADV	an-	ən̪ˠ	ə nˠ	3n	EN	VN	validate
+gle	iris1253	so::ADV	chomh	xoː	x o o	xo	GU	KV	validate
+gle	iris1253	so::ADV	mar sin	mˠaɾˠʃɪnʲ	mˠ a ɾˠ ʃ ɪ nʲ	marSin	MARSIN	MVRSVN	validate
+gle	iris1253	noch::ADV	fós	fˠoːsˠ	fˠ o o sˠ	fos	BUS	PVS	validate
+gle	iris1253	noch::ADV	go fóill	ɡəfˠoːlʲ	ɡ ə fˠ o o lʲ	g3fol	KEBUL	KVPVR	validate
+gle	iris1253	nur::ADV	amháin	əˈvˠaːnʲ	ə vˠ a a nʲ	3van	EBAN	VWVN	validate
+gle	iris1253	nur::ADV	níl ach	nʲiːlʲax	nʲ i i lʲ a x	nilax	NILAG	NVRVK	validate
+gle	iris1253	schon::ADV	cheana	han̪ˠə	h a nˠ ə	han3	HANE	HVNV	validate
+gle	iris1253	schon::ADV	cheana féin	han̪ˠəheːnʲ	h a nˠ ə h e e nʲ	han3hen	HANEHEN	HVNVHVN	validate
+gle	iris1253	wieder::ADV	arís	əˈɾʲiːʃ	ə ɾʲ i i ʃ	3riS	ERIS	VRVS	validate
+gle	iris1253	wieder::ADV	athuair	ˈahˌʊəɾʲ	a h ʊ ə ɾʲ	ahu3r	AHYER	VHVR	validate
+gle	iris1253	vergebens::ADV	amú	əˈmˠuː	ə mˠ u u	3mu	EMY	VMV	validate
+gle	iris1253	vergebens::ADV	in aisce	ɪnʲaʃcə	ɪ nʲ a ʃ c ə	inaST3	INASCE	VNVSKV	validate
+gle	iris1253	vor::PRP	ar aghaidh	ɛɾʲaɪɟ	ɛ ɾʲ a ɪ ɟ	EraiC	ERAIC	VRVK	validate
+gle	iris1253	hinter::PRP	laistiar de	l̪ˠaʃˈtʲɪəɾˠdʲɛ	lˠ a ʃ tʲ ɪ ə ɾˠ dʲ ɛ	laSti3rdE	LASTIERTE	RVSTVRTV	validate
+gle	iris1253	hinter::PRP	taobh thiar de	t̪ˠiːvˠhɪəɾˠdʲɛ	tˠ i i vˠ h ɪ ə ɾˠ dʲ ɛ	tivhi3rdE	TIBHIERTE	TVWHVRTV	validate
+gle	iris1253	unter::PRP	faoi	fˠiː	fˠ i i	fi	BI	PV	validate
+gle	iris1253	durch::PRP	trí	tʲɾʲiː	tʲ ɾʲ i i	tri	TRI	TRV	validate
+gle	iris1253	neben::PRP	taobh le	t̪ˠiːvˠlʲə	tˠ i i vˠ lʲ ə	tivl3	TIBLE	TVWRV	validate
+gle	iris1253	neben::PRP	in aice le	ɪnʲacəlʲə	ɪ nʲ a c ə lʲ ə	inaT3l3	INACELE	VNVKVRV	validate
+gle	iris1253	zwischen::PRP	idir	ɪdʲəɾʲ	ɪ dʲ ə ɾʲ	id3r	ITER	VTVR	validate
+gle	iris1253	wegen::PRP	de bharr	dʲɛvˠaːɾˠ	dʲ ɛ vˠ a a ɾˠ	dEvar	TEBAR	TVWVR	validate
+gle	iris1253	wegen::PRP	mar gheall ar	mˠaɾˠɟal̪ˠɛɾʲ	mˠ a ɾˠ ɟ a lˠ ɛ ɾʲ	marCalEr	MARCALER	MVRKVRVR	validate
+gle	iris1253	dies::PRN	seo	ʃɔ	ʃ ɔ	So	SU	SV	validate
+gle	iris1253	das::PRN	sin	ʃɪnʲ	ʃ ɪ nʲ	Sin	SIN	SVN	validate
+gle	iris1253	alles::PRN	gach rud	ɡaxɾˠʊd̪ˠ	ɡ a x ɾˠ ʊ dˠ	gaxrud	KAGRYT	KVKRVT	validate
+gle	iris1253	ich::PRN	mé	mʲeː	mʲ e e	me	ME	MV	validate
+gle	iris1253	ich::PRN	mise	mʲɪʃə	mʲ ɪ ʃ ə	miS3	MISE	MVSV	validate
+gle	iris1253	du::PRN	tú	t̪ˠuː	tˠ u u	tu	TY	TV	validate
+gle	iris1253	du::PRN	tusa	t̪ˠʊsˠə	tˠ ʊ sˠ ə	tus3	TYSE	TVSV	validate
+gle	iris1253	er::PRN	sé	ʃeː	ʃ e e	Se	SE	SV	validate
+gle	iris1253	er::PRN	seisean	ʃɛʃən̪ˠ	ʃ ɛ ʃ ə nˠ	SES3n	SESEN	SVSVN	validate
+gle	iris1253	wir::PRN	muid	mˠɪdʲ	mˠ ɪ dʲ	mid	MIT	MVT	validate
+gle	iris1253	ihr::PRN	sibh	ʃɪvʲ	ʃ ɪ vʲ	Siv	SIB	SVW	validate
+gle	iris1253	ihr::PRN	sibhse	ʃɪvʲʃə	ʃ ɪ vʲ ʃ ə	SivS3	SIBSE	SVWSV	validate
+gle	iris1253	sie::PRN	siad	ʃɪəd̪ˠ	ʃ ɪ ə dˠ	Si3d	SIET	SVT	validate
+gle	iris1253	sie::PRN	siadsan	ʃɪəd̪ˠsˠən̪ˠ	ʃ ɪ ə dˠ sˠ ə nˠ	Si3ds3n	SIETSEN	SVTSVN	validate
+gle	iris1253	was::FPRN	cad	kad̪ˠ	k a dˠ	kad	KAT	KVT	validate
+gle	iris1253	was::FPRN	céard	ceːɾˠd̪ˠ	c e e ɾˠ dˠ	Terd	CERT	KVRT	validate
+gle	iris1253	wer::FPRN	cé	ceː	c e e	Te	CE	KV	validate
+gle	iris1253	wo::FADV	cá	kaː	k a a	ka	KA	KV	validate
+gle	iris1253	wo::FADV	cén áit	ceːnʲaːtʲ	c e e nʲ a a tʲ	Tenat	CENAT	KVNVT	validate
+gle	iris1253	wohin::FADV	cá	kaː	k a a	ka	KA	KV	validate
+gle	iris1253	wohin::FADV	cén áit	ceːnʲaːtʲ	c e e nʲ a a tʲ	Tenat	CENAT	KVNVT	validate
+gle	iris1253	wie::FADV	conas	kɔn̪ˠəsˠ	k ɔ nˠ ə sˠ	kon3s	KUNES	KVNVS	validate
+gle	iris1253	wie::FADV	cén chaoi	ceːnʲxiː	c e e nʲ x i i	Tenxi	CENGI	KVNKV	validate
+gle	iris1253	warum::FADV	cén fáth	ceːnʲfˠaː	c e e nʲ fˠ a a	Tenfa	CENBA	KVNPV	validate
+gle	iris1253	warum::FADV	cad chuige	kad̪ˠxɪɟə	k a dˠ x ɪ ɟ ə	kadxiC3	KATGICE	KVTKVKV	validate
+gle	iris1253	wieviel::FNUM	cá mhéad	kaːvʲeːd̪ˠ	k a a vʲ e e dˠ	kaved	KABET	KVWVT	validate
+gle	iris1253	eins::NUM	aon	iːn̪ˠ	i i nˠ	in	IN	VN	validate
+gle	iris1253	zwei::NUM	dhá	ɡaː	ɡ a a	ga	KA	KV	validate
+gle	iris1253	drei::NUM	trí	tʲɾʲiː	tʲ ɾʲ i i	tri	TRI	TRV	validate
+gle	iris1253	vier::NUM	ceathair	cahəɾʲ	c a h ə ɾʲ	Tah3r	CAHER	KVHVR	validate
+gle	iris1253	fünf::NUM	cúig	kuːɟ	k u u ɟ	kuC	KYC	KVK	validate
+gle	iris1253	sechs::NUM	sé	ʃeː	ʃ e e	Se	SE	SV	validate
+gle	iris1253	sieben::NUM	seacht	ʃaxt̪ˠ	ʃ a x tˠ	Saxt	SAGT	SVKT	validate
+gle	iris1253	acht::NUM	ocht	ɔxt̪ˠ	ɔ x tˠ	oxt	UGT	VKT	validate
+gle	iris1253	neun::NUM	naoi	n̪ˠiː	nˠ i i	ni	NI	NV	validate
+gle	iris1253	zehn::NUM	deich	dʲɛç	dʲ ɛ ç	dES	TES	TVS	validate
+gle	iris1253	elf::NUM	aon déag	iːn̪ˠdʲeːɡ	i i nˠ dʲ e e ɡ	indeg	INTEK	VNTVK	validate
+gle	iris1253	zwölf::NUM	dó dhéag	d̪ˠoːɟeːɡ	dˠ o o ɟ e e ɡ	doCeg	TUCEK	TVKVK	validate
+gle	iris1253	zwanzig::NUM	fiche	fʲɪçə	fʲ ɪ ç ə	fiS3	BISE	PVSV	validate
+gle	iris1253	dreißig::NUM	tríocha	tʲɾʲiːxə	tʲ ɾʲ i i x ə	trix3	TRIGE	TRVKV	validate
+gle	iris1253	vierzig::NUM	daichead	d̪ˠaçəd̪ˠ	dˠ a ç ə dˠ	daS3d	TASET	TVSVT	validate
+gle	iris1253	vierzig::NUM	ceathracha	cahɾˠəxə	c a h ɾˠ ə x ə	Tahr3x3	CAHREGE	KVHRVKV	validate
+gle	iris1253	fünfzig::NUM	caoga	kiːɡə	k i i ɡ ə	kig3	KIKE	KVKV	validate
+gle	iris1253	sechzig::NUM	seasca	ʃasˠkə	ʃ a sˠ k ə	Sask3	SASKE	SVSKV	validate
+gle	iris1253	siebzig::NUM	seachtó	ʃaxt̪ˠoː	ʃ a x tˠ o o	Saxto	SAGTU	SVKTV	validate
+gle	iris1253	achtzig::NUM	ochtó	ɔxt̪ˠoː	ɔ x tˠ o o	oxto	UGTU	VKTV	validate
+gle	iris1253	neunzig::NUM	nócha	n̪ˠoːxə	nˠ o o x ə	nox3	NUGE	NVKV	validate
+gle	iris1253	hundert::NUM	céad	ceːd̪ˠ	c e e dˠ	Ted	CET	KVT	validate
+gle	iris1253	tausend::NUM	míle	mʲiːlʲə	mʲ i i lʲ ə	mil3	MILE	MVRV	validate
+gle	iris1253	und::CNJ	agus	aɡəsˠ	a ɡ ə sˠ	ag3s	AKES	VKVS	validate
+gle	iris1253	oder::CNJ	nó	n̪ˠoː	nˠ o o	no	NU	NV	validate
+gle	iris1253	stehen::V	seas	ʃasˠ	ʃ a sˠ	Sas	SAS	SVS	validate
+gle	iris1253	sitzen::V	suigh	sˠɪɟ	sˠ ɪ ɟ	siC	SIC	SVK	validate
+gle	iris1253	liegen::V	luigh	l̪ˠɪɟ	lˠ ɪ ɟ	liC	LIC	RVK	validate
+gle	iris1253	hängen::V	tá crochta	t̪ˠaːkɾˠɔxt̪ˠə	tˠ a a k ɾˠ ɔ x tˠ ə	takroxt3	TAKRUGTE	TVKRVKTV	validate
+gle	iris1253	werden::V	éirigh	eːɾʲiː	e e ɾʲ i i	eri	ERI	VRV	validate
+gle	iris1253	passieren::V	tarlaigh	t̪ˠaːɾˠl̪ˠiː	tˠ a a ɾˠ lˠ i i	tarli	TARLI	TVRRV	validate
+gle	iris1253	beginnen::V	tosaigh	t̪ˠɔsˠiː	tˠ ɔ sˠ i i	tosi	TUSI	TVSV	validate
+gle	iris1253	enden::V	críochnaigh	cɾʲiːxn̪ˠiː	c ɾʲ i i x nˠ i i	Trixni	CRIGNI	KRVKNV	validate
+gle	iris1253	wechseln::V	athraigh	ahɾˠiː	a h ɾˠ i i	ahri	AHRI	VHRV	validate
+gle	iris1253	aufgehen[Sonne]::V	éirigh	eːɾʲiː	e e ɾʲ i i	eri	ERI	VRV	validate
+gle	iris1253	untergehen[Sonne]::V	fuin	fˠɪnʲ	fˠ ɪ nʲ	fin	BIN	PVN	validate
+gle	iris1253	untergehen[Sonne]::V	téigh faoi	tʲeːɟfˠiː	tʲ e e ɟ fˠ i i	teCfi	TECBI	TVKPV	validate
+gle	iris1253	scheinen[Sonne]::V	taitin	t̪ˠatʲənʲ	tˠ a tʲ ə nʲ	tat3n	TATEN	TVTVN	validate
+gle	iris1253	scheinen[Sonne]::V	soilsigh	sˠɔlʲʃiː	sˠ ɔ lʲ ʃ i i	solSi	SULSI	SVRSV	validate
+gle	iris1253	donnern::V	tá toirneach ann	t̪ˠaːt̪ˠoːɾˠnʲəxan̪ˠ	tˠ a a tˠ o o ɾˠ nʲ ə x a nˠ	tatorn3xan	TATURNEGAN	TVTVRNVKVN	validate
+gle	iris1253	wehen::V	séid	ʃeːdʲ	ʃ e e dʲ	Sed	SET	SVT	validate
+gle	iris1253	strömen::V	sil	ʃɪlʲ	ʃ ɪ lʲ	Sil	SIL	SVR	validate
+gle	iris1253	fließen::V	rith	ɾˠɪh	ɾˠ ɪ h	rih	RIH	RVH	validate
+gle	iris1253	fließen::V	snigh	ʃnʲɪɟ	ʃ nʲ ɪ ɟ	SniC	SNIC	SNVK	validate
+gle	iris1253	sich drehen::V	cas	kasˠ	k a sˠ	kas	KAS	KVS	validate
+gle	iris1253	sich drehen::V	imrothlaigh	ˈɪmʲɾˠɔhl̪ˠiː	ɪ mʲ ɾˠ ɔ h lˠ i i	imrohli	IMRUHLI	VMRVHRV	validate
+gle	iris1253	schwanken::V	luasc	l̪ˠʊəsˠk	lˠ ʊ ə sˠ k	lu3sk	LYESK	RVSK	validate
+gle	iris1253	schwingen::V	luasc	l̪ˠʊəsˠk	lˠ ʊ ə sˠ k	lu3sk	LYESK	RVSK	validate
+gle	iris1253	fallen::V	tit	tʲɪtʲ	tʲ ɪ tʲ	tit	TIT	TVT	validate
+gle	iris1253	brennen::V	dóigh	d̪ˠoːɟ	dˠ o o ɟ	doC	TUC	TVK	validate
+gle	iris1253	rauchen::V	plúch toite	pˠl̪ˠuːxt̪ˠɔtʲə	pˠ lˠ u u x tˠ ɔ tʲ ə	pluxtot3	PLYGTUTE	PRVKTVTV	review
+gle	iris1253	regnen::V	báistigh	bˠaːʃtʲiː	bˠ a a ʃ tʲ i i	baSti	PASTI	PVSTV	validate
+gle	iris1253	regnen::V	tá ag cur báistí	t̪ˠaːɛɟkʊɾˠbˠaːʃtʲiː	tˠ a a ɛ ɟ k ʊ ɾˠ bˠ a a ʃ tʲ i i	taECkurbaSti	TAECKYRPASTI	TVKKVRPVSTV	validate
+gle	iris1253	gefrieren::V	sioc	ʃɪk	ʃ ɪ k	Sik	SIK	SVK	validate
+gle	iris1253	gefrieren::V	reoigh	ɾˠoːɟ	ɾˠ o o ɟ	roC	RUC	RVK	validate
+gle	iris1253	tauen::V	leáigh	lʲaːɟ	lʲ a a ɟ	laC	LAC	RVK	validate
+gle	iris1253	tauen::V	coscair	kɔsˠkəɾʲ	k ɔ sˠ k ə ɾʲ	kosk3r	KUSKER	KVSKVR	validate
+gle	iris1253	schmelzen::V	leáigh	lʲaːɟ	lʲ a a ɟ	laC	LAC	RVK	validate
+gle	iris1253	trocknen::V	triomaigh	tʲɾʲɪmˠiː	tʲ ɾʲ ɪ mˠ i i	trimi	TRIMI	TRVMV	validate
+gle	iris1253	sieden::V	fiuch	fʲʊx	fʲ ʊ x	fux	BYG	PVK	validate
+gle	iris1253	sieden::V	beirigh	bʲɛɾʲiː	bʲ ɛ ɾʲ i i	bEri	PERI	PVRV	validate
+gle	iris1253	faulen::V	lobh	l̪ˠɔvˠ	lˠ ɔ vˠ	lov	LUB	RVW	validate
+gle	iris1253	faulen::V	dreoigh	dʲɾʲoːɟ	dʲ ɾʲ o o ɟ	droC	TRUC	TRVK	validate
+gle	iris1253	verfaulen::V	lobh	l̪ˠɔvˠ	lˠ ɔ vˠ	lov	LUB	RVW	validate
+gle	iris1253	verfaulen::V	feoigh	fʲoːɟ	fʲ o o ɟ	foC	BUC	PVK	validate
+gle	iris1253	reißen::V	bris	bʲɾʲɪʃ	bʲ ɾʲ ɪ ʃ	briS	PRIS	PRVS	validate
+gle	iris1253	versinken::V	téigh síos	tʲeːɟʃiːsˠ	tʲ e e ɟ ʃ i i sˠ	teCSis	TECSIS	TVKSVS	validate
+gle	iris1253	vergehen::V	téigh thart	tʲeːɟhaɾˠt̪ˠ	tʲ e e ɟ h a ɾˠ tˠ	teChart	TECHART	TVKHVRT	validate
+gle	iris1253	erscheinen::V	tar	t̪ˠaɾˠ	tˠ a ɾˠ	tar	TAR	TVR	review
+gle	iris1253	verschwinden::V	imigh	ɪmʲiː	ɪ mʲ i i	imi	IMI	VMV	review
+gle	iris1253	sinken::V	tit	tʲɪtʲ	tʲ ɪ tʲ	tit	TIT	TVT	validate
+gle	iris1253	sinken::V	ísligh	iːʃlʲiː	i i ʃ lʲ i i	iSli	ISLI	VSRV	validate
+gle	iris1253	abnehmen::V	maolaigh	mˠiːl̪ˠiː	mˠ i i lˠ i i	mili	MILI	MVRV	validate
+gle	iris1253	abnehmen::V	laghdaigh	l̪ˠaɪd̪ˠiː	lˠ a ɪ dˠ i i	laidi	LAITI	RVTV	validate
+gle	iris1253	zunehmen::V	méadaigh	mʲeːd̪ˠiː	mʲ e e dˠ i i	medi	METI	MVTV	validate
+gle	iris1253	steigen::V	éirigh	eːɾʲiː	e e ɾʲ i i	eri	ERI	VRV	validate
+gle	iris1253	wachsen::V	fás	fˠaːsˠ	fˠ a a sˠ	fas	BAS	PVS	validate
+gle	iris1253	glänzen::V	lonraigh	l̪ˠɔn̪ˠɾˠiː	lˠ ɔ nˠ ɾˠ i i	lonri	LUNRI	RVNRV	validate
+gle	iris1253	funkeln::V	drithligh	dʲɾʲɪhlʲiː	dʲ ɾʲ ɪ h lʲ i i	drihli	TRIHLI	TRVHRV	validate
+gle	iris1253	lärmen::V	tóg callán	t̪ˠoːɡkal̪ˠaːn̪ˠ	tˠ o o ɡ k a lˠ a a nˠ	togkalan	TUKKALAN	TVKKVRVN	validate
+gle	iris1253	läuten::V	buail	bˠʊəlʲ	bˠ ʊ ə lʲ	bu3l	PYEL	PVR	validate
+gle	iris1253	klingeln::V	buail	bˠʊəlʲ	bˠ ʊ ə lʲ	bu3l	PYEL	PVR	validate
+gle	iris1253	klirren::V	cling	clʲɪɲ	c lʲ ɪ ɲ	Tli5	CLIN	KRVN	validate
+gle	iris1253	brausen::V	búir	bˠuːɾʲ	bˠ u u ɾʲ	bur	PYR	PVR	validate
+gle	iris1253	rauschen::V	tá ag siosarnach	t̪ˠaːɛɟʃɪsˠəɾˠn̪ˠəx	tˠ a a ɛ ɟ ʃ ɪ sˠ ə ɾˠ nˠ ə x	taECSis3rn3x	TAECSISERNEG	TVKSVSVRNVK	validate
+gle	iris1253	klingen::V	tá glór ag	t̪ˠaːɡl̪ˠoːɾˠɛɟ	tˠ a a ɡ lˠ o o ɾˠ ɛ ɟ	taglorEC	TAKLUREC	TVKRVRVK	validate
+gle	iris1253	bellen::V	amhastraigh	aʊsˠt̪ˠɾˠiː	a ʊ sˠ tˠ ɾˠ i i	austri	AYSTRI	VSTRV	validate
+gle	iris1253	heulen::V	glam	ɡl̪ˠamˠ	ɡ lˠ a mˠ	glam	KLAM	KRVM	validate
+gle	iris1253	blasen::V	séid	ʃeːdʲ	ʃ e e dʲ	Sed	SET	SVT	validate
+gle	iris1253	pfeifen::V	lig fead	lʲɪɟfʲad̪ˠ	lʲ ɪ ɟ fʲ a dˠ	liCfad	LICBAT	RVKPVT	validate
+gle	iris1253	schreien::V	béic	bʲeːc	bʲ e e c	beT	PEC	PVK	validate
+gle	iris1253	schreien::V	glaoigh	ɡl̪ˠiːɟ	ɡ lˠ i i ɟ	gliC	KLIC	KRVK	validate
+gle	iris1253	stöhnen::V	lig cnead	lʲɪɟknʲad̪ˠ	lʲ ɪ ɟ k nʲ a dˠ	liCknad	LICKNAT	RVKKNVT	validate
+gle	iris1253	zittern::V	crith	cɾʲɪh	c ɾʲ ɪ h	Trih	CRIH	KRVH	validate
+gle	iris1253	zittern::V	creathnaigh	cɾʲahaːn̪ˠiː	c ɾʲ a h a a nˠ i i	Trahani	CRAHANI	KRVHVNV	validate
+gle	iris1253	leben::V	mair	mˠaɾʲ	mˠ a ɾʲ	mar	MAR	MVR	validate
+gle	iris1253	geboren werden::V	rugadh	ɾˠɔɡə	ɾˠ ɔ ɡ ə	rog3	RUKE	RVKV	validate
+gle	iris1253	atmen::V	análaigh	an̪ˠaːl̪ˠiː	a nˠ a a lˠ i i	anali	ANALI	VNVRV	validate
+gle	iris1253	trinken::V	ól	oːl̪ˠ	o o lˠ	ol	UL	VR	validate
+gle	iris1253	essen::V	ith	ɪh	ɪ h	ih	IH	VH	validate
+gle	iris1253	schlucken::V	slog	sˠl̪ˠɔɡ	sˠ lˠ ɔ ɡ	slog	SLUK	SRVK	validate
+gle	iris1253	müde werden::V	tuirsigh	t̪ˠɪɾˠʃiː	tˠ ɪ ɾˠ ʃ i i	tirSi	TIRSI	TVRSV	validate
+gle	iris1253	einschlafen::V	tit ina chodladh	tʲɪtʲɪn̪ˠəxɔl̪ˠə	tʲ ɪ tʲ ɪ nˠ ə x ɔ lˠ ə	titin3xol3	TITINEGULE	TVTVNVKVRV	validate
+gle	iris1253	schlafen::V	codail	kɔd̪ˠəlʲ	k ɔ dˠ ə lʲ	kod3l	KUTEL	KVTVR	validate
+gle	iris1253	aufwachen::V	dúisigh	d̪ˠuːʃiː	dˠ u u ʃ i i	duSi	TYSI	TVSV	validate
+gle	iris1253	aufstehen::V	éirigh	eːɾʲiː	e e ɾʲ i i	eri	ERI	VRV	validate
+gle	iris1253	sich erholen::V	lig scíth	lʲɪɟʃciː	lʲ ɪ ɟ ʃ c i i	liCSTi	LICSCI	RVKSKV	validate
+gle	iris1253	krank werden::V	éirigh tinn	eːɾʲiːtʲɪnʲ	e e ɾʲ i i tʲ ɪ nʲ	eritin	ERITIN	VRVTVN	validate
+gle	iris1253	krank sein::V	tá tinn	t̪ˠaːtʲɪnʲ	tˠ a a tʲ ɪ nʲ	tatin	TATIN	TVTVN	validate
+gle	iris1253	schmerzen::V	tá pian i	t̪ˠaːpʲɪən̪ˠɪ	tˠ a a pʲ ɪ ə nˠ ɪ	tapi3ni	TAPIENI	TVPVNV	validate
+gle	iris1253	husten::V	déan casacht	dʲeːn̪ˠkasˠəxt̪ˠ	dʲ e e nˠ k a sˠ ə x tˠ	denkas3xt	TENKASEGT	TVNKVSVKT	validate
+gle	iris1253	genesen::V	téarnaigh	tʲeːɾˠn̪ˠiː	tʲ e e ɾˠ nˠ i i	terni	TERNI	TVRNV	validate
+gle	iris1253	sterben::V	éag	eːɡ	e e ɡ	eg	EK	VK	validate
+gle	iris1253	sterben::V	faigh bás	fˠaɟbˠaːsˠ	fˠ a ɟ bˠ a a sˠ	faCbas	BACPAS	PVKPVS	validate
+gle	iris1253	umkommen::V	caill	kalʲ	k a lʲ	kal	KAL	KVR	validate
+gle	iris1253	sich bewegen::V	bog	bˠɔɡ	bˠ ɔ ɡ	bog	PUK	PVK	validate
+gle	iris1253	sich bewegen::V	gluais	ɡl̪ˠʊəʃ	ɡ lˠ ʊ ə ʃ	glu3S	KLYES	KRVS	validate
+gle	iris1253	sich rühren::V	corraigh	kɔɾˠiː	k ɔ ɾˠ i i	kori	KURI	KVRV	validate
+gle	iris1253	sich erheben::V	seas suas	ʃasˠsˠʊəsˠ	ʃ a sˠ sˠ ʊ ə sˠ	Sasu3s	SASSYES	SVSSVS	validate
+gle	iris1253	sich setzen::V	suigh	sˠɪɟ	sˠ ɪ ɟ	siC	SIC	SVK	validate
+gle	iris1253	hinfallen::V	tit	tʲɪtʲ	tʲ ɪ tʲ	tit	TIT	TVT	validate
+gle	iris1253	laufen::V	siúil	ʃuːlʲ	ʃ u u lʲ	Sul	SYL	SVR	validate
+gle	iris1253	schreiten::V	siúil	ʃuːlʲ	ʃ u u lʲ	Sul	SYL	SVR	validate
+gle	iris1253	spazierengehen::V	téigh ag spaisteoireacht	tʲeːɟɛɟsˠpˠaʃtʲoːɾʲəxt̪ˠ	tʲ e e ɟ ɛ ɟ sˠ pˠ a ʃ tʲ o o ɾʲ ə x tˠ	teCECspaStor3xt	TECECSPASTUREGT	TVKVKSPVSTVRVKT	validate
+gle	iris1253	eilen::V	deifrigh	dʲɛfʲɾʲiː	dʲ ɛ fʲ ɾʲ i i	dEfri	TEBRI	TVPRV	validate
+gle	iris1253	eilen::V	brostaigh	bˠɾˠɔsˠt̪ˠiː	bˠ ɾˠ ɔ sˠ tˠ i i	brosti	PRUSTI	PRVSTV	validate
+gle	iris1253	sich beeilen::V	deifrigh	dʲɛfʲɾʲiː	dʲ ɛ fʲ ɾʲ i i	dEfri	TEBRI	TVPRV	validate
+gle	iris1253	sich beeilen::V	déan deifir	dʲeːn̪ˠdʲɛfʲəɾʲ	dʲ e e nˠ dʲ ɛ fʲ ə ɾʲ	dendEf3r	TENTEBER	TVNTVPVR	validate
+gle	iris1253	sausen::V	luathaigh	l̪ˠʊəhiː	lˠ ʊ ə h i i	lu3hi	LYEHI	RVHV	validate
+gle	iris1253	rennen::V	rith	ɾˠɪh	ɾˠ ɪ h	rih	RIH	RVH	validate
+gle	iris1253	springen::V	léim	lʲeːmʲ	lʲ e e mʲ	lem	LEM	RVM	validate
+gle	iris1253	klettern::V	dreap	dʲɾʲapˠ	dʲ ɾʲ a pˠ	drap	TRAP	TRVP	validate
+gle	iris1253	schaukeln::V	téigh ar an maide corrach	tʲeːɟɛɾʲəmˠadʲəkɔɾˠəx	tʲ e e ɟ ɛ ɾʲ ə mˠ a dʲ ə k ɔ ɾˠ ə x	teCEr3mad3kor3x	TECEREMATEKUREG	TVKVRVMVTVKVRVK	validate
+gle	iris1253	kriechen::V	snámh	sˠn̪ˠaːvˠ	sˠ nˠ a a vˠ	snav	SNAB	SNVW	validate
+gle	iris1253	schwimmen::V	snámh	sˠn̪ˠaːvˠ	sˠ nˠ a a vˠ	snav	SNAB	SNVW	validate
+gle	iris1253	tauchen::V	tum	t̪ˠʊmˠ	tˠ ʊ mˠ	tum	TYM	TVM	validate
+gle	iris1253	rudern::V	iomair	ɪmˠəɾʲ	ɪ mˠ ə ɾʲ	im3r	IMER	VMVR	validate
+gle	iris1253	rudern::V	rámhaigh	ɾˠaːvˠiː	ɾˠ a a vˠ i i	ravi	RABI	RVWV	validate
+gle	iris1253	fahren::V	tiomáin	tʲɪmˠaːnʲ	tʲ ɪ mˠ a a nʲ	timan	TIMAN	TVMVN	validate
+gle	iris1253	fliegen::V	eitil	ɛtʲəlʲ	ɛ tʲ ə lʲ	Et3l	ETEL	VTVR	validate
+gle	iris1253	gehen::V	téigh	tʲeːɟ	tʲ e e ɟ	teC	TEC	TVK	validate
+gle	iris1253	weggehen::V	imigh	ɪmʲiː	ɪ mʲ i i	imi	IMI	VMV	validate
+gle	iris1253	abfahren::V	imigh	ɪmʲiː	ɪ mʲ i i	imi	IMI	VMV	validate
+gle	iris1253	anhalten::V	stop	sˠt̪ˠɔpˠ	sˠ tˠ ɔ pˠ	stop	STUP	STVP	validate
+gle	iris1253	hineingehen::V	téigh isteach	tʲeːɟəˈʃtʲax	tʲ e e ɟ ə ʃ tʲ a x	teC3Stax	TECESTAG	TVKVSTVK	validate
+gle	iris1253	eintreten::V	téigh isteach	tʲeːɟəˈʃtʲax	tʲ e e ɟ ə ʃ tʲ a x	teC3Stax	TECESTAG	TVKVSTVK	validate
+gle	iris1253	kommen::V	tar	t̪ˠaɾˠ	tˠ a ɾˠ	tar	TAR	TVR	validate
+gle	iris1253	ankommen::V	tar	t̪ˠaɾˠ	tˠ a ɾˠ	tar	TAR	TVR	validate
+gle	iris1253	zurückkommen::V	fill	fʲɪlʲ	fʲ ɪ lʲ	fil	BIL	PVR	validate
+gle	iris1253	bleiben::V	fan	fˠan̪ˠ	fˠ a nˠ	fan	BAN	PVN	validate
+gle	iris1253	warten::V	fan	fˠan̪ˠ	fˠ a nˠ	fan	BAN	PVN	validate
+gle	iris1253	erwarten::V	tá ag súil le	t̪ˠaːɛɟsˠuːlʲlʲə	tˠ a a ɛ ɟ sˠ u u lʲ lʲ ə	taECsul3	TAECSYLLE	TVKSVRRV	validate
+gle	iris1253	erwarten::V	tá ag dréim le	t̪ˠaːɛɟdʲɾʲeːmʲlʲə	tˠ a a ɛ ɟ dʲ ɾʲ e e mʲ lʲ ə	taECdreml3	TAECTREMLE	TVKTRVMRV	validate
+gle	iris1253	suchen::V	lorg	l̪ˠɔɾˠəɡ	lˠ ɔ ɾˠ ə ɡ	lor3g	LUREK	RVRVK	validate
+gle	iris1253	finden::V	faigh	fˠaɟ	fˠ a ɟ	faC	BAC	PVK	validate
+gle	iris1253	finden::V	aimsigh	amʲʃiː	a mʲ ʃ i i	amSi	AMSI	VMSV	validate
+gle	iris1253	versuchen::V	triail	tʲɾʲɪəlʲ	tʲ ɾʲ ɪ ə lʲ	tri3l	TRIEL	TRVR	validate
+gle	iris1253	vorbereiten::V	réitigh	ɾˠeːtʲiː	ɾˠ e e tʲ i i	reti	RETI	RVTV	validate
+gle	iris1253	lieben::V	gráigh	ɡɾˠaːɟ	ɡ ɾˠ a a ɟ	graC	KRAC	KRVK	validate
+gle	iris1253	mögen::V	taitin le	t̪ˠatʲənʲlʲə	tˠ a tʲ ə nʲ lʲ ə	tat3nl3	TATENLE	TVTVNRV	validate
+gle	iris1253	mögen::V	is maith le	ɪsˠmˠahlʲə	ɪ sˠ mˠ a h lʲ ə	ismahl3	ISMAHLE	VSMVHRV	validate
+gle	iris1253	lachen::V	gáir	ɡaːɾʲ	ɡ a a ɾʲ	gar	KAR	KVR	validate
+gle	iris1253	rühren::V	téigh i bhfeidhm ar	tʲeːɟɪvʲaɪmʲɛɾʲ	tʲ e e ɟ ɪ vʲ a ɪ mʲ ɛ ɾʲ	teCivaimEr	TECIBAIMER	TVKVWVMVR	validate
+gle	iris1253	weinen::V	goil	ɡɔlʲ	ɡ ɔ lʲ	gol	KUL	KVR	validate
+gle	iris1253	weinen::V	caoin	kiːnʲ	k i i nʲ	kin	KIN	KVN	validate
+gle	iris1253	schimpfen::V	tá ag clamhsán	t̪ˠaːɛɟkl̪ˠaʊsˠaːn̪ˠ	tˠ a a ɛ ɟ k lˠ a ʊ sˠ a a nˠ	taECklausan	TAECKLAYSAN	TVKKRVSVN	validate
+gle	iris1253	sich ärgern::V	tá corraithe	t̪ˠaːkɔɾˠɪhə	tˠ a a k ɔ ɾˠ ɪ h ə	takorih3	TAKURIHE	TVKVRVHV	validate
+gle	iris1253	sich fürchten::V	tá eagla ar	t̪ˠaːaɡl̪ˠəɛɾʲ	tˠ a a a ɡ lˠ ə ɛ ɾʲ	tagl3Er	TAAKLEER	TVKRVR	validate
+gle	iris1253	fürchten::V	tá eagla ar	t̪ˠaːaɡl̪ˠəɛɾʲ	tˠ a a a ɡ lˠ ə ɛ ɾʲ	tagl3Er	TAAKLEER	TVKRVR	validate
+gle	iris1253	fliehen::V	teith	tʲɛh	tʲ ɛ h	tEh	TEH	TVH	validate
+gle	iris1253	flüchten::V	éalaigh	eːl̪ˠiː	e e lˠ i i	eli	ELI	VRV	validate
+gle	iris1253	sehen::V	feic	fʲɛc	fʲ ɛ c	fET	BEC	PVK	validate
+gle	iris1253	anschauen::V	dearc	dʲaɾˠk	dʲ a ɾˠ k	dark	TARK	TVRK	validate
+gle	iris1253	anschauen::V	féach ar	fʲeːxɛɾʲ	fʲ e e x ɛ ɾʲ	fexEr	BEGER	PVKVR	validate
+gle	iris1253	ansehen::V	breathnaigh	bʲɾʲahn̪ˠiː	bʲ ɾʲ a h nˠ i i	brahni	PRAHNI	PRVHNV	validate
+gle	iris1253	hören::V	cluin	kl̪ˠɪnʲ	k lˠ ɪ nʲ	klin	KLIN	KRVN	validate
+gle	iris1253	zuhören::V	éist	eːʃtʲ	e e ʃ tʲ	eSt	EST	VST	validate
+gle	iris1253	probieren::V	bliais	bʲlʲɪəʃ	bʲ lʲ ɪ ə ʃ	bli3S	PLIES	PRVS	validate
+gle	iris1253	riechen::V	bolaigh	bˠɔl̪ˠiː	bˠ ɔ lˠ i i	boli	PULI	PVRV	validate
+gle	iris1253	fühlen::V	airigh	aɾʲiː	a ɾʲ i i	ari	ARI	VRV	validate
+gle	iris1253	fühlen::V	mothaigh	mˠɔhiː	mˠ ɔ h i i	mohi	MUHI	MVHV	validate
+gle	iris1253	scheinen::V	tá an chuma ar	t̪ˠaːəxʊmˠəɛɾʲ	tˠ a a ə x ʊ mˠ ə ɛ ɾʲ	ta3xum3Er	TAEGYMEER	TVKVMVR	validate
+gle	iris1253	zu sehen sein::V	tá le feiceáil	t̪ˠaːl̪ˠəfʲɛcaːlʲ	tˠ a a lˠ ə fʲ ɛ c a a lʲ	tal3fETal	TALEBECAL	TVRVPVKVR	validate
+gle	iris1253	vernehmen::V	cluin	kl̪ˠɪnʲ	k lˠ ɪ nʲ	klin	KLIN	KRVN	validate
+gle	iris1253	frieren::V	tá fuar	t̪ˠaːfˠʊəɾˠ	tˠ a a fˠ ʊ ə ɾˠ	tafu3r	TABYER	TVPVR	validate
+gle	iris1253	tun::V	déan	dʲeːn̪ˠ	dʲ e e nˠ	den	TEN	TVN	validate
+gle	iris1253	können::V	féad	fʲeːd̪ˠ	fʲ e e dˠ	fed	BET	PVT	validate
+gle	iris1253	können::V	is féidir le	ɪsˠfʲeːdʲəɾʲlʲə	ɪ sˠ fʲ e e dʲ ə ɾʲ lʲ ə	isfed3rl3	ISBETERLE	VSPVTVRRV	validate
+gle	iris1253	wollen::V	tá ag iarraidh	t̪ˠaːɛɟɪəɾˠiː	tˠ a a ɛ ɟ ɪ ə ɾˠ i i	taECi3ri	TAECIERI	TVKVRV	validate
+gle	iris1253	anfangen::V	tosaigh	t̪ˠɔsˠiː	tˠ ɔ sˠ i i	tosi	TUSI	TVSV	validate
+gle	iris1253	anfangen::V	cuir tús le	kɪɾʲt̪ˠuːsˠlʲə	k ɪ ɾʲ tˠ u u sˠ lʲ ə	kirtusl3	KIRTYSLE	KVRTVSRV	validate
+gle	iris1253	beenden::V	críochnaigh	cɾʲiːxn̪ˠiː	c ɾʲ i i x nˠ i i	Trixni	CRIGNI	KRVKNV	validate
+gle	iris1253	beenden::V	cuir deireadh le	kɪɾʲdʲɛɾʲəlʲə	k ɪ ɾʲ dʲ ɛ ɾʲ ə lʲ ə	kirdEr3l3	KIRTERELE	KVRTVRVRV	validate
+gle	iris1253	aufhören::V	stad	sˠt̪ˠad̪ˠ	sˠ tˠ a dˠ	stad	STAT	STVT	validate
+gle	iris1253	gelingen::V	éirigh le	eːɾʲiːlʲə	e e ɾʲ i i lʲ ə	eril3	ERILE	VRVRV	validate
+gle	iris1253	geraten::V	tá deireadh ar	t̪ˠaːdʲɛɾʲəɛɾʲ	tˠ a a dʲ ɛ ɾʲ ə ɛ ɾʲ	tadEr3Er	TATEREER	TVTVRVR	validate
+gle	iris1253	öffnen::V	oscail	ɔsˠkəlʲ	ɔ sˠ k ə lʲ	osk3l	USKEL	VSKVR	validate
+gle	iris1253	schließen::V	dún	d̪ˠuːn̪ˠ	dˠ u u nˠ	dun	TYN	TVN	validate
+gle	iris1253	schließen::V	iaigh	ɪəɟ	ɪ ə ɟ	i3C	IEC	VK	validate
+gle	iris1253	stellen::V	cuir	kɪɾʲ	k ɪ ɾʲ	kir	KIR	KVR	validate
+gle	iris1253	setzen::V	cuir	kɪɾʲ	k ɪ ɾʲ	kir	KIR	KVR	validate
+gle	iris1253	setzen::V	socraigh	sˠɔkɾˠiː	sˠ ɔ k ɾˠ i i	sokri	SUKRI	SVKRV	validate
+gle	iris1253	legen::V	leag	lʲaɡ	lʲ a ɡ	lag	LAK	RVK	validate
+gle	iris1253	berühren::V	teagmhaigh le	tʲaɡvˠiːl̪ˠə	tʲ a ɡ vˠ i i lˠ ə	tagvil3	TAKBILE	TVKWVRV	validate
+gle	iris1253	verbinden::V	ceangail	caŋɡəlʲ	c a ŋ ɡ ə lʲ	TaNg3l	CANKEL	KVNKVR	validate
+gle	iris1253	bedecken::V	clúdaigh	kl̪ˠuːd̪ˠiː	k lˠ u u dˠ i i	kludi	KLYTI	KRVTV	validate
+gle	iris1253	bedecken::V	cumhdaigh	kuːd̪ˠiː	k u u dˠ i i	kudi	KYTI	KVTV	validate
+gle	iris1253	aufhängen::V	croch	kɾˠɔx	k ɾˠ ɔ x	krox	KRUG	KRVK	validate
+gle	iris1253	anzünden::V	las	l̪ˠasˠ	lˠ a sˠ	las	LAS	RVS	validate
+gle	iris1253	anzünden::V	adhain	aɪnʲ	a ɪ nʲ	ain	AIN	VN	validate
+gle	iris1253	aufheben::V	tóg	t̪ˠoːɡ	tˠ o o ɡ	tog	TUK	TVK	validate
+gle	iris1253	aufheben::V	ardaigh	aːɾˠd̪ˠiː	a a ɾˠ dˠ i i	ardi	ARTI	VRTV	validate
+gle	iris1253	zurücklassen::V	fág	fˠaːɡ	fˠ a a ɡ	fag	BAK	PVK	validate
+gle	iris1253	verlieren::V	caill	kalʲ	k a lʲ	kal	KAL	KVR	validate
+gle	iris1253	fallen lassen::V	lig uait	lʲɪɟʊətʲ	lʲ ɪ ɟ ʊ ə tʲ	liCu3t	LICYET	RVKVT	validate
+gle	iris1253	fallen lassen::V	caith uait	kahʊətʲ	k a h ʊ ə tʲ	kahu3t	KAHYET	KVHVT	validate
+gle	iris1253	machen::V	déan	dʲeːn̪ˠ	dʲ e e nˠ	den	TEN	TVN	validate
+gle	iris1253	machen::V	réitigh	ɾˠeːtʲiː	ɾˠ e e tʲ i i	reti	RETI	RVTV	validate
+gle	iris1253	herstellen::V	táirg	t̪ˠaːɾʲɟ	tˠ a a ɾʲ ɟ	tarC	TARC	TVRK	validate
+gle	iris1253	bauen::V	tóg	t̪ˠoːɡ	tˠ o o ɡ	tog	TUK	TVK	validate
+gle	iris1253	reparieren::V	deisigh	dʲɛʃiː	dʲ ɛ ʃ i i	dESi	TESI	TVSV	validate
+gle	iris1253	verbessern::V	feabhsaigh	fʲaʊsˠiː	fʲ a ʊ sˠ i i	fausi	BAYSI	PVSV	validate
+gle	iris1253	ändern::V	athraigh	ahɾˠiː	a h ɾˠ i i	ahri	AHRI	VHRV	validate
+gle	iris1253	graben::V	tochail	t̪ˠɔxəlʲ	tˠ ɔ x ə lʲ	tox3l	TUGEL	TVKVR	validate
+gle	iris1253	beugen::V	crom	kɾˠɔmˠ	k ɾˠ ɔ mˠ	krom	KRUM	KRVM	validate
+gle	iris1253	biegen::V	lúb	l̪ˠuːbˠ	lˠ u u bˠ	lub	LYP	RVP	validate
+gle	iris1253	drehen::V	cas	kasˠ	k a sˠ	kas	KAS	KVS	validate
+gle	iris1253	wenden::V	tiontaigh	tʲɪn̪ˠt̪ˠiː	tʲ ɪ nˠ tˠ i i	tinti	TINTI	TVNTV	validate
+gle	iris1253	umdrehen::V	iompaigh	ɪmˠpˠiː	ɪ mˠ pˠ i i	impi	IMPI	VMPV	validate
+gle	iris1253	umdrehen::V	tiontaigh	tʲɪn̪ˠt̪ˠiː	tʲ ɪ nˠ tˠ i i	tinti	TINTI	TVNTV	validate
+gle	iris1253	heben::V	ardaigh	aːɾˠd̪ˠiː	a a ɾˠ dˠ i i	ardi	ARTI	VRTV	validate
+gle	iris1253	hochheben::V	tóg	t̪ˠoːɡ	tˠ o o ɡ	tog	TUK	TVK	validate
+gle	iris1253	ergreifen::V	beir ar	bʲɛɾʲɛɾʲ	bʲ ɛ ɾʲ ɛ ɾʲ	bErEr	PERER	PVRVR	validate
+gle	iris1253	halten::V	coimeád	kɔmʲaːd̪ˠ	k ɔ mʲ a a dˠ	komad	KUMAT	KVMVT	validate
+gle	iris1253	halten::V	coinnigh	kɔnʲiː	k ɔ nʲ i i	koni	KUNI	KVNV	validate
+gle	iris1253	drücken::V	brúigh	bˠɾˠuːɟ	bˠ ɾˠ u u ɟ	bruC	PRYC	PRVK	validate
+gle	iris1253	schieben::V	brúigh	bˠɾˠuːɟ	bˠ ɾˠ u u ɟ	bruC	PRYC	PRVK	validate
+gle	iris1253	kratzen::V	scríob	ʃcɾʲiːbˠ	ʃ c ɾʲ i i bˠ	STrib	SCRIP	SKRVP	validate
+gle	iris1253	lecken::V	ligh	lʲɪɟ	lʲ ɪ ɟ	liC	LIC	RVK	validate
+gle	iris1253	lecken::V	leadhb	lʲaɪbˠ	lʲ a ɪ bˠ	laib	LAIP	RVP	validate
+gle	iris1253	beißen::V	bain greim as	bˠanʲɟɾʲɛmʲasˠ	bˠ a nʲ ɟ ɾʲ ɛ mʲ a sˠ	banCrEmas	PANCREMAS	PVNKRVMVS	validate
+gle	iris1253	abreißen::V	stróic	sˠt̪ˠɾˠoːc	sˠ tˠ ɾˠ o o c	stroT	STRUC	STRVK	validate
+gle	iris1253	abreißen::V	tarraing	t̪ˠaɾˠəɲ	tˠ a ɾˠ ə ɲ	tar35	TAREN	TVRVN	validate
+gle	iris1253	abschneiden::V	scoith	sˠkɔh	sˠ k ɔ h	skoh	SKUH	SKVH	validate
+gle	iris1253	binden::V	ceangail	caŋɡəlʲ	c a ŋ ɡ ə lʲ	TaNg3l	CANKEL	KVNKVR	validate
+gle	iris1253	stecken::V	sáigh	sˠaːɟ	sˠ a a ɟ	saC	SAC	SVK	validate
+gle	iris1253	brechen::V	bris	bʲɾʲɪʃ	bʲ ɾʲ ɪ ʃ	briS	PRIS	PRVS	validate
+gle	iris1253	klopfen::V	cnag	kn̪ˠaɡ	k nˠ a ɡ	knag	KNAK	KNVK	validate
+gle	iris1253	hauen::V	buail	bˠʊəlʲ	bˠ ʊ ə lʲ	bu3l	PYEL	PVR	validate
+gle	iris1253	kleben::V	gliúáil	ɟlʲuːaːlʲ	ɟ lʲ u u a a lʲ	Clual	CLYAL	KRVR	validate
+gle	iris1253	reiben::V	cuimil	kɪmʲəlʲ	k ɪ mʲ ə lʲ	kim3l	KIMEL	KVMVR	validate
+gle	iris1253	streichen::V	leath	lʲah	lʲ a h	lah	LAH	RVH	validate
+gle	iris1253	schleifen::V	líomh	lʲiːvˠ	lʲ i i vˠ	liv	LIB	RVW	validate
+gle	iris1253	schneiden::V	gearr	ɟaːɾˠ	ɟ a a ɾˠ	Car	CAR	KVR	validate
+gle	iris1253	rütteln::V	croith	kɾˠɔh	k ɾˠ ɔ h	kroh	KRUH	KRVH	validate
+gle	iris1253	schütteln::V	croith	kɾˠɔh	k ɾˠ ɔ h	kroh	KRUH	KRVH	validate
+gle	iris1253	schwenken::V	luasc	l̪ˠʊəsˠk	lˠ ʊ ə sˠ k	lu3sk	LYESK	RVSK	validate
+gle	iris1253	schütten::V	doirt	d̪ˠɔɾˠtʲ	dˠ ɔ ɾˠ tʲ	dort	TURT	TVRT	validate
+gle	iris1253	füllen::V	líon	lʲiːn̪ˠ	lʲ i i nˠ	lin	LIN	RVN	validate
+gle	iris1253	einwickeln::V	cuach	kʊəx	k ʊ ə x	ku3x	KYEG	KVK	validate
+gle	iris1253	einwickeln::V	clúdaigh	kl̪ˠuːd̪ˠiː	k lˠ u u dˠ i i	kludi	KLYTI	KRVTV	validate
+gle	iris1253	tragen::V	iompair	ɪmˠpˠəɾʲ	ɪ mˠ pˠ ə ɾʲ	imp3r	IMPER	VMPVR	validate
+gle	iris1253	schleppen::V	tarraing	t̪ˠaɾˠəɲ	tˠ a ɾˠ ə ɲ	tar35	TAREN	TVRVN	validate
+gle	iris1253	ziehen::V	tarraing	t̪ˠaɾˠəɲ	tˠ a ɾˠ ə ɲ	tar35	TAREN	TVRVN	validate
+gle	iris1253	aufbewahren::V	coinnigh	kɔnʲiː	k ɔ nʲ i i	koni	KUNI	KVNV	validate
+gle	iris1253	werfen::V	caith	kah	k a h	kah	KAH	KVH	validate
+gle	iris1253	fangen::V	ceap	capˠ	c a pˠ	Tap	CAP	KVP	validate
+gle	iris1253	packen::V	beir ar	bʲɛɾʲɛɾʲ	bʲ ɛ ɾʲ ɛ ɾʲ	bErEr	PERER	PVRVR	validate
+gle	iris1253	verstecken::V	folaigh	fˠɔl̪ˠiː	fˠ ɔ lˠ i i	foli	BULI	PVRV	validate
+gle	iris1253	verstecken::V	cuir i bhfolach	kɪɾʲɪvˠɔl̪ˠəx	k ɪ ɾʲ ɪ vˠ ɔ lˠ ə x	kirivol3x	KIRIBULEG	KVRVWVRVK	validate
+gle	iris1253	teilen::V	roinn	ɾˠɔnʲ	ɾˠ ɔ nʲ	ron	RUN	RVN	validate
+gle	iris1253	schicken::V	seol	ʃoːl̪ˠ	ʃ o o lˠ	Sol	SUL	SVR	validate
+gle	iris1253	bringen::V	beir	bʲɛɾʲ	bʲ ɛ ɾʲ	bEr	PER	PVR	validate
+gle	iris1253	bringen::V	tabhair	t̪ˠuːɾʲ	tˠ u u ɾʲ	tur	TYR	TVR	validate
+gle	iris1253	hinzufügen::V	cuir le	kɪɾʲlʲə	k ɪ ɾʲ lʲ ə	kirl3	KIRLE	KVRRV	validate
+gle	iris1253	bekommen::V	faigh	fˠaɟ	fˠ a ɟ	faC	BAC	PVK	validate
+gle	iris1253	erhalten::V	faigh	fˠaɟ	fˠ a ɟ	faC	BAC	PVK	validate
+gle	iris1253	nehmen::V	tóg	t̪ˠoːɡ	tˠ o o ɡ	tog	TUK	TVK	validate
+gle	iris1253	nehmen::V	glac	ɡl̪ˠak	ɡ lˠ a k	glak	KLAK	KRVK	validate
+gle	iris1253	wählen::V	pioc	pʲɪk	pʲ ɪ k	pik	PIK	PVK	validate
+gle	iris1253	wählen::V	roghnaigh	ɾˠaʊn̪ˠiː	ɾˠ a ʊ nˠ i i	rauni	RAYNI	RVNV	validate
+gle	iris1253	auswählen::V	roghnaigh	ɾˠaʊn̪ˠiː	ɾˠ a ʊ nˠ i i	rauni	RAYNI	RVNV	validate
+gle	iris1253	bewahren::V	caomhnaigh	kiːvˠn̪ˠiː	k i i vˠ nˠ i i	kivni	KIBNI	KVWNV	validate
+gle	iris1253	behindern::V	cuir bac ar	kɪɾʲbˠakɛɾʲ	k ɪ ɾʲ bˠ a k ɛ ɾʲ	kirbakEr	KIRPAKER	KVRPVKVR	validate
+gle	iris1253	verderben::V	mill	mʲɪlʲ	mʲ ɪ lʲ	mil	MIL	MVR	validate
+gle	iris1253	beschädigen::V	loit	l̪ˠɔtʲ	lˠ ɔ tʲ	lot	LUT	RVT	validate
+gle	iris1253	beschädigen::V	déan damáiste do	dʲeːn̪ˠd̪ˠamˠaːʃtʲəd̪ˠə	dʲ e e nˠ dˠ a mˠ a a ʃ tʲ ə dˠ ə	dendamaSt3d3	TENTAMASTETE	TVNTVMVSTVTV	validate
+gle	iris1253	zerbrechen::V	bris	bʲɾʲɪʃ	bʲ ɾʲ ɪ ʃ	briS	PRIS	PRVS	validate
+gle	iris1253	zerreißen::V	stróic	sˠt̪ˠɾˠoːc	sˠ tˠ ɾˠ o o c	stroT	STRUC	STRVK	validate
+gle	iris1253	zerstören::V	mill	mʲɪlʲ	mʲ ɪ lʲ	mil	MIL	MVR	validate
+gle	iris1253	zerstören::V	scrios	ʃcɾʲɪsˠ	ʃ c ɾʲ ɪ sˠ	STris	SCRIS	SKRVS	validate
+gle	iris1253	verbrennen::V	las	l̪ˠasˠ	lˠ a sˠ	las	LAS	RVS	validate
+gle	iris1253	verbrennen::V	dóigh	d̪ˠoːɟ	dˠ o o ɟ	doC	TUC	TVK	validate
+gle	iris1253	geben::V	tabhair	t̪ˠuːɾʲ	tˠ u u ɾʲ	tur	TYR	TVR	validate
+gle	iris1253	reichen::V	sín	ʃiːnʲ	ʃ i i nʲ	Sin	SIN	SVN	validate
+gle	iris1253	reichen::V	cuir	kɪɾʲ	k ɪ ɾʲ	kir	KIR	KVR	validate
+gle	iris1253	schenken::V	bronn	bˠɾˠɔn̪ˠ	bˠ ɾˠ ɔ nˠ	bron	PRUN	PRVN	validate
+gle	iris1253	schenken::V	tabhair	t̪ˠuːɾʲ	tˠ u u ɾʲ	tur	TYR	TVR	validate
+gle	iris1253	versprechen::V	geall	ɟal̪ˠ	ɟ a lˠ	Cal	CAL	KVR	validate
+gle	iris1253	wünschen::V	guigh	ɡɪɟ	ɡ ɪ ɟ	giC	KIC	KVK	validate
+gle	iris1253	loben::V	mol	mˠɔl̪ˠ	mˠ ɔ lˠ	mol	MUL	MVR	validate
+gle	iris1253	küssen::V	póg	pˠoːɡ	pˠ o o ɡ	pog	PUK	PVK	validate
+gle	iris1253	wiegen::V	bog	bˠɔɡ	bˠ ɔ ɡ	bog	PUK	PVK	validate
+gle	iris1253	wiegen::V	luasc	l̪ˠʊəsˠk	lˠ ʊ ə sˠ k	lu3sk	LYESK	RVSK	validate
+gle	iris1253	zudecken::V	clúdaigh	kl̪ˠuːd̪ˠiː	k lˠ u u dˠ i i	kludi	KLYTI	KRVTV	validate
+gle	iris1253	wecken::V	dúisigh	d̪ˠuːʃiː	dˠ u u ʃ i i	duSi	TYSI	TVSV	validate
+gle	iris1253	zeigen::V	taispeáin	t̪ˠaʃpʲaːnʲ	tˠ a ʃ pʲ a a nʲ	taSpan	TASPAN	TVSPVN	validate
+gle	iris1253	führen::V	treoraigh	tʲɾʲoːɾˠiː	tʲ ɾʲ o o ɾˠ i i	trori	TRURI	TRVRV	validate
+gle	iris1253	lehren::V	múin	mˠuːnʲ	mˠ u u nʲ	mun	MYN	MVN	validate
+gle	iris1253	lehren::V	teagasc	tʲaɡəsˠk	tʲ a ɡ ə sˠ k	tag3sk	TAKESK	TVKVSK	validate
+gle	iris1253	unterrichten::V	múin	mˠuːnʲ	mˠ u u nʲ	mun	MYN	MVN	validate
+gle	iris1253	unterrichten::V	teagasc	tʲaɡəsˠk	tʲ a ɡ ə sˠ k	tag3sk	TAKESK	TVKVSK	validate
+gle	iris1253	aufziehen::V	tóg	t̪ˠoːɡ	tˠ o o ɡ	tog	TUK	TVK	validate
+gle	iris1253	leiten::V	tá i gceannas ar	t̪ˠaːɪcan̪ˠəsˠɛɾʲ	tˠ a a ɪ c a nˠ ə sˠ ɛ ɾʲ	taiTan3sEr	TAICANESER	TVKVNVSVR	validate
+gle	iris1253	antreiben::V	gríosaigh	ɟɾʲiːsˠiː	ɟ ɾʲ i i sˠ i i	Crisi	CRISI	KRVSV	validate
+gle	iris1253	lassen::V	cuir ag	kɪɾʲɛɟ	k ɪ ɾʲ ɛ ɟ	kirEC	KIREC	KVRVK	validate
+gle	iris1253	einladen::V	cuir cuireadh ar	kɪɾʲkɪɾʲəɛɾʲ	k ɪ ɾʲ k ɪ ɾʲ ə ɛ ɾʲ	kirkir3Er	KIRKIREER	KVRKVRVR	validate
+gle	iris1253	vereinigen::V	aontaigh	iːn̪ˠt̪ˠiː	i i nˠ tˠ i i	inti	INTI	VNTV	validate
+gle	iris1253	besuchen::V	tabhair cuairt ar	t̪ˠuːɾʲkʊəɾˠtʲɛɾʲ	tˠ u u ɾʲ k ʊ ə ɾˠ tʲ ɛ ɾʲ	turku3rtEr	TYRKYERTER	TVRKVRTVR	validate
+gle	iris1253	treffen::V	cas ar	kasˠɛɾʲ	k a sˠ ɛ ɾʲ	kasEr	KASER	KVSVR	validate
+gle	iris1253	treffen::V	buail le	bˠʊəlʲlʲə	bˠ ʊ ə lʲ lʲ ə	bu3l3	PYELLE	PVRRV	validate
+gle	iris1253	sich versammeln::V	bailigh	bˠalʲiː	bˠ a lʲ i i	bali	PALI	PVRV	validate
+gle	iris1253	sich versammeln::V	cruinnigh	kɾˠɪnʲiː	k ɾˠ ɪ nʲ i i	krini	KRINI	KRVNV	validate
+gle	iris1253	spielen::V	imir	ɪmʲəɾʲ	ɪ mʲ ə ɾʲ	im3r	IMER	VMVR	validate
+gle	iris1253	spielen::V	tá ag spraoi	t̪ˠaːɛɟsˠpˠɾˠiː	tˠ a a ɛ ɟ sˠ pˠ ɾˠ i i	taECspri	TAECSPRI	TVKSPRV	validate
+gle	iris1253	singen::V	can	kan̪ˠ	k a nˠ	kan	KAN	KVN	validate
+gle	iris1253	tanzen::V	rinc	ɾˠɪɲc	ɾˠ ɪ ɲ c	ri5T	RINC	RVNK	validate
+gle	iris1253	tanzen::V	damhsaigh	d̪ˠaʊsˠiː	dˠ a ʊ sˠ i i	dausi	TAYSI	TVSV	validate
+gle	iris1253	sich trennen::V	scar	sˠkaɾˠ	sˠ k a ɾˠ	skar	SKAR	SKVR	validate
+gle	iris1253	verlassen::V	fág	fˠaːɡ	fˠ a a ɡ	fag	BAK	PVK	validate
+gle	iris1253	retten::V	tarrtháil	t̪ˠaːɾˠhaːlʲ	tˠ a a ɾˠ h a a lʲ	tarhal	TARHAL	TVRHVR	validate
+gle	iris1253	bewachen::V	cosain	kɔsˠənʲ	k ɔ sˠ ə nʲ	kos3n	KUSEN	KVSVN	validate
+gle	iris1253	bewachen::V	gardáil	ɡaːɾˠd̪ˠaːlʲ	ɡ a a ɾˠ dˠ a a lʲ	gardal	KARTAL	KVRTVR	validate
+gle	iris1253	schützen::V	cosain	kɔsˠənʲ	k ɔ sˠ ə nʲ	kos3n	KUSEN	KVSVN	validate
+gle	iris1253	verteidigen::V	cosain	kɔsˠənʲ	k ɔ sˠ ə nʲ	kos3n	KUSEN	KVSVN	validate
+gle	iris1253	sich schlagen::V	tá ag bruíon	t̪ˠaːɛɟbˠɾˠiːn̪ˠ	tˠ a a ɛ ɟ bˠ ɾˠ i i nˠ	taECbrin	TAECPRIN	TVKPRVN	validate
+gle	iris1253	schießen::V	caith	kah	k a h	kah	KAH	KVH	validate
+gle	iris1253	schießen::V	scaoil	sˠkiːlʲ	sˠ k i i lʲ	skil	SKIL	SKVR	validate
+gle	iris1253	siegen::V	bain	bˠanʲ	bˠ a nʲ	ban	PAN	PVN	validate
+gle	iris1253	siegen::V	buaigh	bˠʊəɟ	bˠ ʊ ə ɟ	bu3C	PYEC	PVK	validate
+gle	iris1253	ärgern::V	cuir isteach ar	kɪɾʲəˈʃtʲaxɛɾʲ	k ɪ ɾʲ ə ʃ tʲ a x ɛ ɾʲ	kir3StaxEr	KIRESTAGER	KVRVSTVKVR	validate
+gle	iris1253	schlagen::V	buail	bˠʊəlʲ	bˠ ʊ ə lʲ	bu3l	PYEL	PVR	validate
+gle	iris1253	treten::V	ciceáil	cɪcaːlʲ	c ɪ c a a lʲ	TiTal	CICAL	KVKVR	validate
+gle	iris1253	stechen::V	cealg	cal̪ˠəɡ	c a lˠ ə ɡ	Tal3g	CALEK	KVRVK	validate
+gle	iris1253	stoßen::V	brúigh	bˠɾˠuːɟ	bˠ ɾˠ u u ɟ	bruC	PRYC	PRVK	validate
+gle	iris1253	stoßen::V	soncáil	sˠɔŋkaːlʲ	sˠ ɔ ŋ k a a lʲ	soNkal	SUNKAL	SVNKVR	validate
+gle	iris1253	stehlen::V	goid	ɡɔdʲ	ɡ ɔ dʲ	god	KUT	KVT	validate
+gle	iris1253	stören::V	cuir isteach ar	kɪɾʲəˈʃtʲaxɛɾʲ	k ɪ ɾʲ ə ʃ tʲ a x ɛ ɾʲ	kir3StaxEr	KIRESTAGER	KVRVSTVKVR	validate
+gle	iris1253	belästigen::V	cuir as do	kɪɾʲasˠd̪ˠə	k ɪ ɾʲ a sˠ dˠ ə	kirasd3	KIRASTE	KVRVSTV	validate
+gle	iris1253	verbergen::V	ceil	cɛlʲ	c ɛ lʲ	TEl	CEL	KVR	validate
+gle	iris1253	täuschen::V	cuir dallamullóg ar	kɪɾʲˈd̪ˠal̪ˠəmˠʊl̪ˠoːɡɛɾʲ	k ɪ ɾʲ dˠ a lˠ ə mˠ ʊ lˠ o o ɡ ɛ ɾʲ	kirdal3mulogEr	KIRTALEMYLUKER	KVRTVRVMVRVKVR	validate
+gle	iris1253	betrügen::V	déan calaois ar	dʲeːn̪ˠkal̪ˠiːʃɛɾʲ	dʲ e e nˠ k a lˠ i i ʃ ɛ ɾʲ	denkaliSEr	TENKALISER	TVNKVRVSVR	validate
+gle	iris1253	töten::V	maraigh	mˠaɾˠiː	mˠ a ɾˠ i i	mari	MARI	MVRV	validate
+gle	iris1253	wohnen::V	cuir faoi	kɪɾʲfˠiː	k ɪ ɾʲ fˠ i i	kirfi	KIRBI	KVRPV	validate
+gle	iris1253	wohnen::V	tá ina chónaí	t̪ˠaːɪnʲəxɔn̪ˠiː	tˠ a a ɪ nʲ ə x ɔ nˠ i i	tain3xoni	TAINEGUNI	TVNVKVNV	validate
+gle	iris1253	arbeiten::V	oibrigh	ɔbʲɾʲiː	ɔ bʲ ɾʲ i i	obri	UPRI	VPRV	validate
+gle	iris1253	sammeln::V	bailigh	bˠalʲiː	bˠ a lʲ i i	bali	PALI	PVRV	validate
+gle	iris1253	sammeln::V	cruinnigh	kɾˠɪnʲiː	k ɾˠ ɪ nʲ i i	krini	KRINI	KRVNV	validate
+gle	iris1253	pflücken::V	bain	bˠanʲ	bˠ a nʲ	ban	PAN	PVN	validate
+gle	iris1253	jagen::V	seilg	ʃɛlʲəɟ	ʃ ɛ lʲ ə ɟ	SEl3C	SELEC	SVRVK	validate
+gle	iris1253	fischen::V	iasc	ɪəsˠk	ɪ ə sˠ k	i3sk	IESK	VSK	validate
+gle	iris1253	fassen::V	beir ar	bʲɛɾʲɛɾʲ	bʲ ɛ ɾʲ ɛ ɾʲ	bErEr	PERER	PVRVR	validate
+gle	iris1253	hüten::V	aoirigh	iːɾʲə	i i ɾʲ ə	ir3	IRE	VRV	validate
+gle	iris1253	treiben::V	seol	ʃoːl̪ˠ	ʃ o o lˠ	Sol	SUL	SVR	validate
+gle	iris1253	treiben::V	tiomáin	tʲɪmˠaːnʲ	tʲ ɪ mˠ a a nʲ	timan	TIMAN	TVMVN	validate
+gle	iris1253	anbinden::V	feistigh	fʲɛʃtʲiː	fʲ ɛ ʃ tʲ i i	fESti	BESTI	PVSTV	validate
+gle	iris1253	füttern::V	cothaigh	kɔhiː	k ɔ h i i	kohi	KUHI	KVHV	validate
+gle	iris1253	füttern::V	beathaigh	bʲahiː	bʲ a h i i	bahi	PAHI	PVHV	validate
+gle	iris1253	melken::V	bligh	bʲlʲɪɟ	bʲ lʲ ɪ ɟ	bliC	PLIC	PRVK	validate
+gle	iris1253	melken::V	crúigh	kɾˠuːɟ	k ɾˠ u u ɟ	kruC	KRYC	KRVK	validate
+gle	iris1253	hacken::V	gearr	ɟaːɾˠ	ɟ a a ɾˠ	Car	CAR	KVR	validate
+gle	iris1253	gießen::V	uiscigh	ɪʃciː	ɪ ʃ c i i	iSTi	ISCI	VSKV	validate
+gle	iris1253	reifen::V	aibigh	abʲiː	a bʲ i i	abi	API	VPV	validate
+gle	iris1253	zubereiten::V	cócaráil	koːkəɾˠaːlʲ	k o o k ə ɾˠ a a lʲ	kok3ral	KUKERAL	KVKVRVR	validate
+gle	iris1253	kochen::V	bruith	bˠɾˠɪh	bˠ ɾˠ ɪ h	brih	PRIH	PRVH	validate
+gle	iris1253	kochen::V	beirigh	bʲɛɾʲiː	bʲ ɛ ɾʲ i i	bEri	PERI	PVRV	validate
+gle	iris1253	backen::V	bácáil	bˠaːkaːlʲ	bˠ a a k a a lʲ	bakal	PAKAL	PVKVR	validate
+gle	iris1253	braten::V	róst	ɾˠoːsˠt̪ˠ	ɾˠ o o sˠ tˠ	rost	RUST	RVST	validate
+gle	iris1253	braten::V	frioch	fʲɾʲɪx	fʲ ɾʲ ɪ x	frix	BRIG	PRVK	validate
+gle	iris1253	umrühren::V	measc	mʲasˠk	mʲ a sˠ k	mask	MASK	MVSK	validate
+gle	iris1253	stricken::V	cniotáil	cnʲɪt̪ˠaːlʲ	c nʲ ɪ tˠ a a lʲ	Tnital	CNITAL	KNVTVR	validate
+gle	iris1253	nähen::V	fuaigh	fˠʊəɟ	fˠ ʊ ə ɟ	fu3C	BYEC	PVK	validate
+gle	iris1253	färben::V	dathaigh	d̪ˠahiː	dˠ a h i i	dahi	TAHI	TVHV	validate
+gle	iris1253	reinigen::V	glan	ɡl̪ˠan̪ˠ	ɡ lˠ a nˠ	glan	KLAN	KRVN	validate
+gle	iris1253	waschen::V	nigh	nʲɪɟ	nʲ ɪ ɟ	niC	NIC	NVK	validate
+gle	iris1253	abwischen::V	glan	ɡl̪ˠan̪ˠ	ɡ lˠ a nˠ	glan	KLAN	KRVN	validate
+gle	iris1253	spülen::V	sruthlaigh	sˠɾˠʊhl̪ˠiː	sˠ ɾˠ ʊ h lˠ i i	sruhli	SRYHLI	SRVHRV	validate
+gle	iris1253	fegen::V	scuab	sˠkʊəbˠ	sˠ k ʊ ə bˠ	sku3b	SKYEP	SKVP	validate
+gle	iris1253	kehren::V	scuab	sˠkʊəbˠ	sˠ k ʊ ə bˠ	sku3b	SKYEP	SKVP	validate
+gle	iris1253	baden::V	folc	fˠɔl̪ˠk	fˠ ɔ lˠ k	folk	BULK	PVRK	validate
+gle	iris1253	sich waschen::V	nigh é féin	nʲɪɟeːheːnʲ	nʲ ɪ ɟ e e h e e nʲ	niCehen	NICEHEN	NVKVHVN	validate
+gle	iris1253	ausziehen::V	bain de	bˠanʲdʲɛ	bˠ a nʲ dʲ ɛ	bandE	PANTE	PVNTV	validate
+gle	iris1253	anziehen::V	cuir ar	kɪɾʲɛɾʲ	k ɪ ɾʲ ɛ ɾʲ	kirEr	KIRER	KVRVR	validate
+gle	iris1253	sich anziehen::V	gléas é féin	ɟlʲeːsˠeːheːnʲ	ɟ lʲ e e sˠ e e h e e nʲ	Clesehen	CLESEHEN	KRVSVHVN	validate
+gle	iris1253	kämmen::V	cíor	ciːɾˠ	c i i ɾˠ	Tir	CIR	KVR	validate
+gle	iris1253	schmücken::V	maisigh	mˠaʃiː	mˠ a ʃ i i	maSi	MASI	MVSV	validate
+gle	iris1253	sagen::V	abair	abˠəɾʲ	a bˠ ə ɾʲ	ab3r	APER	VPVR	validate
+gle	iris1253	sprechen::V	labhair	l̪ˠaʊɾʲ	lˠ a ʊ ɾʲ	laur	LAYR	RVR	validate
+gle	iris1253	reden::V	caintigh	kanʲtʲiː	k a nʲ tʲ i i	kanti	KANTI	KVNTV	validate
+gle	iris1253	sich unterhalten::V	caintigh	kanʲtʲiː	k a nʲ tʲ i i	kanti	KANTI	KVNTV	validate
+gle	iris1253	sich unterhalten::V	tá ag comhrá	t̪ˠaːɛɟkoːɾˠaː	tˠ a a ɛ ɟ k o o ɾˠ a a	taECkora	TAECKURA	TVKKVRV	validate
+gle	iris1253	fragen::V	fiafraigh	fʲɪəfˠɾˠiː	fʲ ɪ ə fˠ ɾˠ i i	fi3fri	BIEBRI	PVPRV	validate
+gle	iris1253	fragen::V	cuir ceist	kɪɾʲcɛʃtʲ	k ɪ ɾʲ c ɛ ʃ tʲ	kirTESt	KIRCEST	KVRKVST	validate
+gle	iris1253	bitten::V	iarr	ɪəɾˠ	ɪ ə ɾˠ	i3r	IER	VR	validate
+gle	iris1253	erzählen::V	inis	ɪnʲəʃ	ɪ nʲ ə ʃ	in3S	INES	VNVS	validate
+gle	iris1253	erzählen::V	eachtraigh	axt̪ˠɾˠiː	a x tˠ ɾˠ i i	axtri	AGTRI	VKTRV	validate
+gle	iris1253	mitteilen::V	aithris	ahɾʲəʃ	a h ɾʲ ə ʃ	ahr3S	AHRES	VHRVS	validate
+gle	iris1253	mitteilen::V	cuir in iúl	kɪɾʲɪnʲuːl̪ˠ	k ɪ ɾʲ ɪ nʲ u u lˠ	kirinul	KIRINYL	KVRVNVR	validate
+gle	iris1253	nennen::V	ainmnigh	anʲəmʲnʲiː	a nʲ ə mʲ nʲ i i	an3mni	ANEMNI	VNVMNV	validate
+gle	iris1253	rufen::V	glaoigh	ɡl̪ˠiːɟ	ɡ lˠ i i ɟ	gliC	KLIC	KRVK	validate
+gle	iris1253	prahlen::V	maígh	mˠiːɟ	mˠ i i ɟ	miC	MIC	MVK	validate
+gle	iris1253	übersetzen::V	aistrigh	aʃtʲɾʲiː	a ʃ tʲ ɾʲ i i	aStri	ASTRI	VSTRV	validate
+gle	iris1253	denken::V	síl	ʃiːlʲ	ʃ i i lʲ	Sil	SIL	SVR	validate
+gle	iris1253	denken::V	ceap	capˠ	c a pˠ	Tap	CAP	KVP	validate
+gle	iris1253	glauben::V	creid	cɾʲɛdʲ	c ɾʲ ɛ dʲ	TrEd	CRET	KRVT	validate
+gle	iris1253	bemerken::V	tabhair faoi deara	t̪ˠuːɾʲfˠiːdʲaɾˠə	tˠ u u ɾʲ fˠ i i dʲ a ɾˠ ə	turfidar3	TYRBITARE	TVRPVTVRV	validate
+gle	iris1253	erkennen::V	aithin	ahənʲ	a h ə nʲ	ah3n	AHEN	VHVN	validate
+gle	iris1253	begreifen::V	tuig	t̪ˠɪɟ	tˠ ɪ ɟ	tiC	TIC	TVK	validate
+gle	iris1253	verstehen::V	tuig	t̪ˠɪɟ	tˠ ɪ ɟ	tiC	TIC	TVK	validate
+gle	iris1253	lernen::V	foghlaim	fˠaʊl̪ˠəmʲ	fˠ a ʊ lˠ ə mʲ	faul3m	BAYLEM	PVRVM	validate
+gle	iris1253	wissen::V	tá a fhios ag	t̪ˠaːəhɪsˠɛɟ	tˠ a a ə h ɪ sˠ ɛ ɟ	ta3hisEC	TAEHISEC	TVHVSVK	validate
+gle	iris1253	sich erinnern an::V	cuimhnigh ar	kɪvʲnʲiːɛɾʲ	k ɪ vʲ nʲ i i ɛ ɾʲ	kivniEr	KIBNIER	KVWNVR	validate
+gle	iris1253	sich erinnern an::V	is cuimhne ar	ɪsˠkɪvʲnʲəɛɾʲ	ɪ sˠ k ɪ vʲ nʲ ə ɛ ɾʲ	iskivn3Er	ISKIBNEER	VSKVWNVR	validate
+gle	iris1253	vergessen::V	dearmad	dʲaɾˠəmˠəd̪ˠ	dʲ a ɾˠ ə mˠ ə dˠ	dar3m3d	TAREMET	TVRVMVT	validate
+gle	iris1253	messen::V	tomhais	t̪ˠoːʃ	tˠ o o ʃ	toS	TUS	TVS	validate
+gle	iris1253	zählen::V	cuntais	kʊn̪ˠt̪ˠəʃ	k ʊ nˠ tˠ ə ʃ	kunt3S	KYNTES	KVNTVS	validate
+gle	iris1253	rechnen::V	ríomh	ɾˠiːvˠ	ɾˠ i i vˠ	riv	RIB	RVW	validate
+gle	iris1253	rechnen::V	áirigh	aːɾʲiː	a a ɾʲ i i	ari	ARI	VRV	validate
+gle	iris1253	lesen::V	léigh	lʲeːɟ	lʲ e e ɟ	leC	LEC	RVK	validate
+gle	iris1253	malen::V	péinteáil	pʲeːnʲtʲaːlʲ	pʲ e e nʲ tʲ a a lʲ	pental	PENTAL	PVNTVR	validate
+gle	iris1253	zeichnen::V	línigh	lʲiːnʲiː	lʲ i i nʲ i i	lini	LINI	RVNV	validate
+gle	iris1253	zeichnen::V	tarraing	t̪ˠaɾˠəɲ	tˠ a ɾˠ ə ɲ	tar35	TAREN	TVRVN	validate
+gle	iris1253	schreiben::V	scríobh	ʃcɾʲiːvˠ	ʃ c ɾʲ i i vˠ	STriv	SCRIB	SKRVW	validate
+gle	iris1253	besitzen::V	is le	ɪsˠlʲə	ɪ sˠ lʲ ə	isl3	ISLE	VSRV	validate
+gle	iris1253	kaufen::V	ceannaigh	can̪ˠiː	c a nˠ i i	Tani	CANI	KVNV	validate
+gle	iris1253	verkaufen::V	díol	dʲiːl̪ˠ	dʲ i i lˠ	dil	TIL	TVR	validate
+gle	iris1253	bezahlen::V	íoc as	iːkasˠ	i i k a sˠ	ikas	IKAS	VKVS	validate
+gle	iris1253	zahlen::V	íoc	iːk	i i k	ik	IK	VK	validate
+gle	iris1253	beherrschen::V	rialaigh	ɾˠɪəl̪ˠiː	ɾˠ ɪ ə lˠ i i	ri3li	RIELI	RVRV	validate
+gle	iris1253	ertragen::V	seas	ʃasˠ	ʃ a sˠ	Sas	SAS	SVS	validate
+gle	iris1253	ertragen::V	fulaing	fˠʊl̪ˠənʲ	fˠ ʊ lˠ ə nʲ	ful3n	BYLEN	PVRVN	validate
+gle	iris1253	ertragen::V	foighnigh	fˠaɪnʲiː	fˠ a ɪ nʲ i i	faini	BAINI	PVNV	validate
