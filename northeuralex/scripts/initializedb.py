@@ -99,8 +99,15 @@ def main(args):
     for lang in lang_dataset.gen_langs():
         all_langs[lang.iso_code] = lang
 
-    dataset = common.Dataset(id='northeuralex', domain='northeuralex.clld.org')
+    dataset = common.Dataset(id='northeuralex',
+            name='NorthEuraLex',
+            description='Lexicostatistical Database of Northern Eurasia',
+            publisher_name='Johannes Dellert',
+            publisher_place='Tübingen',
+            domain='northeuralex.clld.org')
     DBSession.add(dataset)
+    dataset.editors.append(common.Editor(
+        contributor=common.Contributor(id='jdellert', name='Johannes Dellert')))
 
     doculects = {}  # iso_code: model instance
     concepts = {}  # concept: model instance
@@ -113,10 +120,13 @@ def main(args):
 
         if word.iso_code not in doculects:
             if word.iso_code not in all_langs:
-                print(word.iso_code)
                 continue
             doculects[word.iso_code] = Doculect(id=word.iso_code,
-                    name=all_langs[word.iso_code].name)
+                    name=all_langs[word.iso_code].name,
+                    iso_code=word.iso_code,
+                    glotto_code=word.glotto_code,
+                    latitude=all_langs[word.iso_code].latitude,
+                    longitude=all_langs[word.iso_code].longitude)
             DBSession.add(doculects[word.iso_code])
 
         if last_synset is None \
@@ -129,7 +139,8 @@ def main(args):
 
         DBSession.add(Word(id='{}-{}-{}'.format(word.iso_code, word.concept, word.form),
                 valueset=last_synset,
-                name=word.form))
+                name=word.form,
+                ipa=word.ipa))
 
 
 
