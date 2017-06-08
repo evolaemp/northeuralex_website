@@ -3,7 +3,9 @@ import csv
 
 from clld.db.meta import DBSession
 from clld.db.models import common
-from clld.scripts.util import initializedb, Data
+from clld.scripts.util import initializedb
+
+from northeuralex.models import Concept, Doculect, Synset, Word
 
 
 
@@ -82,7 +84,7 @@ class MainDataset:
 
 
 
-def main(cls, args):
+def main(args):
     """
     Populates the database. Expects: (1) the db to be empty; (2) main_data and
     lang_data to be present in the args argparse.Namespace instance.
@@ -90,10 +92,44 @@ def main(cls, args):
     This function is called within a db transaction, the latter being handled
     by initializedb.
     """
-    data = Data()
+    main_dataset = MainDataset(args.main_data)
+    lang_dataset = LangDataset(args.lang_data)
+
+    all_langs = {}  # iso_code: named tuple
+    for lang in lang_dataset.gen_langs():
+        all_langs[lang.iso_code] = lang
 
     dataset = common.Dataset(id='northeuralex', domain='northeuralex.clld.org')
     DBSession.add(dataset)
+
+    doculects = {}  # iso_code: model instance
+    concepts = {}  # concept: model instance
+    last_synset = None
+
+    for word in main_dataset.gen_words():
+        if word.concept not in concepts:
+            concepts[word.concept] = Concept(id=word.concept, name=word.concept)
+            DBSession.add(concepts[word.concept])
+
+        if word.iso_code not in doculects:
+            if word.iso_code not in all_langs:
+                print(word.iso_code)
+                continue
+            doculects[word.iso_code] = Doculect(id=word.iso_code,
+                    name=all_langs[word.iso_code].name)
+            DBSession.add(doculects[word.iso_code])
+
+        if last_synset is None \
+        or last_synset.language != doculects[word.iso_code] \
+        or last_synset.parameter != concepts[word.concept]:
+            last_synset = Synset(id='{}-{}'.format(word.iso_code, word.concept),
+                    language=doculects[word.iso_code],
+                    parameter=concepts[word.concept])
+            DBSession.add(last_synset)
+
+        DBSession.add(Word(id='{}-{}-{}'.format(word.iso_code, word.concept, word.form),
+                valueset=last_synset,
+                name=word.form))
 
 
 
