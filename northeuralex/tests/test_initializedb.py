@@ -48,3 +48,5 @@ class MainDatasetTestCase(unittest.TestCase):
 
         self.assertEqual(words[0], MainDataset.Word._make([
             'gle', 'iris1253', 'Auge::N', 'súil', 'sˠuːlʲ']))
+        self.assertEqual(words[735], MainDataset.Word._make([
+            'gle', 'iris1253', 'allein::ADV', 'i d\'aonar', 'ɪd̪ˠiːn̪ˠəɾˠ']))

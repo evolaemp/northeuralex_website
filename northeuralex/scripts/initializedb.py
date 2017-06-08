@@ -8,92 +8,92 @@ from clld.scripts.util import initializedb, Data
 
 
 class LangDataset:
-	"""
-	Handles reading the NorthEuraLex' language data dataset.
-	"""
+    """
+    Handles reading the NorthEuraLex' language data dataset.
+    """
 
-	class LangDatasetDialect(csv.Dialect):
-		"""
-		Describes the tsv dialect used for the language data file.
-		"""
-		delimiter = '\t'
-		lineterminator = '\r\n'
-		quoting = csv.QUOTE_NONE
-		strict = True
-
-
-	Language = collections.namedtuple('Language', [
-		'iso_code', 'glotto_code', 'latitude', 'longitude', 'name'])
+    class LangDatasetDialect(csv.Dialect):
+        """
+        Describes the tsv dialect used for the language data file.
+        """
+        delimiter = '\t'
+        lineterminator = '\r\n'
+        quoting = csv.QUOTE_NONE
+        strict = True
 
 
-	def __init__(self, dataset_fp):
-		"""
-		Constructor.
-		"""
-		self.dataset_fp = dataset_fp
+    Language = collections.namedtuple('Language', [
+        'iso_code', 'glotto_code', 'latitude', 'longitude', 'name'])
 
 
-	def gen_langs(self):
-		"""
-		Yields a Language named tuple at a time.
-		"""
-		with open(self.dataset_fp, 'r', encoding='utf-8') as f:
-			reader = csv.reader(f, dialect=self.LangDatasetDialect)
-			for row in reader:
-				yield self.Language._make(row)
+    def __init__(self, dataset_fp):
+        """
+        Constructor.
+        """
+        self.dataset_fp = dataset_fp
+
+
+    def gen_langs(self):
+        """
+        Yields a Language named tuple at a time.
+        """
+        with open(self.dataset_fp, 'r', encoding='utf-8') as f:
+            reader = csv.reader(f, dialect=self.LangDatasetDialect)
+            for row in reader:
+                yield self.Language._make(row)
 
 
 
 class MainDataset:
-	"""
-	Handles reading the main NorthEuraLex dataset.
-	"""
+    """
+    Handles reading the main NorthEuraLex dataset.
+    """
 
-	class MainDatasetDialect(csv.Dialect):
-		"""
-		Describes the tsv dialect used for the dataset file.
-		"""
-		delimiter = '\t'
-		lineterminator = '\r\n'
-		quoting = csv.QUOTE_NONE
-		strict = True
-
-
-	Word = collections.namedtuple('Word', [
-		'iso_code', 'glotto_code', 'concept', 'form', 'ipa'])
+    class MainDatasetDialect(csv.Dialect):
+        """
+        Describes the tsv dialect used for the dataset file.
+        """
+        delimiter = '\t'
+        lineterminator = '\r\n'
+        quoting = csv.QUOTE_NONE
+        strict = True
 
 
-	def __init__(self, dataset_fp):
-		"""
-		Constructor.
-		"""
-		self.dataset_fp = dataset_fp
+    Word = collections.namedtuple('Word', [
+        'iso_code', 'glotto_code', 'concept', 'form', 'ipa'])
 
 
-	def gen_words(self):
-		"""
-		Yields a Word named tuple at a time.
-		"""
-		with open(self.dataset_fp, 'r', encoding='utf-8') as f:
-			reader = csv.DictReader(f, dialect=self.MainDatasetDialect)
-			for line in reader:
-				yield self.Word(line['Language_ID'], line['Glottocode'],
-						line['Concept_ID'], line['Word_Form'], line['rawIPA'])
+    def __init__(self, dataset_fp):
+        """
+        Constructor.
+        """
+        self.dataset_fp = dataset_fp
+
+
+    def gen_words(self):
+        """
+        Yields a Word named tuple at a time.
+        """
+        with open(self.dataset_fp, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f, dialect=self.MainDatasetDialect)
+            for line in reader:
+                yield self.Word(line['Language_ID'], line['Glottocode'],
+                            line['Concept_ID'], line['Word_Form'], line['rawIPA'])
 
 
 
 def main(cls, args):
-	"""
-	Populates the database. Expects: (1) the db to be empty; (2) main_data and
-	lang_data to be present in the args argparse.Namespace instance.
+    """
+    Populates the database. Expects: (1) the db to be empty; (2) main_data and
+    lang_data to be present in the args argparse.Namespace instance.
 
-	This function is called within a db transaction, the latter being handled
-	by initializedb.
-	"""
-	data = Data()
+    This function is called within a db transaction, the latter being handled
+    by initializedb.
+    """
+    data = Data()
 
-	dataset = common.Dataset(id='northeuralex', domain='northeuralex.clld.org')
-	DBSession.add(dataset)
+    dataset = common.Dataset(id='northeuralex', domain='northeuralex.clld.org')
+    DBSession.add(dataset)
 
 
 
