@@ -84,6 +84,33 @@ class MainDataset:
 
 
 
+def init_meta_data(session):
+    """
+    Creates and adds to the given SQLAlchemy session the common.Dataset and
+    related model instances that comprise the project's meta info.
+
+    Helper for the main function that keeps the meta data in one place for
+    easier reference and editing.
+    """
+    dataset = common.Dataset(id='northeuralex',
+            name='NorthEuraLex',
+            description='Lexicostatistical Database of Northern Eurasia',
+            publisher_name='Johannes Dellert',
+            publisher_place='Tübingen',
+            publisher_url='http://www.sfs.uni-tuebingen.de/~jdellert/',
+            license='https://creativecommons.org/licenses/by-sa/4.0/',
+            jsondata={
+                'license_icon': 'cc-by-sa.png',
+                'license_name': 'Creative Commons Attribution-ShareAlike 4.0 International License'},
+            contact='',
+            domain='northeuralex.org')
+    session.add(dataset)
+
+    dataset.editors.append(common.Editor(
+        contributor=common.Contributor(id='jdellert', name='Johannes Dellert')))
+
+
+
 def main(args):
     """
     Populates the database. Expects: (1) the db to be empty; (2) main_data and
@@ -99,15 +126,7 @@ def main(args):
     for lang in lang_dataset.gen_langs():
         all_langs[lang.iso_code] = lang
 
-    dataset = common.Dataset(id='northeuralex',
-            name='NorthEuraLex',
-            description='Lexicostatistical Database of Northern Eurasia',
-            publisher_name='Johannes Dellert',
-            publisher_place='Tübingen',
-            domain='northeuralex.clld.org')
-    DBSession.add(dataset)
-    dataset.editors.append(common.Editor(
-        contributor=common.Contributor(id='jdellert', name='Johannes Dellert')))
+    init_meta_data(DBSession)
 
     doculects = {}  # iso_code: model instance
     concepts = {}  # concept: model instance
