@@ -39,4 +39,17 @@ setup
     pserve --reload development.ini
 
 
+There are certain strings in clld's default templates that can be changed
+through localisation. If you want to change one of those strings, you need to
+add them in ``northeuralex/__init__.py`` and then do something like this::
+
+    pybabel extract northeuralex -o northeuralex/locale/northeuralex.pot
+    pybabel init -i northeuralex/locale/northeuralex.pot -d northeuralex/locale -D clld -l en
+
+    vim northeuralex/locale/en/LC_MESSAGES/clld.po
+
+    pybabel compile -d northeuralex/locale -D clld --statistics
+    pybabel update -i northeuralex/locale/northeuralex.pot -d northeuralex/locale -D clld --previous
+
+
 .. _`clld`: http://clld.org/

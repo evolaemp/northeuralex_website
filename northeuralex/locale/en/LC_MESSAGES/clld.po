@@ -1,17 +1,18 @@
-# Translations template for PROJECT.
+# English translations for PROJECT.
 # Copyright (C) 2017 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2017-06-09 16:07+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-06-09 16:08+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,17 +20,17 @@ msgstr ""
 
 #: northeuralex/__init__.py:15
 msgid "Language"
-msgstr ""
+msgstr "Doculect"
 
 #: northeuralex/__init__.py:16
 msgid "Languages"
-msgstr ""
+msgstr "Doculects"
 
 #: northeuralex/__init__.py:17
 msgid "Parameter"
-msgstr ""
+msgstr "Concept"
 
 #: northeuralex/__init__.py:18
 msgid "Parameters"
-msgstr ""
+msgstr "Concepts"
 
