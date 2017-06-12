@@ -36,6 +36,10 @@ class MainDatasetTestCase(unittest.TestCase):
     def setUp(self):
         self.dataset = MainDataset(os.path.join(FIXTURES_DIR, 'main_data.tsv'))
 
+    def test_normalise_ipa(self):
+        self.assertEqual(self.dataset.normalise_ipa('s i l m æ'), 'silmæ')
+        self.assertEqual(self.dataset.normalise_ipa('k æ æ r m ɛ'), 'kæærmɛ')
+
     def test_gen_words(self):
         words = []
         for word in self.dataset.gen_words():
@@ -47,6 +51,6 @@ class MainDatasetTestCase(unittest.TestCase):
         self.assertEqual(len(words), 1278)
 
         self.assertEqual(words[0], MainDataset.Word._make([
-            'gle', 'iris1253', 'Auge::N', 'súil', 'sˠuːlʲ']))
+            'gle', 'iris1253', 'Auge::N', 'súil', 'sˠuːlʲ', 'sˠuulʲ', 'validate']))
         self.assertEqual(words[735], MainDataset.Word._make([
-            'gle', 'iris1253', 'allein::ADV', 'i d\'aonar', 'ɪd̪ˠiːn̪ˠəɾˠ']))
+            'gle', 'iris1253', 'allein::ADV', 'i d\'aonar', 'ɪd̪ˠiːn̪ˠəɾˠ', 'ɪdˠiinˠəɾˠ', 'validate']))

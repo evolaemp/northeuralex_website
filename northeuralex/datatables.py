@@ -6,6 +6,10 @@ from northeuralex.models import Concept, Doculect, Word
 
 
 
+"""
+Columns
+"""
+
 class IsoCodeCol(Col):
     __kw__ = {'sTitle': 'ISO 639-3'}
 
@@ -19,6 +23,19 @@ class GlottoCodeCol(Col):
         return external_link(href, doculect.glotto_code)
 
 
+
+class NextStepCol(Col):
+    __kw__ = {
+        'sTitle': 'Next action',
+        'choices': [('validate', 'validate'),
+                    ('review', 'review'),
+                    ('process', 'process')] }
+
+
+
+"""
+Tables
+"""
 
 class LanguagesDataTable(datatables.Languages):
 
@@ -58,7 +75,9 @@ class WordsDataTable(datatables.Values):
 
         res.extend([
             Col(self, 'form', model_col=Word.name, sTitle='Orthographic form'),
-            Col(self, 'ipa', model_col=Word.ipa, sTitle='IPA transcription') ])
+            Col(self, 'raw_ipa', model_col=Word.raw_ipa, sTitle='Automatically generated IPA'),
+            Col(self, 'norm_ipa', model_col=Word.norm_ipa, sTitle='Normalised IPA'),
+            NextStepCol(self, 'next_step', model_col=Word.next_step) ])
 
         return res
 

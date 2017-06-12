@@ -62,7 +62,18 @@ class MainDataset:
 
 
     Word = collections.namedtuple('Word', [
-        'iso_code', 'glotto_code', 'concept', 'form', 'ipa'])
+        'iso_code', 'glotto_code', 'concept',
+        'form', 'raw_ipa', 'norm_ipa', 'next_step'])
+
+
+    @staticmethod
+    def normalise_ipa(ipa):
+        """
+        NorthEuraLex dataset files conform to the CLDF format which requires
+        IPA transcriptions to comprise interval-separated tokens. This static
+        method collapses the extra whitespace producing canonical IPA.
+        """
+        return ipa.replace(' ', '')
 
 
     def __init__(self, dataset_fp):
@@ -79,8 +90,13 @@ class MainDataset:
         with open(self.dataset_fp, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f, dialect=self.MainDatasetDialect)
             for line in reader:
-                yield self.Word(line['Language_ID'], line['Glottocode'],
-                            line['Concept_ID'], line['Word_Form'], line['rawIPA'])
+                yield self.Word(line['Language_ID'],
+                            line['Glottocode'],
+                            line['Concept_ID'],
+                            line['Word_Form'],
+                            line['rawIPA'],
+                            self.normalise_ipa(line['IPA']),
+                            line['Next_Step'])
 
 
 
@@ -148,6 +164,8 @@ def main(args):
                     longitude=all_langs[word.iso_code].longitude)
             DBSession.add(doculects[word.iso_code])
 
+        assert word.glotto_code == doculects[word.iso_code].glotto_code
+
         if last_synset is None \
         or last_synset.language != doculects[word.iso_code] \
         or last_synset.parameter != concepts[word.concept]:
@@ -159,7 +177,9 @@ def main(args):
         DBSession.add(Word(id='{}-{}-{}'.format(word.iso_code, word.concept, word.form),
                 valueset=last_synset,
                 name=word.form,
-                ipa=word.ipa))
+                raw_ipa=word.raw_ipa,
+                norm_ipa=word.norm_ipa,
+                next_step=word.next_step))
 
 
 
