@@ -9,6 +9,10 @@ from northeuralex.models import Concept, Doculect, Synset, Word
 
 
 
+"""
+Dataset classes
+"""
+
 class LangDataset:
     """
     Handles reading the NorthEuraLex' language data dataset.
@@ -43,6 +47,57 @@ class LangDataset:
             reader = csv.reader(f, dialect=self.LangDatasetDialect)
             for row in reader:
                 yield self.Language._make(row)
+
+
+
+class ConceptDataset:
+    """
+    Handles reading the NorthEuraLex' concept dataset.
+    """
+
+    class ConceptDatasetDialect(csv.Dialect):
+        """
+        Describes the tsv dialect used for the concepts data file.
+        """
+        delimiter = '\t'
+        lineterminator = '\r\n'
+        quoting = csv.QUOTE_NONE
+        strict = True
+
+
+    Concept = collections.namedtuple('Concept', [
+        'id', 'german', 'english', 'russian',
+        'concepticon_id', 'concepticon_name'])
+
+
+    @staticmethod
+    def extract_german(concept_id):
+        """
+        NorthEuraLex concept IDs are strings of the form GERMAN_WORD::POS. This
+        static method extracts the German word from the concept ID.
+        """
+        parts = concept_id.split('::')
+        assert len(parts) == 2
+        return parts[0]
+
+
+    def __init__(self, dataset_fp):
+        """
+        Constructor.
+        """
+        self.dataset_fp = dataset_fp
+
+
+    def gen_concepts(self):
+        """
+        Yields a Concept named tuple at a time.
+        """
+        with open(self.dataset_fp, 'r', encoding='utf-8') as f:
+            reader = csv.reader(f, dialect=self.ConceptDatasetDialect)
+            for line in reader:
+                yield self.Concept._make([
+                    line[0], self.extract_german(line[0]), line[1], line[2],
+                    int(line[7]), line[6]])
 
 
 
@@ -100,7 +155,11 @@ class MainDataset:
 
 
 
-def init_meta_data(session):
+"""
+Database-populating functions
+"""
+
+def add_meta_data(session):
     """
     Creates and adds to the given SQLAlchemy session the common.Dataset and
     related model instances that comprise the project's meta info.
@@ -127,10 +186,34 @@ def init_meta_data(session):
 
 
 
+def add_concepts(concepts_dataset, session):
+    """
+    Creates and adds to the given SQLAlchemy session the Concept instances
+    harvested from the given ConceptDataset instance. Returns a dict of the
+    added model instances with the concept IDs being the keys.
+
+    Helper for the main function.
+    """
+    d = {}
+
+    for concept in concepts_dataset.gen_concepts():
+        d[concept.id] = Concept(id=concept.id,
+                name='{} ({})'.format(concept.english, concept.id),
+                german_name=concept.german,
+                russian_name=concept.russian,
+                concepticon_id=concept.concepticon_id,
+                concepticon_name=concept.concepticon_name)
+        session.add(d[concept.id])
+
+    return d
+
+
+
 def main(args):
     """
-    Populates the database. Expects: (1) the db to be empty; (2) main_data and
-    lang_data to be present in the args argparse.Namespace instance.
+    Populates the database. Expects: (1) the db to be empty; (2) the main_data,
+    lang_data, and concept_data args to be present in the argparse.Namespace
+    instance.
 
     This function is called within a db transaction, the latter being handled
     by initializedb.
@@ -142,16 +225,14 @@ def main(args):
     for lang in lang_dataset.gen_langs():
         all_langs[lang.iso_code] = lang
 
-    init_meta_data(DBSession)
+    add_meta_data(DBSession)
+    concepts = add_concepts(ConceptDataset(args.concept_data), DBSession)
 
     doculects = {}  # iso_code: model instance
-    concepts = {}  # concept: model instance
     last_synset = None
 
     for word in main_dataset.gen_words():
-        if word.concept not in concepts:
-            concepts[word.concept] = Concept(id=word.concept, name=word.concept)
-            DBSession.add(concepts[word.concept])
+        assert word.concept in concepts
 
         if word.iso_code not in doculects:
             if word.iso_code not in all_langs:
@@ -199,5 +280,7 @@ if __name__ == '__main__':
         'help': 'path to the csv file that contains the northeuralex data'}]
     lang_data_arg = [('lang_data',), {
         'help': 'path to the tsv file that contains the language data'}]
+    concept_data_arg = [('concept_data',), {
+        'help': 'path to the tsv file that contains the concept data'}]
 
-    initializedb(main_data_arg, lang_data_arg, create=main)
+    initializedb(main_data_arg, lang_data_arg, concept_data_arg, create=main)

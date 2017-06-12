@@ -1,7 +1,7 @@
 import os.path
 import unittest
 
-from northeuralex.scripts.initializedb import LangDataset, MainDataset
+from northeuralex.scripts.initializedb import LangDataset, ConceptDataset, MainDataset
 
 
 
@@ -28,6 +28,17 @@ class LangDatasetTestCase(unittest.TestCase):
             'aah', 'abua1245', '', '', 'Abu\' Arapesh']))
         self.assertEqual(langs[-1], LangDataset.Language._make([
             'azz', 'high1278', '20.1554', '-97.5556', 'Highland Puebla Nahuatl']))
+
+
+
+class ConceptDatasetTestCase(unittest.TestCase):
+
+    def setUp(self):
+        self.dataset = ConceptDataset(None)
+
+    def test_extract_german(self):
+        self.assertEqual(self.dataset.extract_german('Auge::N'), 'Auge')
+        self.assertEqual(self.dataset.extract_german('Kiefer[Baum]::N'), 'Kiefer[Baum]')
 
 
 

@@ -24,6 +24,15 @@ class GlottoCodeCol(Col):
 
 
 
+class ConcepticonCol(Col):
+    __kw__ = {'sTitle': 'Concepticon'}
+
+    def format(self, concept):
+        href = 'http://concepticon.clld.org/parameters/{}'.format(concept.concepticon_id)
+        return external_link(href, concept.concepticon_name)
+
+
+
 class NextStepCol(Col):
     __kw__ = {
         'sTitle': 'Next action',
@@ -54,7 +63,10 @@ class ConceptsDataTable(datatables.Parameters):
 
     def col_defs(self):
         return [
-            LinkCol(self, 'name')]
+            LinkCol(self, 'english', model_col=Concept.name),
+            Col(self, 'german', model_col=Concept.german_name),
+            Col(self, 'russian', model_col=Concept.russian_name),
+            ConcepticonCol(self, 'concepticon', model_col=Concept.concepticon_name) ]
 
 
 
@@ -82,6 +94,10 @@ class WordsDataTable(datatables.Values):
         return res
 
 
+
+"""
+Hooks
+"""
 
 def includeme(config):
     """

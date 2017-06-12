@@ -25,6 +25,10 @@ class Concept(CustomModelMixin, Parameter):
     From Parameter this model inherits: id, name.
     """
     pk = Column(Integer, ForeignKey('parameter.pk'), primary_key=True)
+    german_name = Column(Unicode)
+    russian_name = Column(Unicode)
+    concepticon_id = Column(Integer)
+    concepticon_name = Column(Unicode)
 
 
 
