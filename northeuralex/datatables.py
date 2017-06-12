@@ -53,7 +53,7 @@ class WordsDataTable(datatables.Values):
 
         elif self.parameter:
             res.extend([
-                LinkCol(self, 'doculect', model_col=Doculect.name,
+                LinkCol(self, 'language', model_col=Doculect.name,
                     get_object=lambda x: x.valueset.language) ])
 
         res.extend([

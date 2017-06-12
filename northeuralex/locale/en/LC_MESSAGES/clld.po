@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-06-09 16:07+0200\n"
-"PO-Revision-Date: 2017-06-09 16:08+0200\n"
+"POT-Creation-Date: 2017-06-12 11:07+0200\n"
+"PO-Revision-Date: 2017-06-12 11:08+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
@@ -19,18 +19,10 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 
 #: northeuralex/__init__.py:15
-msgid "Language"
-msgstr "Doculect"
-
-#: northeuralex/__init__.py:16
-msgid "Languages"
-msgstr "Doculects"
-
-#: northeuralex/__init__.py:17
 msgid "Parameter"
 msgstr "Concept"
 
-#: northeuralex/__init__.py:18
+#: northeuralex/__init__.py:16
 msgid "Parameters"
 msgstr "Concepts"
 

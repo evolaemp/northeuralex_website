@@ -12,8 +12,6 @@ This is how the problem of renaming the models is handled in other clld apps
 (e.g. asjp and wals) as well.
 """
 _ = lambda x: x
-_('Language')
-_('Languages')
 _('Parameter')
 _('Parameters')
 
