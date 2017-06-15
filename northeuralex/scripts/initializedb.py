@@ -3,7 +3,8 @@ import csv
 
 from clld.db.meta import DBSession
 from clld.db.models import common
-from clld.scripts.util import initializedb
+from clld.lib import bibtex
+from clld.scripts.util import bibtex2source, initializedb
 
 from northeuralex.models import Concept, Doculect, Synset, Word
 
@@ -186,6 +187,21 @@ def add_meta_data(session):
 
 
 
+def add_sources(sources_file_path, session):
+    """
+    Creates and adds to the given SQLAlchemy session the common.Source model
+    instances that comprise the project's references. Expects the path to a
+    bibtex file as its first argument.
+
+    Helper for the main function.
+    """
+    bibtex_db = bibtex.Database.from_file(sources_file_path, encoding='utf-8')
+
+    for record in bibtex_db:
+        session.add(bibtex2source(record))
+
+
+
 def add_concepts(concepts_dataset, session):
     """
     Creates and adds to the given SQLAlchemy session the Concept instances
@@ -212,8 +228,8 @@ def add_concepts(concepts_dataset, session):
 def main(args):
     """
     Populates the database. Expects: (1) the db to be empty; (2) the main_data,
-    lang_data, and concept_data args to be present in the argparse.Namespace
-    instance.
+    lang_data, concept_data, and sources_data args to be present in the given
+    argparse.Namespace instance.
 
     This function is called within a db transaction, the latter being handled
     by initializedb.
@@ -226,6 +242,8 @@ def main(args):
         all_langs[lang.iso_code] = lang
 
     add_meta_data(DBSession)
+    add_sources(args.sources_data, DBSession)
+
     concepts = add_concepts(ConceptDataset(args.concept_data), DBSession)
 
     doculects = {}  # iso_code: model instance
@@ -282,5 +300,8 @@ if __name__ == '__main__':
         'help': 'path to the tsv file that contains the language data'}]
     concept_data_arg = [('concept_data',), {
         'help': 'path to the tsv file that contains the concept data'}]
+    sources_data_arg = [('sources_data',), {
+        'help': 'path to the bibtex file that contains the references'}]
 
-    initializedb(main_data_arg, lang_data_arg, concept_data_arg, create=main)
+    initializedb(main_data_arg, lang_data_arg, concept_data_arg,
+            sources_data_arg, create=main)

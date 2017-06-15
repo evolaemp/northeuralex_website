@@ -95,6 +95,13 @@ class WordsDataTable(datatables.Values):
 
 
 
+class SourcesDataTable(datatables.Sources):
+
+	def col_defs(self):
+		return super().col_defs()[:-1]
+
+
+
 """
 Hooks
 """
@@ -107,3 +114,4 @@ def includeme(config):
     config.register_datatable('languages', LanguagesDataTable)
     config.register_datatable('parameters', ConceptsDataTable)
     config.register_datatable('values', WordsDataTable)
+    config.register_datatable('sources', SourcesDataTable)
