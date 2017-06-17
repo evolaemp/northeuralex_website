@@ -54,6 +54,8 @@ class LanguagesDataTable(datatables.Languages):
             LinkCol(self, 'name'),
             GlottoCodeCol(self, 'glotto_code', model_col=Doculect.glotto_code),
             IsoCodeCol(self, 'iso_code', model_col=Doculect.iso_code),
+            Col(self, 'family'),
+            Col(self, 'subfamily'),
             Col(self, 'latitude'),
             Col(self, 'longitude') ]
 

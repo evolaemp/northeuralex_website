@@ -30,7 +30,8 @@ class LangDataset:
 
 
     Language = collections.namedtuple('Language', [
-        'iso_code', 'glotto_code', 'latitude', 'longitude', 'name'])
+        'name', 'iso_code', 'glotto_code',
+        'family', 'subfamily', 'latitude', 'longitude'])
 
 
     def __init__(self, dataset_fp):
@@ -45,9 +46,12 @@ class LangDataset:
         Yields a Language named tuple at a time.
         """
         with open(self.dataset_fp, 'r', encoding='utf-8') as f:
-            reader = csv.reader(f, dialect=self.LangDatasetDialect)
+            reader = csv.DictReader(f, dialect=self.LangDatasetDialect)
             for row in reader:
-                yield self.Language._make(row)
+                yield self.Language(row['name'],
+                        row['iso_code'], row['glotto_code'],
+                        row['family'], row['subfamily'],
+                        row['latitude'], row['longitude'])
 
 
 
@@ -225,6 +229,31 @@ def add_concepts(concepts_dataset, session):
 
 
 
+def add_doculects(lang_dataset, session):
+    """
+    Creates and adds to the given SQLAlchemy session the Doculect instances
+    harvested from the given LangDataset instance. Returns a dict of the added
+    model instances with the respective ISO codes being the keys.
+
+    Helper for the main function.
+    """
+    d = {}
+
+    for lang in lang_dataset.gen_langs():
+        d[lang.iso_code] = Doculect(id=lang.iso_code,
+                name=lang.name,
+                iso_code=lang.iso_code,
+                glotto_code=lang.glotto_code,
+                family=lang.family,
+                subfamily=lang.subfamily,
+                latitude=lang.latitude,
+                longitude=lang.longitude)
+        session.add(d[lang.iso_code])
+
+    return d
+
+
+
 def main(args):
     """
     Populates the database. Expects: (1) the db to be empty; (2) the main_data,
@@ -235,34 +264,18 @@ def main(args):
     by initializedb.
     """
     main_dataset = MainDataset(args.main_data)
-    lang_dataset = LangDataset(args.lang_data)
-
-    all_langs = {}  # iso_code: named tuple
-    for lang in lang_dataset.gen_langs():
-        all_langs[lang.iso_code] = lang
 
     add_meta_data(DBSession)
     add_sources(args.sources_data, DBSession)
 
     concepts = add_concepts(ConceptDataset(args.concept_data), DBSession)
+    doculects = add_doculects(LangDataset(args.lang_data), DBSession)
 
-    doculects = {}  # iso_code: model instance
     last_synset = None
 
     for word in main_dataset.gen_words():
         assert word.concept in concepts
-
-        if word.iso_code not in doculects:
-            if word.iso_code not in all_langs:
-                continue
-            doculects[word.iso_code] = Doculect(id=word.iso_code,
-                    name=all_langs[word.iso_code].name,
-                    iso_code=word.iso_code,
-                    glotto_code=word.glotto_code,
-                    latitude=all_langs[word.iso_code].latitude,
-                    longitude=all_langs[word.iso_code].longitude)
-            DBSession.add(doculects[word.iso_code])
-
+        assert word.iso_code in doculects
         assert word.glotto_code == doculects[word.iso_code].glotto_code
 
         if last_synset is None \

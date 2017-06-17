@@ -11,11 +11,15 @@ from zope.interface import implementer
 @implementer(interfaces.ILanguage)
 class Doculect(CustomModelMixin, Language):
     """
-    From Language this model inherits: id, latitude (float), longitude (float).
+    From Language this model inherits: id, name, latitude (float), longitude
+    (float).
     """
     pk = Column(Integer, ForeignKey('language.pk'), primary_key=True)
     iso_code = Column(Unicode)
     glotto_code = Column(Unicode)
+
+    family = Column(Unicode)
+    subfamily = Column(Unicode)
 
 
 
@@ -25,8 +29,10 @@ class Concept(CustomModelMixin, Parameter):
     From Parameter this model inherits: id, name.
     """
     pk = Column(Integer, ForeignKey('parameter.pk'), primary_key=True)
+
     german_name = Column(Unicode)
     russian_name = Column(Unicode)
+
     concepticon_id = Column(Integer)
     concepticon_name = Column(Unicode)
 
@@ -47,6 +53,8 @@ class Word(CustomModelMixin, Value):
     Relevant fields inherited from Value: id, name, valueset.
     """
     pk = Column(Integer, ForeignKey('value.pk'), primary_key=True)
+
     raw_ipa = Column(Unicode)
     norm_ipa = Column(Unicode)
+
     next_step = Column(Unicode)

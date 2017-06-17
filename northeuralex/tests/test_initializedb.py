@@ -20,14 +20,12 @@ class LangDatasetTestCase(unittest.TestCase):
             self.assertTrue(type(lang) is LangDataset.Language)
             langs.append(lang)
 
-        self.assertEqual(len(langs), 509)
+        self.assertEqual(len(langs), 107)
 
         self.assertEqual(langs[0], LangDataset.Language._make([
-            'aaa', 'ghot1243', '7.11551', '5.95663', 'Ghotuo']))
-        self.assertEqual(langs[7], LangDataset.Language._make([
-            'aah', 'abua1245', '', '', 'Abu\' Arapesh']))
-        self.assertEqual(langs[-1], LangDataset.Language._make([
-            'azz', 'high1278', '20.1554', '-97.5556', 'Highland Puebla Nahuatl']))
+            'Finnish', 'fin', 'finn1318', 'Uralic', 'Finnic', '61', '24.45']))
+        self.assertEqual(langs[-4], LangDataset.Language._make([
+            'Chechen', 'che', 'chec1245', 'Nakh-Daghestanian', 'Nakh', '43.5', '45.5']))
 
 
 
