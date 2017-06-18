@@ -32,11 +32,28 @@ class LangDatasetTestCase(unittest.TestCase):
 class ConceptDatasetTestCase(unittest.TestCase):
 
     def setUp(self):
-        self.dataset = ConceptDataset(None)
+        self.dataset = ConceptDataset(os.path.join(FIXTURES_DIR, 'concept_data.tsv'))
 
     def test_extract_german(self):
         self.assertEqual(self.dataset.extract_german('Auge::N'), 'Auge')
         self.assertEqual(self.dataset.extract_german('Kiefer[Baum]::N'), 'Kiefer[Baum]')
+
+    def test_gen_concepts(self):
+        concepts = []
+
+        for concept in self.dataset.gen_concepts():
+            self.assertTrue(type(concept) is ConceptDataset.Concept)
+            concepts.append(concept)
+
+        self.assertEqual(len(concepts), 48)
+
+        self.assertEqual(concepts[0], ConceptDataset.Concept._make([
+            'Auge::N', 'EYE', 'Auge [[Anatomie]]', 'eye [[anatomy]]', 'глаз [[анатомия]]', 1248, 'EYE']))
+        self.assertEqual(concepts[17], ConceptDataset.Concept._make([
+            'Genick::N', 'NAPE (OF NECK)', 'Genick [hinter Teil des Halses]', 'nape [back side of neck]',
+            'затылок [задняя часть головы]', 1347, 'NAPE_(OF_NECK)']))
+        self.assertEqual(concepts[47], ConceptDataset.Concept._make([
+            'Leber::N', 'LIVER', 'Leber [[Anatomie]]', 'liver [[anatomy]]', 'печень [[анатомия]]', 1224, 'LIVER']))
 
 
 

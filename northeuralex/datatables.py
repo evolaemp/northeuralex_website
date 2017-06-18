@@ -1,5 +1,5 @@
 from clld.db.meta import DBSession
-from clld.web.datatables.base import Col, LinkToMapCol, LinkCol
+from clld.web.datatables.base import Col, IntegerIdCol, LinkToMapCol, LinkCol
 from clld.web.util.helpers import external_link
 from clld.web import datatables
 
@@ -39,10 +39,16 @@ class FamilyCol(Col):
     """
     Custom column to replace the search with a drop-down for the family column
     of the languages table.
+
+    Unlike in, e.g., NextStepCol, the choices have to be set in the constructor
+    because otherwise the unit tests do not work.
     """
 
-    __kw__ = {'choices': sorted([
-        x[0] for x in DBSession.query(Doculect.family).distinct()])}
+    def __init__(self, *args, **kwargs):
+        kwargs['choices'] = sorted([
+            x[0] for x in DBSession.query(Doculect.family).distinct()])
+
+        super().__init__(*args, **kwargs)
 
 
 
@@ -50,10 +56,16 @@ class SubfamilyCol(Col):
     """
     Custom column to replace the search with a drop-down for the subfamily
     column of the languages table.
+
+    Unlike in, e.g., NextStepCol, the choices have to be set in the constructor
+    because otherwise the unit tests do not work.
     """
 
-    __kw__ = {'choices': sorted([
-        x[0] for x in DBSession.query(Doculect.subfamily).distinct()])}
+    def __init__(self, *args, **kwargs):
+        kwargs['choices'] = sorted([
+            x[0] for x in DBSession.query(Doculect.subfamily).distinct()])
+
+        super().__init__(*args, **kwargs)
 
 
 
@@ -66,8 +78,11 @@ class ConcepticonCol(Col):
     __kw__ = {'sTitle': 'Concepticon'}
 
     def format(self, concept):
-        href = 'http://concepticon.clld.org/parameters/{}'.format(concept.concepticon_id)
-        return external_link(href, concept.concepticon_name)
+        if concept.concepticon_id:
+            href = 'http://concepticon.clld.org/parameters/{}'.format(concept.concepticon_id)
+            return external_link(href, concept.concepticon_name)
+        else:
+            return ''
 
 
 
@@ -108,7 +123,9 @@ class ConceptsDataTable(datatables.Parameters):
 
     def col_defs(self):
         return [
-            LinkCol(self, 'english', model_col=Concept.name),
+            IntegerIdCol(self, 'id', model_col=Concept.id),
+            LinkCol(self, 'name'),
+            Col(self, 'english', model_col=Concept.english_name),
             Col(self, 'german', model_col=Concept.german_name),
             Col(self, 'russian', model_col=Concept.russian_name),
             ConcepticonCol(self, 'concepticon', model_col=Concept.concepticon_name) ]
@@ -122,6 +139,8 @@ class WordsDataTable(datatables.Values):
 
         if self.language:
             res.extend([
+                IntegerIdCol(self, 'id', model_col=Concept.id,
+                    get_object=lambda x: x.valueset.parameter),
                 LinkCol(self, 'concept', model_col=Concept.name,
                     get_object=lambda x: x.valueset.parameter) ])
 

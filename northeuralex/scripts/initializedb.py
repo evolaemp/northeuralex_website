@@ -71,7 +71,11 @@ class ConceptDataset:
 
 
     Concept = collections.namedtuple('Concept', [
-        'id', 'german', 'english', 'russian',
+        'id',  # the NorthEuraLex ID
+        'name',  # the proposed Concepticon, without the underscores
+        'german',  # the German gloss + annotation
+        'english',  # the English gloss + annotation
+        'russian',  # the Russian gloss + annotation
         'concepticon_id', 'concepticon_name'])
 
 
@@ -86,6 +90,18 @@ class ConceptDataset:
         return parts[0]
 
 
+    @staticmethod
+    def make_gloss_field(gloss, annotation):
+        """
+        The Concept's fields german, english, and russian are composed of the
+        respective language's gloss and annotation.
+        """
+        if annotation and annotation != '[]':
+            return '{} {}'.format(gloss, annotation)
+        else:
+            return gloss
+
+
     def __init__(self, dataset_fp):
         """
         Constructor.
@@ -98,11 +114,17 @@ class ConceptDataset:
         Yields a Concept named tuple at a time.
         """
         with open(self.dataset_fp, 'r', encoding='utf-8') as f:
-            reader = csv.reader(f, dialect=self.ConceptDatasetDialect)
+            reader = csv.DictReader(f, dialect=self.ConceptDatasetDialect)
             for line in reader:
-                yield self.Concept._make([
-                    line[0], self.extract_german(line[0]), line[1], line[2],
-                    int(line[7]), line[6]])
+                yield self.Concept(
+                        line['id_nelex'],
+                        line['concepticon_proposed'].replace('_', ' '),
+                        self.make_gloss_field(self.extract_german(line['id_nelex']),
+                                line['annotation_de']),
+                        self.make_gloss_field(line['gloss_en'], line['annotation_en']),
+                        self.make_gloss_field(line['gloss_ru'], line['annotation_ru']),
+                        int(line['concepticon_id']),
+                        line['concepticon'])
 
 
 
@@ -210,15 +232,16 @@ def add_concepts(concepts_dataset, session):
     """
     Creates and adds to the given SQLAlchemy session the Concept instances
     harvested from the given ConceptDataset instance. Returns a dict of the
-    added model instances with the concept IDs being the keys.
+    added model instances with the NorthEuraLex concept IDs being the keys.
 
     Helper for the main function.
     """
     d = {}
 
-    for concept in concepts_dataset.gen_concepts():
-        d[concept.id] = Concept(id=concept.id,
-                name='{} ({})'.format(concept.english, concept.id),
+    for index, concept in enumerate(concepts_dataset.gen_concepts(), 1):
+        d[concept.id] = Concept(id=index,
+                name=concept.name,
+                english_name=concept.english,
                 german_name=concept.german,
                 russian_name=concept.russian,
                 concepticon_id=concept.concepticon_id,

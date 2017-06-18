@@ -1,0 +1,49 @@
+number	position_in_ranking	ranking_value	id_nelex	gloss_en	gloss_ru	annotation_de	annotation_en	annotation_ru	concepticon	concepticon_id	concepticon_proposed	comments
+1	44	-2,539237	Auge::N	eye	глаз	[[Anatomie]]	[[anatomy]]	[[анатомия]]	EYE	1248	EYE	
+2	34	-2,649194	Ohr::N	ear	ухо	[[Anatomie]]	[[anatomy]]	[[анатомия]]	EAR	1247	EAR	
+3	149	-1,995463	Nase::N	nose	нос	[[Anatomie]]	[[anatomy]]	[[анатомия]]	NOSE	1221	NOSE	
+4	25	-2,762589	Mund::N	mouth	рот	[[Anatomie]]	[[anatomy]]	[[анатомия]]	MOUTH	674	MOUTH	
+5	31	-2,670705	Zahn::N	tooth	зуб	[BSP:menschlicher Schneidezahn]	[EX:human incisor]	[НАПР:человека]	TOOTH	1380	TOOTH	
+6	66	-2,387728	Zunge::N	tongue	язык	[[Anatomie]]	[[anatomy]]	[орган в полости рта]	TONGUE	1205	TONGUE	
+7	430	-1,243607	Lippe::N	lip	губа	[[Anatomie]]	[[anatomy]]	[[анатомия]]	LIP	478	LIP	
+8	897	0,10952	Wange::N	cheek	щека	[[Anatomie]]	[[anatomy]]	[[анатомия]]	CHEEK	1730	CHEEK	
+9	644	-0,75467	Gesicht::N	face	лицо	[des Menschen]	[of a human]	[человека]	FACE	1560	FACE	
+10	452	-1,186739	Stirn::N	forehead	лоб	[des Menschen]	[of a human]	[человека]	FOREHEAD	123	FOREHEAD	
+11	121	-2,128777	Haar::N	hair	волос	[Kopfhaar des Menschen]	[of human head]	[на голове человека]	HAIR	1040	HAIR	
+12	988	1,003531	Schnurrbart::N	moustache	усы	[eines Mannes]	[of a man]	[мужчины]	MOUSTACHE	1165	MOUSTACHE	
+13	358	-1,416858	Bart::N	beard	борода	[allgemein]	[generic]	[волосяной покров нижней части лица]	BEARD	678	BEARD	
+14	405	-1,31055	Kinn::N	chin	подбородок	[[Anatomie]]	[[anatomy]]	[[анатомия]]	CHIN	1510	CHIN	
+15	690	-0,647343	Kiefer[Anatomie]::N	jaw	челюсть	[[Anatomie]]	[[anatomy]]	[[анатомия]]	JAW	798	JAW	
+16	361	-1,412143	Kehle::N	throat	горло	[Hals von innen]	[from inside]	[НАПР:полоскать горло]	THROAT	1346	THROAT	
+17	267	-1,638234	Hals::N	neck	шея	[Hals von außen, rundum]	[from outside]	[НАПР:бусы на шее]	NECK	1333	NECK	
+18	804	-0,344891	Genick::N	nape	затылок	[hinter Teil des Halses]	[back side of neck]	[задняя часть головы]	NAPE_(OF_NECK)	1347	NAPE_(OF_NECK)	
+19	23	-2,81461	Kopf::N	head	голова	[BSP:des Menschen]	[EX:of a human]	[НАПР:человека]	HEAD	1256	HEAD	
+20	431	-1,243134	Rücken::N	back	спина	[des Menschen]	[of a human]	[человека]	BACK	1291	BACK	
+21	378	-1,37446	Bauch::N	belly	живот	[des Menschen]	[of a human]	[человека]	BELLY	1251	BELLY	
+22	346	-1,439977	Nabel::N	navel	пупок	[[Anatomie]]	[[anatomy]]	[[анатомия]]	NAVEL	1838	NAVEL	
+23	740	-0,516307	Busen::N	bosom	грудь	[weibliche Brust]	[female breast]	[женская грудь]	BREAST	1402	BREAST	
+24	296	-1,556723	Brust::N	breast	грудь	[BSP:eines Mannes]	[EX:of a man]	[НАПР:мужчины]	CHEST	1592	CHEST	
+25	533	-0,987579	Schulter::N	shoulder	плечо	[[Anatomie]]	[[anatomy]]	[[анатомия]]	SHOULDER	1482	SHOULDER	
+26	46	-2,514312	Arm::N	arm	рука	[des Menschen]	[of a human]	[от пальцев до плеча]	ARM	1673	ARM	
+27	770	-0,443831	Ellenbogen::N	elbow	локоть	[des Menschen]	[of a human]	[человека]	ELBOW	981	ELBOW	
+28	41	-2,555057	Hand::N	hand	кисть	[des Menschen]	[of a human]	[руки]	HAND	1277	HAND	
+29	678	-0,672581	Handfläche::N	palm	ладонь	[[Anatomie]]	[[anatomy]]	[[анатомия]]	PALM_OF_HAND	1183	PALM_OF_HAND	
+30	191	-1,839551	Finger::N	finger	палец	[des Menschen]	[of a human]	[на руке человека]	FINGER	1303	FINGER	
+31	317	-1,500767	Fingernagel::N	fingernail	ноготь на руке	[[Anatomie]]	[[anatomy]]	[человека]	FINGERNAIL	1258	FINGERNAIL	
+32	98	-2,240028	Nagel[Anatomie]::N	nail	ноготь	[[Anatomie]]	[[anatomy]]	[на руке или на ноге]	FINGERNAIL_OR_TOENAIL	1896	FINGERNAIL_OR_TOENAIL	
+33	894	0,074736	Zeh::N	toe	палец ноги	[des Menschen]	[of a human]	[человека]	TOE	1389	TOE	
+34	73	-2,341286	Fuß::N	foot	ступня	[des Menschen]	[of a human]	[человека]	FOOT	1301	FOOT	
+35	443	-1,212251	Ferse::N	heel	пятка	[[Anatomie]]	[[anatomy]]	[[анатомия]]	HEEL	980	HEEL	
+36	271	-1,62634	Knie::N	knee	колено	[[Anatomie]]	[[anatomy]]	[[анатомия]]	KNEE	1371	KNEE	
+37	616	-0,829976	Oberschenkel::N	thigh	бедро	[[Anatomie]]	[[anatomy]]	[верхняя часть ноги до колена]	THIGH	800	THIGH	
+38	57	-2,457644	Bein::N	leg	нога	[des Menschen]	[of a human]	[нога не включая ступню]	LEG	1297	LEG	
+39	252	-1,67423	Körper::N	body	тело	[eines Lebewesens]	[of a living organism]	[живого существа]	BODY	1480	BODY	
+40	417	-1,271135	Haut::N	skin	кожа	[des Menschen]	[of a human]	[человека]	SKIN	763	SKIN	
+41	35	-2,63808	Blut::N	blood	кровь	[Flüssigkeit]	[fluid]	[жидкая]	BLOOD	946	BLOOD	
+42	297	-1,55507	Ader::N	vein	вена	[[Anatomie]]	[[anatomy]]	[[анатомия]]	VEIN	1924	VEIN	
+43	639	-0,764254	Sehne::N	sinew	сухожилие	[[Anatomie]]	[[anatomy]]	[[анатомия]]	TENDON	1137	TENDON	
+44	59	-2,445369	Knochen::N	bone	кость	[[Anatomie]]	[[anatomy]]	[[анатомия]]	BONE	1394	BONE	
+45	265	-1,639365	Gehirn::N	brain	мозг	[[Anatomie]]	[[anatomy]]	[[анатомия]]	BRAIN	1583	BRAIN	
+46	306	-1,544068	Herz::N	heart	сердце	[[Anatomie]]	[[anatomy]]	[[анатомия]]	HEART	1223	HEART	
+47	554	-0,949448	Magen::N	stomach	желудок	[[Anatomie]]	[[anatomy]]	[[анатомия]]	STOMACH	819	STOMACH	
+48	368	-1,394606	Leber::N	liver	печень	[[Anatomie]]	[[anatomy]]	[[анатомия]]	LIVER	1224	LIVER	

@@ -30,6 +30,7 @@ class Concept(CustomModelMixin, Parameter):
     """
     pk = Column(Integer, ForeignKey('parameter.pk'), primary_key=True)
 
+    english_name = Column(Unicode)
     german_name = Column(Unicode)
     russian_name = Column(Unicode)
 
