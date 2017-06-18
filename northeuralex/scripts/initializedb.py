@@ -204,12 +204,14 @@ def add_meta_data(session):
             jsondata={
                 'license_icon': 'cc-by-sa.png',
                 'license_name': 'Creative Commons Attribution-ShareAlike 4.0 International License'},
-            contact='',
+            contact='johannes.dellert@student.uni-tuebingen.de',
             domain='northeuralex.org')
     session.add(dataset)
 
     dataset.editors.append(common.Editor(
         contributor=common.Contributor(id='jdellert', name='Johannes Dellert')))
+    dataset.editors.append(common.Editor(
+        contributor=common.Contributor(id='gjäger', name='Gerhard Jäger')))
 
 
 
