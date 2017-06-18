@@ -1,11 +1,18 @@
 <%inherit file="home_comp.mako"/>
 
-<h3>Contact ${h.contactmail(req)}</h3>
+<h3>Contact</h3>
 <div class="well">
-    <p>You can contact us via email at <a href="mailto:${request.dataset.contact}">${request.dataset.contact}</a>.</p>
-    <% srepo = request.registry.settings['clld.github_repos'] %>
-    <p><a href="https://github.com">GitHub</a> users can also create and discuss bug reports using the following <strong>issue trackers</strong>:</p>
-    <ul>
-        <li><a href="https://github.com/${srepo}/issues">${srepo}/issues</a> for problems with the site software</li>
-    </ul>
+    <p>
+        For any questions and comments about the data, contact
+        <a href="mailto:jdellert@sfs.uni-tuebingen.de">jdellert@sfs.uni-tuebingen.de</a>.
+    </p>
+    <p>
+        For enquiries about using the data for other purposes than research, contact
+        <a href="mailto:gerhard.jaeger@uni-tuebingen.de">gerhard.jaeger@uni-tuebingen.de</a>.
+    </p>
+    <p>
+        <a href="https://github.com">GitHub</a> users can also create and discuss bug reports using the following
+        <a href="https://github.com/evolaemp/northeuralex_website/issues">issue tracker</a>
+        for problems with the site software.
+    </p>
 </div>

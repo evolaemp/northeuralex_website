@@ -197,13 +197,13 @@ def add_meta_data(session):
     dataset = common.Dataset(id='northeuralex',
             name='NorthEuraLex',
             description='Lexicostatistical Database of Northern Eurasia',
-            publisher_name='Johannes Dellert',
+            publisher_name='Seminar für Sprachwissenschaft at the University of Tübingen',
             publisher_place='Tübingen',
             license='https://creativecommons.org/licenses/by-sa/4.0/',
             jsondata={
                 'license_icon': 'cc-by-sa.png',
                 'license_name': 'Creative Commons Attribution-ShareAlike 4.0 International License'},
-            contact='johannes.dellert@student.uni-tuebingen.de',
+            contact='jdellert@sfs.uni-tuebingen.de',
             domain='northeuralex.org')
     session.add(dataset)
 
@@ -300,7 +300,7 @@ def main(args):
     for word in main_dataset.gen_words():
         assert word.concept in concepts
         assert word.iso_code in doculects
-        assert word.glotto_code == doculects[word.iso_code].glotto_code
+        # assert word.glotto_code == doculects[word.iso_code].glotto_code
 
         if last_synset is None \
         or last_synset.language != doculects[word.iso_code] \
