@@ -199,7 +199,6 @@ def add_meta_data(session):
             description='Lexicostatistical Database of Northern Eurasia',
             publisher_name='Johannes Dellert',
             publisher_place='Tübingen',
-            publisher_url='http://www.sfs.uni-tuebingen.de/~jdellert/',
             license='https://creativecommons.org/licenses/by-sa/4.0/',
             jsondata={
                 'license_icon': 'cc-by-sa.png',
