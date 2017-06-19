@@ -1,6 +1,6 @@
 from clld.db.meta import DBSession
 from clld.web.datatables.base import Col, IntegerIdCol, LinkToMapCol, LinkCol
-from clld.web.util.helpers import external_link
+from clld.web.util.helpers import external_link, link
 from clld.web import datatables
 
 from northeuralex.models import Concept, Doculect, Word
@@ -86,14 +86,49 @@ class ConcepticonCol(Col):
 
 
 
+class ConceptLinkCol(LinkCol):
+    """
+    Custom column to present the concept column of the words table as a link
+    with a title attribute containing the concept's English name.
+    """
+
+    def format(self, item):
+        concept = self.get_obj(item)
+        if concept:
+            return link(self.dt.req, concept, **{'title': concept.english_name})
+        else:
+            return ''
+
+
+
+class DoculectLinkCol(LinkCol):
+    """
+    Custom column to present the doculect column of the words table as a link
+    with a title attribute containing the doculect's family and subfamily.
+    """
+
+    def format(self, item):
+        doculect = self.get_obj(item)
+        if doculect:
+            title = '{} ({}, {})'.format(doculect.name,
+                        doculect.family, doculect.subfamily)
+            return link(self.dt.req, doculect, **{'title': title})
+        else:
+            return ''
+
+
+
 class NextStepCol(Col):
     """
     Custom column to replace the search with a drop-down for the next_step
-    column of the words table.
+    column of the words table. Also provides help info in the column's header.
     """
 
     __kw__ = {
-        'sTitle': 'Next action',
+        'sTitle': (
+            '<abbr title="'
+            'Lorem ipsum dolor sit amet'
+            '">Next action</abbr>'),
         'choices': [('validate', 'validate'),
                     ('review', 'review'),
                     ('process', 'process')] }
@@ -141,12 +176,12 @@ class WordsDataTable(datatables.Values):
             res.extend([
                 IntegerIdCol(self, 'id', model_col=Concept.id,
                     get_object=lambda x: x.valueset.parameter),
-                LinkCol(self, 'concept', model_col=Concept.name,
+                ConceptLinkCol(self, 'concept', model_col=Concept.name,
                     get_object=lambda x: x.valueset.parameter) ])
 
         elif self.parameter:
             res.extend([
-                LinkCol(self, 'language', model_col=Doculect.name,
+                DoculectLinkCol(self, 'language', model_col=Doculect.name,
                     get_object=lambda x: x.valueset.language) ])
 
         res.extend([
