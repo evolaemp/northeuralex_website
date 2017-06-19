@@ -1,5 +1,7 @@
 <%inherit file="app.mako"/>
 
+<%block name="title">Lexicostatistical Database of Northern Eurasia</%block>
+
 <%block name="brand">
 	<a href="${request.resource_url(request.dataset)}" class="brand">NorthEuraLex 0.9</a>
 </%block>

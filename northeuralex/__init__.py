@@ -24,6 +24,6 @@ def main(global_config, **settings):
     config = Configurator(settings=settings)
     config.include('clld.web.app')
 
-    config.registry.settings['home_comp'].remove('download')
+    config.registry.settings['home_comp'] = ['help', 'download', 'legal', 'contact']
 
     return config.make_wsgi_app()
