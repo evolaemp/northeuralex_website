@@ -1,6 +1,7 @@
 from clld.db.meta import DBSession
 from clld.web.datatables.base import Col, IntegerIdCol, LinkToMapCol, LinkCol
-from clld.web.util.helpers import external_link, link
+from clld.web.util.helpers import external_link, link, map_marker_img
+from clld.web.util.htmllib import HTML
 from clld.web import datatables
 
 from northeuralex.models import Concept, Doculect, Word
@@ -49,6 +50,9 @@ class FamilyCol(Col):
             x[0] for x in DBSession.query(Doculect.family).distinct()])
 
         super().__init__(*args, **kwargs)
+
+    def format(self, doculect):
+        return HTML.div(map_marker_img(self.dt.req, doculect), ' ', doculect.family)
 
 
 

@@ -1,8 +1,7 @@
 from pyramid.config import Configurator
 
-from clld.db.meta import DBSession
 from clld.interfaces import IMapMarker
-from clld.web.icon import ORDERED_ICONS
+from clld.web.icon import ICON_MAP
 
 
 """
@@ -27,10 +26,18 @@ _('Parameters')
 
 
 """
-Dictionary mapping language families to clld.web.icon.Icon instances. Inited in
-the main function and used in the get_map_marker hook.
+Dictionary mapping language families to clld.web.icon.Icon instances. Used in
+the get_map_marker hook.
 """
-FAMILY_ICONS = {}
+FAMILY_ICONS = {
+    'Uralic': ICON_MAP['s009900'],
+    'Indo-European': ICON_MAP['fdd0000'],
+    'Turkic': ICON_MAP['c0000dd'],
+    'Mongolic': ICON_MAP['c00ff00'],
+    'Tungusic': ICON_MAP['t00ffff'],
+    'Dravidian': ICON_MAP['c990099'],
+    'Nakh-Daghestanian': ICON_MAP['cffff00'],
+    '_default': ICON_MAP['cff6600'] }
 
 
 
@@ -46,12 +53,15 @@ def get_map_marker(item, req):
     The idea how to achieve different markers for different language families
     was stolen from the __init__ module of the sails clld project.
     """
+    family = None
+
     if isinstance(item, models.Doculect):
         family = item.family
     elif isinstance(item, models.Synset):
         family = item.language.family
-    else:
-        return ''
+
+    if family not in FAMILY_ICONS:
+        family = '_default'
 
     return FAMILY_ICONS[family].url(req)
 
@@ -60,18 +70,12 @@ def get_map_marker(item, req):
 def main(global_config, **settings):
     """
     Returns a Pyramid WSGI application. Apart from the clld boilerplate, it
-    orders the home sub-navigation, inits the FAMILY_ICONS dict and registers
-    the get_map_marker hook.
+    orders the home sub-navigation and registers the get_map_marker hook.
     """
     config = Configurator(settings=settings)
     config.include('clld.web.app')
 
     config.registry.settings['home_comp'] = ['help', 'download', 'legal', 'contact']
-
-    family_query = DBSession.query(models.Doculect.family).distinct()
-    family_query = map(lambda x: x[0], family_query)
-    for family in family_query:
-        FAMILY_ICONS[family] = ORDERED_ICONS[len(FAMILY_ICONS)]
 
     config.registry.registerUtility(get_map_marker, IMapMarker)
 
