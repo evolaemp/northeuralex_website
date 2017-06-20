@@ -38,11 +38,14 @@ class GlottoCodeCol(Col):
 
 class FamilyCol(Col):
     """
-    Custom column to replace the search with a drop-down for the family column
-    of the languages table.
+    Custom column to replace the search with a drop-down and to add icons for
+    the family column of the languages table.
 
     Unlike in, e.g., NextStepCol, the choices have to be set in the constructor
     because otherwise the unit tests do not work.
+
+    The icons are handled in the format method, the code being stolen from the
+    datatable module of the clld-glottologfamily-plugin repo.
     """
 
     def __init__(self, *args, **kwargs):
@@ -131,7 +134,7 @@ class NextStepCol(Col):
     __kw__ = {
         'sTitle': (
             '<abbr title="'
-            'Lorem ipsum dolor sit amet'
+            'process → review → validate'
             '">Next action</abbr>'),
         'choices': [('validate', 'validate'),
                     ('review', 'review'),
@@ -191,7 +194,7 @@ class WordsDataTable(datatables.Values):
         res.extend([
             Col(self, 'form', model_col=Word.name, sTitle='Orthographic form'),
             Col(self, 'raw_ipa', model_col=Word.raw_ipa, sTitle='Automatically generated IPA'),
-            Col(self, 'norm_ipa', model_col=Word.norm_ipa, sTitle='Normalised IPA'),
+            # Col(self, 'norm_ipa', model_col=Word.norm_ipa, sTitle='Normalised IPA'),
             NextStepCol(self, 'next_step', model_col=Word.next_step) ])
 
         return res

@@ -6,7 +6,7 @@
 	Below is the information required by law about the web site of
 	NorthEuraLex (${request.host_url}),
 	an electronic resource published by
-	the Arbeitsbereich Allgemeine Sprachwissenschaft at the Seminar für Sprachwissenschaft at the Eberhard Karls Universität Tübingen,
+	the Lehrstuhl Allgemeine Sprachwissenschaft at the Seminar für Sprachwissenschaft at the Eberhard Karls Universität Tübingen,
 	as well as important legal points.
 </p>
 
@@ -15,18 +15,19 @@
 	The following provides mandatory data concerning the provider of this website,
 	obligations with regard to data protection,
 	as well as other important legal references involving this website of
-	the Arbeitsbereich Allgemeine Sprachwissenschaft at the Seminar für Sprachwissenschaft at the Eberhard Karls Universität Tübingen.
+	the Lehrstuhl Allgemeine Sprachwissenschaft at the Seminar für Sprachwissenschaft at the Eberhard Karls Universität Tübingen.
 </p>
 <h5>Provider</h5>
 <p>
 	The provider of this website within the legal meaning of the term is
-	the Arbeitsbereich Allgemeine Sprachwissenschaft at the Seminar für Sprachwissenschaft at the Eberhard Karls Universität Tübingen.
+	the Lehrstuhl Allgemeine Sprachwissenschaft at the Seminar für Sprachwissenschaft at the Eberhard Karls Universität Tübingen.
 </p>
 <dl>
 	<dt>Address:</dt>
 	<dd>
 		<address>
-			Arbeitsbereich Allgemeine Sprachwissenschaft<br />
+			Lehrstuhl Allgemeine Sprachwissenschaft<br />
+			Seminar für Sprachwissenschaft<br />
 			Wilhelmstraße 19-23<br />
 			72074 Tübingen<br />
 			Germany
@@ -34,8 +35,6 @@
 	</dd>
 	<dt>Phone:</dt>
 	<dd>+49 (0)7071 29-77303</dd>
-	<dt>Fax:</dt>
-	<dd>+49 (0)7071 29-5213</dd>
 	<dt>Internet:</dt>
 	<dd>http://www.sfs.uni-tuebingen.de/as/</dd>
 </dl>
@@ -43,10 +42,11 @@
 <p>
 <p>
 	The editor responsible for the information within the scope of the internet presence of
-	the Arbeitsbereich Allgemeine Sprachwissenschaft at the Seminar für Sprachwissenschaft at the Eberhard Karls Universität Tübingen is:
+	the Lehrstuhl Allgemeine Sprachwissenschaft at the Seminar für Sprachwissenschaft at the Eberhard Karls Universität Tübingen is:
 	<address>
 		<strong>Prof. Gerhard Jäger</strong><br />
-		Arbeitsbereich Allgemeine Sprachwissenschaft<br />
+		Lehrstuhl Allgemeine Sprachwissenschaft<br />
+		Seminar für Sprachwissenschaft<br />
 		Wilhelmstraße 19-23<br />
 		72074 Tübingen<br />
 		Germany
