@@ -6,7 +6,7 @@
 	<dl>
 		<dt>Datasets</dt>
 		<dd>
-			<a href="">Dataset in CLDF</a>
+			<a href="${request.static_url('northeuralex:static/downloads/northeuralex-cldf.csv')}" title="NorthEuraLex CLDF Download">Dataset in CLDF</a>
 		</dd>
 	</dl>
 </div>
