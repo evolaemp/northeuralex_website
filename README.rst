@@ -2,8 +2,8 @@
 NorthEuraLex: website
 =====================
 
-In this repo lives the web interface to the NorthEuraLex database. It is a
-`clld`_ app.
+In this repo lives the web interface to the NorthEuraLex database
+(`northeuralex.org`_). It is a `clld`_ app.
 
 
 setup
@@ -52,4 +52,13 @@ add them in ``northeuralex/__init__.py`` and then do something like this::
     pybabel update -i northeuralex/locale/northeuralex.pot -d northeuralex/locale -D clld --previous
 
 
+licence
+=======
+
+MIT. Please note that this only refers to the source code. The data itself is
+publised under the `CC BY-SA 4.0`_ licence, as noted on the website.
+
+
+.. _`northeuralex.org`: http://northeuralex.org/
 .. _`clld`: http://clld.org/
+.. _`CC BY-SA 4.0`: https://creativecommons.org/licenses/by-sa/4.0/
