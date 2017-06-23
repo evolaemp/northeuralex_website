@@ -18,6 +18,24 @@
 			<a href="contact" title="Contact">Contact:</a> For requests and suggestions.
 		</p>
 	</div>
+	<div class="well home-sidebar">
+		<p>
+			The data for this initial release were compiled by:
+			Johannes Dellert, Thora Daneyko, Alla Münch, Alina Ladygina, Armin Buch,
+			Natalie Clarius, Ilja Grigorjew, Mohamed Balabel, Isabella Boga,
+			Zalina Baysarova, Roland Mühlenbernd, Gerhard Jäger, and Johannes Wahle.
+		</p>
+		<p>
+			Language-specific IPA converters were developed by:
+			Thora Daneyko, Johannes Dellert, and Armin Buch.
+		</p>
+		<p>
+			The
+			<a href="https://github.com/evolaemp/northeuralex_website" title="Source code of NorthEuraLex' web interface">source code</a>
+			of the web application is based on the clld framework, developed by the
+			<a href="http://clld.org/" title="CLLD project">CLLD project</a>.
+		</p>
+	</div>
 </%def>
 
 <h2>Welcome to NorthEuraLex 0.9</h2>

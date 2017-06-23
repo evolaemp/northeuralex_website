@@ -5,7 +5,7 @@
 	margin-bottom: 20px;
 }
 
-.home-sidebar {
+.home-sidebar:first-child {
 	margin-top: 50px;
 }
 
