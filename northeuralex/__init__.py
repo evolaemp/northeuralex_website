@@ -1,8 +1,7 @@
 from pyramid.config import Configurator
 
-from clld.db.meta import DBSession
 from clld.interfaces import IMapMarker
-from clld.web.icon import ICON_MAP, ORDERED_ICONS
+from clld.web.icon import ICON_MAP
 
 
 """
@@ -31,6 +30,27 @@ Dictionary mapping language families to clld.web.icon.Icon instances. Used in
 the get_map_marker hook.
 """
 FAMILY_ICONS = {
+    'Uralic': ICON_MAP['c0000dd'],
+    'Indo-European': ICON_MAP['c009900'],
+    'Turkic': ICON_MAP['c990099'],
+    'Mongolic': ICON_MAP['cdd0000'],
+    'Tungusic': ICON_MAP['cffff00'],
+    'Yeniseian': ICON_MAP['cffffff'],
+    'Yukaghir': ICON_MAP['c00ff00'],
+    'Chukotko-Kamchatkan': ICON_MAP['c00ffff'],
+    'Nivkh': ICON_MAP['ccccccc'],
+    'Ainu': ICON_MAP['cff6600'],
+    'Koreanic': ICON_MAP['s0000dd'],
+    'Japonic': ICON_MAP['s009900'],
+    'Eskimo-Aleut': ICON_MAP['s990099'],
+    'Dravidian': ICON_MAP['sdd0000'],
+    'Burushaski': ICON_MAP['sffff00'],
+    'Kartvelian': ICON_MAP['sffffff'],
+    'Basque': ICON_MAP['s00ff00'],
+    'Abkhaz-Adyge': ICON_MAP['s00ffff'],
+    'Nakh-Daghestanian': ICON_MAP['scccccc'],
+    'Afro-Asiatic': ICON_MAP['sff6600'],
+    'Sino-Tibetan': ICON_MAP['t0000dd'],
     '_default': ICON_MAP['cff6600'] }
 
 
@@ -70,11 +90,6 @@ def main(global_config, **settings):
     config.include('clld.web.app')
 
     config.registry.settings['home_comp'] = ['help', 'download', 'legal', 'contact']
-
-    family_query = DBSession.query(models.Doculect.family).distinct()
-    family_query = map(lambda x: x[0], family_query)
-    for family in family_query:
-        FAMILY_ICONS[family] = ORDERED_ICONS[len(FAMILY_ICONS)-1]
 
     config.registry.registerUtility(get_map_marker, IMapMarker)
 
