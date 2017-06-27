@@ -220,12 +220,22 @@ def add_sources(sources_file_path, session):
     instances that comprise the project's references. Expects the path to a
     bibtex file as its first argument.
 
+    Returns a dict containing the added model instances with the bibtex IDs
+    being the keys.
+
     Helper for the main function.
     """
+    d = {}
+
     bibtex_db = bibtex.Database.from_file(sources_file_path, encoding='utf-8')
 
     for record in bibtex_db:
-        session.add(bibtex2source(record))
+        d[record.id] = bibtex2source(record)
+        session.add(d[record.id])
+
+    session.flush()
+
+    return d
 
 
 
@@ -247,17 +257,23 @@ def add_concepts(concepts_dataset, session):
                 russian_name=concept.russian,
                 concepticon_id=concept.concepticon_id,
                 concepticon_name=concept.concepticon_name)
+
         session.add(d[concept.id])
+
+    session.flush()
 
     return d
 
 
 
-def add_doculects(lang_dataset, session):
+def add_doculects(lang_dataset, session, sources={}):
     """
     Creates and adds to the given SQLAlchemy session the Doculect instances
     harvested from the given LangDataset instance. Returns a dict of the added
     model instances with the respective ISO codes being the keys.
+
+    The optional arg should contain common.Source instances with the keys being
+    strings starting with the ISO code of the language that the source is for.
 
     Helper for the main function.
     """
@@ -272,7 +288,18 @@ def add_doculects(lang_dataset, session):
                 subfamily=lang.subfamily,
                 latitude=lang.latitude,
                 longitude=lang.longitude)
+
         session.add(d[lang.iso_code])
+
+    session.flush()
+
+    for key, source in sources.items():
+        if key[:3] in d:
+            session.add(common.LanguageSource(
+                language_pk=d[key[:3]].pk,
+                source_pk=source.pk))
+
+    session.flush()
 
     return d
 
@@ -290,10 +317,10 @@ def main(args):
     main_dataset = MainDataset(args.main_data)
 
     add_meta_data(DBSession)
-    add_sources(args.sources_data, DBSession)
 
+    sources = add_sources(args.sources_data, DBSession)
     concepts = add_concepts(ConceptDataset(args.concept_data), DBSession)
-    doculects = add_doculects(LangDataset(args.lang_data), DBSession)
+    doculects = add_doculects(LangDataset(args.lang_data), DBSession, sources)
 
     last_synset = None
 
