@@ -1,9 +1,19 @@
-from clld.web.adapters import excel
+from clld.web.adapters import csv, excel
 from clld import interfaces
 
+from clldutils.dsv import UnicodeWriter
 
 
-class ExcelLanguages(excel.ExcelAdapter):
+
+"""
+Mixin classes
+
+Each of these includes two methods: header and row. The former is invoked once
+per download while the latter is called once for each model instance. The idea
+is taken from clld.web.adapters.excel.
+"""
+
+class LanguagesMixin:
 
     def header(self, ctx, req):
         return ['name', 'glotto_code', 'iso_code',
@@ -17,7 +27,7 @@ class ExcelLanguages(excel.ExcelAdapter):
 
 
 
-class ExcelConcepts(excel.ExcelAdapter):
+class ConceptsMixin:
 
     def header(self, ctx, req):
         return ['id', 'name', 'english', 'german', 'russian',
@@ -30,7 +40,7 @@ class ExcelConcepts(excel.ExcelAdapter):
 
 
 
-class ExcelWords(excel.ExcelAdapter):
+class WordsMixin:
 
     def header(self, ctx, req):
         return ['lang_iso_code', 'concept_id',
@@ -43,7 +53,70 @@ class ExcelWords(excel.ExcelAdapter):
 
 
 
+"""
+excel adapters
+"""
+
+class LanguagesExcelAdapter(LanguagesMixin, excel.ExcelAdapter):
+    pass
+
+
+class ConceptsExcelAdapter(ConceptsMixin, excel.ExcelAdapter):
+    pass
+
+
+class WordsExcelAdapter(WordsMixin, excel.ExcelAdapter):
+    pass
+
+
+
+"""
+csv adapters
+
+The base csv adapter overwrites clld's one in order to replace item.csv_head
+and item.to_csv calls with calls to the mixins defined above. In other words,
+it applies the logic of clld's base excel adapter.
+"""
+
+class CsvAdapter(csv.CsvAdapter):
+
+    def render(self, ctx, req):
+        with UnicodeWriter() as writer:
+            writer.writerow(self.header(ctx, req))
+
+            for item in ctx.get_query(limit=csv.QUERY_LIMIT):
+                writer.writerow(self.row(ctx, req, item))
+
+            return writer.read()
+
+
+
+class LanguagesCsvAdapter(LanguagesMixin, CsvAdapter):
+    pass
+
+
+class ConceptsCsvAdapter(ConceptsMixin, CsvAdapter):
+    pass
+
+
+class WordsCsvAdapter(WordsMixin, CsvAdapter):
+    pass
+
+
+
+"""
+Hooks
+"""
+
 def includeme(config):
-    config.register_adapter(ExcelLanguages, interfaces.ILanguage)
-    config.register_adapter(ExcelConcepts, interfaces.IParameter)
-    config.register_adapter(ExcelWords, interfaces.IValue)
+    """
+    Magical (not in the good sense) hook that replaces the default download
+    adapters with the custom ones defined in this module.
+    """
+    config.register_adapter(LanguagesCsvAdapter, interfaces.ILanguage)
+    config.register_adapter(ConceptsCsvAdapter, interfaces.IParameter)
+    config.register_adapter(WordsCsvAdapter, interfaces.IValue)
+
+    config.register_adapter(LanguagesExcelAdapter, interfaces.ILanguage)
+    config.register_adapter(ConceptsExcelAdapter, interfaces.IParameter)
+    config.register_adapter(WordsExcelAdapter, interfaces.IValue)
