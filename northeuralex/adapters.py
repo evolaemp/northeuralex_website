@@ -1,4 +1,6 @@
-from clld.web.adapters import csv, excel
+import json
+
+from clld.web.adapters import csv, excel, JsonIndex
 from clld import interfaces
 
 from clldutils.dsv import UnicodeWriter
@@ -105,6 +107,41 @@ class WordsCsvAdapter(WordsMixin, CsvAdapter):
 
 
 """
+json adapters
+
+The base json adapter replaces the default JsonIndex and applies the logic of
+clld's base excel adapter.
+"""
+
+class JsonAdapter(JsonIndex):
+
+    def render(self, ctx, req):
+        rows = []
+
+        header = self.header(ctx, req)
+
+        for item in ctx.get_query(limit=csv.QUERY_LIMIT):
+            rows.append({key: value
+                for key, value in zip(header, self.row(ctx, req, item))})
+
+        return json.dumps({'rows': rows}, ensure_ascii=False)
+
+
+
+class LanguagesJsonAdapter(LanguagesMixin, JsonAdapter):
+    pass
+
+
+class ConceptsJsonAdapter(ConceptsMixin, JsonAdapter):
+    pass
+
+
+class WordsJsonAdapter(WordsMixin, JsonAdapter):
+    pass
+
+
+
+"""
 Hooks
 """
 
@@ -120,3 +157,7 @@ def includeme(config):
     config.register_adapter(LanguagesExcelAdapter, interfaces.ILanguage)
     config.register_adapter(ConceptsExcelAdapter, interfaces.IParameter)
     config.register_adapter(WordsExcelAdapter, interfaces.IValue)
+
+    config.register_adapter(LanguagesJsonAdapter, interfaces.ILanguage)
+    config.register_adapter(ConceptsJsonAdapter, interfaces.IParameter)
+    config.register_adapter(WordsJsonAdapter, interfaces.IValue)
